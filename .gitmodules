@@ -1,0 +1,3 @@
+[submodule "training/python"]
+	path = training/python
+	url = git@github.com:magizbox/python.git
