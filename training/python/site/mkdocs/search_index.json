@@ -1,0 +1,679 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Python is a widely used general-purpose, high-level programming language. Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than would be possible in languages such as C++ or Java. The language provides constructs intended to enable clear programs on both a small and large scale. [^1]\n\n\n\n\nArticles\n\n\n\n\nTop 10 Python Libraries Of 2015\n\n\n\n\nOpen Source Project\n\n\n\nnltk\n, \nscikit-learn\n\n\nFolder Structure\n\n\nI suggest we should follow the folder structure of \nsklearn\n\n\nproject\n\u2502   README.md\n\u2502\n\u2514\u2500\u2500\u2500module1\n    \u2502   file1.py\n    \u2502   file2.py\n    \u2502\n    \u251c\u2500\u2500\u2500tests\n    \u2502   \u2502   test_file1.py\n    \u2502   \u2502   test_file2.py\n    \u2502   \u2502\n\n\n\n\n[^1]: \nPython_(programming_language)", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#articles", 
+            "text": "Top 10 Python Libraries Of 2015", 
+            "title": "Articles"
+        }, 
+        {
+            "location": "/#folder-structure", 
+            "text": "I suggest we should follow the folder structure of  sklearn  project\n\u2502   README.md\n\u2502\n\u2514\u2500\u2500\u2500module1\n    \u2502   file1.py\n    \u2502   file2.py\n    \u2502\n    \u251c\u2500\u2500\u2500tests\n    \u2502   \u2502   test_file1.py\n    \u2502   \u2502   test_file2.py\n    \u2502   \u2502  [^1]:  Python_(programming_language)", 
+            "title": "Folder Structure"
+        }, 
+        {
+            "location": "/101/", 
+            "text": "Installation\n\n\nWindows 8, 64 bit\n\n\nStep 1.\n Install Anaconda\n\n\nhttps://www.continuum.io/downloads\n\n\n\n\nStep 2.\n Discover the Map\n\n\nhttps://docs.python.org/2/library/index.html\n\n\nCentOS 6.3, Cent OS 7 \n^1\n\n\nDownload developer tools\n\n\nyum groupinstall \nDevelopment tools\n\nyum install zlib-devel\nyum install bzip2-devel\nyum install openssl-devel\nyum install ncurses-devel\nyum install sqlite-devel\n\n\n\n\n\nDownload, compile and install Python\n\n\ncd /opt\nwget --no-check-certificate https://www.python.org/ftp/python/2.7.6/Python-2.7.6.tar.xz\ntar xf Python-2.7.6.tar.xz\ncd Python-2.7.6\n./configure --prefix=/usr/local\nmake \n make altinstall\n\nln -s /usr/local/bin/python2.7 /usr/local/bin/python\n\n## link\n\n# final check\nwhich python\npython -V\n\n# install Anaconda\ncd ~/Downloads\nwget https://repo.continuum.io/archive/Anaconda-2.3.0-Linux-x86_64.sh\nbash ~/Downloads/Anaconda-2.3.0-Linux-x86_64.sh\n\n\n\n\nInstall IDE\n\n\nhttps://www.jetbrains.com/pycharm/download/\n\n\n\n\nHello World\n\n\nprint(\nHello World\n)\n\n\n\n\nChallenge\n\n\nhttps://www.hackerrank.com/challenges/py-hello-world\n\n\nTools\n\n\nInstall py2exec\n\n\n# py2exe\nconda install -c https://conda.anaconda.org/ivoflipse cg-py2exe\n\n\n\n\nCourse\n\n\n\n\nLearn to Program and Analyze Data with Python", 
+            "title": "101"
+        }, 
+        {
+            "location": "/101/#installation", 
+            "text": "", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/101/#windows-8-64-bit", 
+            "text": "Step 1.  Install Anaconda  https://www.continuum.io/downloads  Step 2.  Discover the Map  https://docs.python.org/2/library/index.html", 
+            "title": "Windows 8, 64 bit"
+        }, 
+        {
+            "location": "/101/#centos-63-cent-os-7-1", 
+            "text": "Download developer tools  yum groupinstall  Development tools \nyum install zlib-devel\nyum install bzip2-devel\nyum install openssl-devel\nyum install ncurses-devel\nyum install sqlite-devel  Download, compile and install Python  cd /opt\nwget --no-check-certificate https://www.python.org/ftp/python/2.7.6/Python-2.7.6.tar.xz\ntar xf Python-2.7.6.tar.xz\ncd Python-2.7.6\n./configure --prefix=/usr/local\nmake   make altinstall\n\nln -s /usr/local/bin/python2.7 /usr/local/bin/python\n\n## link\n\n# final check\nwhich python\npython -V\n\n# install Anaconda\ncd ~/Downloads\nwget https://repo.continuum.io/archive/Anaconda-2.3.0-Linux-x86_64.sh\nbash ~/Downloads/Anaconda-2.3.0-Linux-x86_64.sh", 
+            "title": "CentOS 6.3, Cent OS 7 ^1"
+        }, 
+        {
+            "location": "/101/#install-ide", 
+            "text": "https://www.jetbrains.com/pycharm/download/", 
+            "title": "Install IDE"
+        }, 
+        {
+            "location": "/101/#hello-world", 
+            "text": "print( Hello World )", 
+            "title": "Hello World"
+        }, 
+        {
+            "location": "/101/#challenge", 
+            "text": "https://www.hackerrank.com/challenges/py-hello-world", 
+            "title": "Challenge"
+        }, 
+        {
+            "location": "/101/#tools", 
+            "text": "Install py2exec  # py2exe\nconda install -c https://conda.anaconda.org/ivoflipse cg-py2exe", 
+            "title": "Tools"
+        }, 
+        {
+            "location": "/101/#course", 
+            "text": "Learn to Program and Analyze Data with Python", 
+            "title": "Course"
+        }, 
+        {
+            "location": "/201/", 
+            "text": "Code layout\n\n\nIndentation: 4 spaces\n\n\nFunctions\n\n\nVariable-length arguments [^1]\n\n\ndef functionname([formal_args,] *var_args_tuple ):\n   \nfunction_docstring\n\n   function_suite\n   return [expression]\n\n\n\n\nExample\n\n\n#!/usr/bin/python\n\n# Function definition is here\ndef printinfo( arg1, *vartuple ):\n   \nThis prints a variable passed arguments\n\n   print \nOutput is: \n\n   print arg1\n   for var in vartuple:\n      print var\n   return;\n\n# Now you can call printinfo function\nprintinfo( 10 )\nprintinfo( 70, 60, 50 )\n\n\n\n\n\n[^1]: \ntutorialpoints, Python Functions", 
+            "title": "201"
+        }, 
+        {
+            "location": "/201/#code-layout", 
+            "text": "Indentation: 4 spaces", 
+            "title": "Code layout"
+        }, 
+        {
+            "location": "/201/#functions", 
+            "text": "", 
+            "title": "Functions"
+        }, 
+        {
+            "location": "/201/#variable-length-arguments-1", 
+            "text": "def functionname([formal_args,] *var_args_tuple ):\n    function_docstring \n   function_suite\n   return [expression]  Example  #!/usr/bin/python\n\n# Function definition is here\ndef printinfo( arg1, *vartuple ):\n    This prints a variable passed arguments \n   print  Output is:  \n   print arg1\n   for var in vartuple:\n      print var\n   return;\n\n# Now you can call printinfo function\nprintinfo( 10 )\nprintinfo( 70, 60, 50 )  [^1]:  tutorialpoints, Python Functions", 
+            "title": "Variable-length arguments [^1]"
+        }, 
+        {
+            "location": "/data_object/", 
+            "text": "Convert dict to object [^1]\n\n\nclass Struct:\n    def __init__(self, **entries):\n        self.__dict__.update(entries)\n\n\n\n\nThen, you can use\n\n\n args = {'a': 1, 'b': 2}\n\n s = Struct(**args)\n\n s\n\n __main__.Struct instance at 0x01D6A738 \n\n\n s.a\n1\n\n s.b\n2\n\n\n\n\n[^1]: \nstackoverflow, Convert Python dict to object?", 
+            "title": "Object"
+        }, 
+        {
+            "location": "/data_string/", 
+            "text": "Format\n\n\n\n'{0}, {1}, {2}'.format('a', 'b', 'c')\n# 'a, b, c'", 
+            "title": "String"
+        }, 
+        {
+            "location": "/data_collection/", 
+            "text": "Reverse a list\n\n\n\n[1, 3, 2][::-1]\n# [2, 3, 1]\n\n\n\n\n\n\nimport itertools\n\nx = [1, 2, 3]\ny = [2, 4, 5]\n\n[a + b for (a, b) in itertools.product(x, y)]\n# [3, 5, 6, 4, 6, 7, 5, 7, 8]", 
+            "title": "Collection"
+        }, 
+        {
+            "location": "/data_time/", 
+            "text": "Datetime\n\n\nPrint current time [^1]\n\n\nfrom datetime import datetime\ndatetime.now().strftime('%Y-%m-%d %H:%M:%S')\n# '2015-12-29 14:02:27'\n\n\n\n\nGet current time [^1]\n\n\nimport datetime\ndatetime.datetime.now()\n# datetime(2009, 1, 6, 15, 8, 24, 78915)\n\n\n\n\nUnixtime [^2]\n\n\n[code]\n\n\nimport time\nint(time.time())\n\n\n\n\n[^1]: \nHow to get current time in Python\n\n[^2]: \nDoes Python's time.time() return the local or UTC timestamp?", 
+            "title": "Time"
+        }, 
+        {
+            "location": "/data_time/#datetime", 
+            "text": "Print current time [^1]  from datetime import datetime\ndatetime.now().strftime('%Y-%m-%d %H:%M:%S')\n# '2015-12-29 14:02:27'  Get current time [^1]  import datetime\ndatetime.datetime.now()\n# datetime(2009, 1, 6, 15, 8, 24, 78915)  Unixtime [^2]  [code]  import time\nint(time.time())  [^1]:  How to get current time in Python \n[^2]:  Does Python's time.time() return the local or UTC timestamp?", 
+            "title": "Datetime"
+        }, 
+        {
+            "location": "/oop/", 
+            "text": "OOP [^1]\n\n\n[code]\nclass BankAccount:\n  id = None\n  balance = 0\n\n\ndef \ninit\n(self, id, balance=0):\n    self.id = id\n    self.balance = balance\n\n\ndef __get_balance():\n     pass\n  def withdraw():\n     pass\n   def deposite():\n     pass\n[/code]\n\n\n[^1]: \nWhy are Python's 'private' methods not actually private?\n\n\nObject\n\n\nConvert dict to object [^1]\n\n\n[code lang=\"python\"]\nclass Struct:\n    def \ninit\n(self, **entries):\n        self.\ndict\n.update(entries)\n[/code]\n\n\nThen, you can use\n\n\n[code]\n\n\n\n\nargs = {'a': 1, 'b': 2}\ns = Struct(**args)\ns\n\n \nmain\n.Struct instance at 0x01D6A738 \n\ns.a\n1\ns.b\n2\n[/code]\n\n\n\n\n[^1]: \nstackoverflow, Convert Python dict to object?", 
+            "title": "OOP"
+        }, 
+        {
+            "location": "/oop/#oop-1", 
+            "text": "[code]\nclass BankAccount:\n  id = None\n  balance = 0  def  init (self, id, balance=0):\n    self.id = id\n    self.balance = balance  def __get_balance():\n     pass\n  def withdraw():\n     pass\n   def deposite():\n     pass\n[/code]  [^1]:  Why are Python's 'private' methods not actually private?", 
+            "title": "OOP [^1]"
+        }, 
+        {
+            "location": "/oop/#object", 
+            "text": "Convert dict to object [^1]  [code lang=\"python\"]\nclass Struct:\n    def  init (self, **entries):\n        self. dict .update(entries)\n[/code]  Then, you can use  [code]   args = {'a': 1, 'b': 2}\ns = Struct(**args)\ns   main .Struct instance at 0x01D6A738  \ns.a\n1\ns.b\n2\n[/code]   [^1]:  stackoverflow, Convert Python dict to object?", 
+            "title": "Object"
+        }, 
+        {
+            "location": "/networking/", 
+            "text": "REST\n\n\nJSON [^1] [^2]\n\n\nGET\n\n\n[code lang=\"python\"]\nimport requests\nurl = \"http://localhost:8080/messages\"\nresponse = requests.get(url)\ndata = response.json()\n[/code]\n\n\nPOST\n [^3]\n\n\n[code lang=\"python\"]\nimport requests\nimport json\n\n\nurl = \"http://localhost:8080/messages\"\ndata = {'sender': 'Alice', 'receiver': 'Bob', 'message': 'Hello!'}\nheaders = {\n  'Content-type': 'application/json',\n  'Accept': 'application/json'}\nr = requests.post(url, data=json.dumps(data), headers=headers)\n[/code]\n\n\n[^1]: \nHow to get JSON from webpage into Python script\n\n[^2]: \nRequests: HTTP for Humans\n\n[^3]: \nPost JSON using Python Requests", 
+            "title": "Networking"
+        }, 
+        {
+            "location": "/networking/#rest", 
+            "text": "", 
+            "title": "REST"
+        }, 
+        {
+            "location": "/networking/#json-1-2", 
+            "text": "GET  [code lang=\"python\"]\nimport requests\nurl = \"http://localhost:8080/messages\"\nresponse = requests.get(url)\ndata = response.json()\n[/code]  POST  [^3]  [code lang=\"python\"]\nimport requests\nimport json  url = \"http://localhost:8080/messages\"\ndata = {'sender': 'Alice', 'receiver': 'Bob', 'message': 'Hello!'}\nheaders = {\n  'Content-type': 'application/json',\n  'Accept': 'application/json'}\nr = requests.post(url, data=json.dumps(data), headers=headers)\n[/code]  [^1]:  How to get JSON from webpage into Python script \n[^2]:  Requests: HTTP for Humans \n[^3]:  Post JSON using Python Requests", 
+            "title": "JSON [^1] [^2]"
+        }, 
+        {
+            "location": "/io/", 
+            "text": "Read JSON [^1]\n\n\nimport json\nfrom pprint import pprint\n\nwith open('data.json') as data_file:\n    data = json.load(data_file)\n\npprint(data)\n\n\n\n\n[^1]: \nParsing values from a JSON file in Python", 
+            "title": "IO"
+        }, 
+        {
+            "location": "/io/#read-json-1", 
+            "text": "import json\nfrom pprint import pprint\n\nwith open('data.json') as data_file:\n    data = json.load(data_file)\n\npprint(data)  [^1]:  Parsing values from a JSON file in Python", 
+            "title": "Read JSON [^1]"
+        }, 
+        {
+            "location": "/event_based/", 
+            "text": "Introduction: \npydispatcher\n \n^1\n [^2]\n\n\nPyDispatcher provides the Python programmer with a \nmultiple-producer-multiple-consumer signal-registration\n and \nrouting infrastructure\n for use in multiple contexts.  The mechanism of PyDispatcher started life as a highly rated recipe in the Python Cookbook.  The project aims to include various enhancements to the recipe developed during use in various applications.  It is primarily maintained by Mike Fletcher.  A derivative of the project provides the Django web framework's \"signal\" system.\n\n\nUsed by Django community\n\n\nUsage \n^1\n\n\n[code lang=\"python\"]\n\n\nTo set up a function to receive signals:\n\n\nfrom pydispatch import dispatcher\n\n\nSIGNAL = 'my-first-signal'\n\n\ndef handle_event(sender):\n    \"\"\"Simple event handler\"\"\"\n    print 'Signal was sent by', sender\n\n\ndispatcher.connect(handle_event, signal=SIGNAL, sender=dispatcher.Any)\n\n\nThe use of the Any object allows the handler to listen for messages\n\n\nfrom any Sender or to listen to Any message being sent.\n\n\nTo send messages:\n\n\nfirst_sender = object()\nsecond_sender = {}\n\n\ndef main():\n    dispatcher.send(signal=SIGNAL, sender=first_sender)\n    dispatcher.send(signal=SIGNAL, sender=second_sender)\n\n\n# Which causes the following to be printed:\n\n# Signal was sent by \nobject object at 0x196a090\n\n# Signal was sent by {}\n\n\n\n[/code]\n\n\nMessaging\n\n\nConda link\n\n\nDocker link\n\n\nGithub - pubSubService\n\n\nGithub - pubSubClient\n\n\nPypi link\n\n\nPython Publish - Subscribe Pattern Implementation:\n\n\nStep by Step to run PubSub:\n\n\nStep 1: Pull \npubsub\n image from docker hub \n run it:\n\n\n[code]\n\n\ndocker pull hunguyen/pubsub:latest\ndocker run -d -p 8000:8000 hunguyen/pubsub\n\n\n[/code]\n\n\nStep 2: To run client first install \npyconfiguration\n from conda\n\n\n[code]\n\n\nconda install -c rain1024 pyconfiguration\n\n\n[/code]\n\n\nStep 3: Install \npubSubClient\n package from conda\n\n\n[code]\n\n\nconda install -c hunguyen pubsubclient\n\n\n[/code]\n\n\nStep 4: Create \nconfig.json\n file\n\n\n[code]\n{\n  \"PUBLISH_SUBSCRIBE_SERVICE\": \"http://api.service.com\"\n}\n[/code]\n\n\nStep 5: Run \npubsubclient\n\n\n[code lang=\"python\"]\n\n\ncreate and register or sync a publisher\n\n\npublisher = Publisher('P1')\n\n\ncreate a new topic\n\n\ntopic = Topic('A')\n\n\ncreate an event of a topic\n\n\nevent = Event(topic)\n\n\npublisher publishes an event\n\n\npublisher.publish(event)\n\n\ncreate and register or sync a subscriber\n\n\nsubscriber = Subscriber('S1')\n\n\nsubscriber subscribes to a topic\n\n\nsubscriber.subscribe(topic)\n\n\nsubscriber get all new events by time stamp of topics which it has subscribed\n\n\nevents = subscriber.get_events()\n\n\n[/code]\n\n\n[^2]: \nstackoverflow, Recommended Python publish/subscribe/dispatch module?", 
+            "title": "Event Based"
+        }, 
+        {
+            "location": "/event_based/#introduction-pydispatcher-1-2", 
+            "text": "PyDispatcher provides the Python programmer with a  multiple-producer-multiple-consumer signal-registration  and  routing infrastructure  for use in multiple contexts.  The mechanism of PyDispatcher started life as a highly rated recipe in the Python Cookbook.  The project aims to include various enhancements to the recipe developed during use in various applications.  It is primarily maintained by Mike Fletcher.  A derivative of the project provides the Django web framework's \"signal\" system.  Used by Django community", 
+            "title": "Introduction: pydispatcher ^1 [^2]"
+        }, 
+        {
+            "location": "/event_based/#usage-1", 
+            "text": "[code lang=\"python\"]", 
+            "title": "Usage ^1"
+        }, 
+        {
+            "location": "/event_based/#to-set-up-a-function-to-receive-signals", 
+            "text": "from pydispatch import dispatcher  SIGNAL = 'my-first-signal'  def handle_event(sender):\n    \"\"\"Simple event handler\"\"\"\n    print 'Signal was sent by', sender  dispatcher.connect(handle_event, signal=SIGNAL, sender=dispatcher.Any)", 
+            "title": "To set up a function to receive signals:"
+        }, 
+        {
+            "location": "/event_based/#the-use-of-the-any-object-allows-the-handler-to-listen-for-messages", 
+            "text": "", 
+            "title": "The use of the Any object allows the handler to listen for messages"
+        }, 
+        {
+            "location": "/event_based/#from-any-sender-or-to-listen-to-any-message-being-sent", 
+            "text": "", 
+            "title": "from any Sender or to listen to Any message being sent."
+        }, 
+        {
+            "location": "/event_based/#to-send-messages", 
+            "text": "first_sender = object()\nsecond_sender = {}  def main():\n    dispatcher.send(signal=SIGNAL, sender=first_sender)\n    dispatcher.send(signal=SIGNAL, sender=second_sender)  # Which causes the following to be printed:\n\n# Signal was sent by  object object at 0x196a090 \n# Signal was sent by {}  [/code]", 
+            "title": "To send messages:"
+        }, 
+        {
+            "location": "/event_based/#messaging", 
+            "text": "Conda link  Docker link  Github - pubSubService  Github - pubSubClient  Pypi link  Python Publish - Subscribe Pattern Implementation:", 
+            "title": "Messaging"
+        }, 
+        {
+            "location": "/event_based/#step-by-step-to-run-pubsub", 
+            "text": "", 
+            "title": "Step by Step to run PubSub:"
+        }, 
+        {
+            "location": "/event_based/#step-1-pull-pubsub-image-from-docker-hub-run-it", 
+            "text": "[code]  docker pull hunguyen/pubsub:latest\ndocker run -d -p 8000:8000 hunguyen/pubsub  [/code]", 
+            "title": "Step 1: Pull pubsub image from docker hub &amp; run it:"
+        }, 
+        {
+            "location": "/event_based/#step-2-to-run-client-first-install-pyconfiguration-from-conda", 
+            "text": "[code]  conda install -c rain1024 pyconfiguration  [/code]", 
+            "title": "Step 2: To run client first install pyconfiguration from conda"
+        }, 
+        {
+            "location": "/event_based/#step-3-install-pubsubclient-package-from-conda", 
+            "text": "[code]  conda install -c hunguyen pubsubclient  [/code]", 
+            "title": "Step 3: Install pubSubClient package from conda"
+        }, 
+        {
+            "location": "/event_based/#step-4-create-configjson-file", 
+            "text": "[code]\n{\n  \"PUBLISH_SUBSCRIBE_SERVICE\": \"http://api.service.com\"\n}\n[/code]", 
+            "title": "Step 4: Create config.json file"
+        }, 
+        {
+            "location": "/event_based/#step-5-run-pubsubclient", 
+            "text": "[code lang=\"python\"]", 
+            "title": "Step 5: Run pubsubclient"
+        }, 
+        {
+            "location": "/event_based/#create-and-register-or-sync-a-publisher", 
+            "text": "publisher = Publisher('P1')", 
+            "title": "create and register or sync a publisher"
+        }, 
+        {
+            "location": "/event_based/#create-a-new-topic", 
+            "text": "topic = Topic('A')", 
+            "title": "create a new topic"
+        }, 
+        {
+            "location": "/event_based/#create-an-event-of-a-topic", 
+            "text": "event = Event(topic)", 
+            "title": "create an event of a topic"
+        }, 
+        {
+            "location": "/event_based/#publisher-publishes-an-event", 
+            "text": "publisher.publish(event)", 
+            "title": "publisher publishes an event"
+        }, 
+        {
+            "location": "/event_based/#create-and-register-or-sync-a-subscriber", 
+            "text": "subscriber = Subscriber('S1')", 
+            "title": "create and register or sync a subscriber"
+        }, 
+        {
+            "location": "/event_based/#subscriber-subscribes-to-a-topic", 
+            "text": "subscriber.subscribe(topic)", 
+            "title": "subscriber subscribes to a topic"
+        }, 
+        {
+            "location": "/event_based/#subscriber-get-all-new-events-by-time-stamp-of-topics-which-it-has-subscribed", 
+            "text": "events = subscriber.get_events()  [/code]  [^2]:  stackoverflow, Recommended Python publish/subscribe/dispatch module?", 
+            "title": "subscriber get all new events by time stamp of topics which it has subscribed"
+        }, 
+        {
+            "location": "/logging/", 
+            "text": "logging [^1]  [^2]  [^3]\n\n\nlevels\n, \nattributes\n references\n\n\nThe logging library takes a modular approach and offers several categories of components: loggers, handlers, filters, and formatters.\n\n\n\n\nLoggers expose the interface that application code directly uses.\n\n\nHandlers send the log records (created by loggers) to the appropriate destination.\n\n\nFilters provide a finer grained facility for determining which log records to output.\n\n\nFormatters specify the layout of log records in the final output.\n\n\n\n\nStep 0: Project structure\n\n\n[code]\ncode/\n\u251c\u2500\u2500 main.py\n\u251c\u2500\u2500 config\n\u251c   \u2514\u2500\u2500 logging.conf\n\u2514\u2500\u2500 logs\n    \u2514\u2500\u2500 app.log\n[/code]\nStep 1: Create file \nlogging.conf\n\n\n[code]\n[loggers]\nkeys=root\n\n\n[handlers]\nkeys=consoleHandler,fileHandler\n\n\n[formatters]\nkeys=formatter\n\n\n[logger_root]\nlevel=DEBUG\nhandlers=consoleHandler,fileHandler\n\n\n[handler_consoleHandler]\nclass=StreamHandler\nlevel=DEBUG\nformatter=formatter\nargs=(sys.stdout,)\n\n\n[handler_fileHandler]\nclass=FileHandler\nlevel=DEBUG\nformatter=formatter\nargs = ('logs/app.log','a')\n\n\n[formatter_formatter]\nformat=%(asctime)s - %(name)s - %(levelname)s - %(message)s\ndatefmt=\n[/code]\n\n\nStep 2: Load config and create logger\n\n\nIn \nmain.py\n\n\n[code lang=\"python\"]\nimport logging.config\n\n\nload logging config\n\n\nlogging.config.fileConfig('config/logging.conf')\n[/code]\n\n\nStep 3: In your application code\n\n\n[code lang=\"python\"]\nlogging.getLogger().debug('debug message')\nlogging.getLogger().info('info message')\nlogging.getLogger().warn('warn message')\nlogging.getLogger().error('error message')\nlogging.getLogger().critical('critical message')\n[/code]\n\n\nMore Resources\n\n\n\n\nIntroduction to Logging\n\n\nQuick and simple usage of python log\n\n\n\n\n[^1]: \nPython: Logging module\n\n[^2]: \nPython: Logging cookbook\n\n[^3]: \nPython: Logging guide", 
+            "title": "Logging"
+        }, 
+        {
+            "location": "/logging/#logging-1-2-3", 
+            "text": "levels ,  attributes  references  The logging library takes a modular approach and offers several categories of components: loggers, handlers, filters, and formatters.   Loggers expose the interface that application code directly uses.  Handlers send the log records (created by loggers) to the appropriate destination.  Filters provide a finer grained facility for determining which log records to output.  Formatters specify the layout of log records in the final output.   Step 0: Project structure  [code]\ncode/\n\u251c\u2500\u2500 main.py\n\u251c\u2500\u2500 config\n\u251c   \u2514\u2500\u2500 logging.conf\n\u2514\u2500\u2500 logs\n    \u2514\u2500\u2500 app.log\n[/code]\nStep 1: Create file  logging.conf  [code]\n[loggers]\nkeys=root  [handlers]\nkeys=consoleHandler,fileHandler  [formatters]\nkeys=formatter  [logger_root]\nlevel=DEBUG\nhandlers=consoleHandler,fileHandler  [handler_consoleHandler]\nclass=StreamHandler\nlevel=DEBUG\nformatter=formatter\nargs=(sys.stdout,)  [handler_fileHandler]\nclass=FileHandler\nlevel=DEBUG\nformatter=formatter\nargs = ('logs/app.log','a')  [formatter_formatter]\nformat=%(asctime)s - %(name)s - %(levelname)s - %(message)s\ndatefmt=\n[/code]  Step 2: Load config and create logger  In  main.py  [code lang=\"python\"]\nimport logging.config", 
+            "title": "logging [^1]  [^2]  [^3]"
+        }, 
+        {
+            "location": "/logging/#load-logging-config", 
+            "text": "logging.config.fileConfig('config/logging.conf')\n[/code]  Step 3: In your application code  [code lang=\"python\"]\nlogging.getLogger().debug('debug message')\nlogging.getLogger().info('info message')\nlogging.getLogger().warn('warn message')\nlogging.getLogger().error('error message')\nlogging.getLogger().critical('critical message')\n[/code]  More Resources   Introduction to Logging  Quick and simple usage of python log   [^1]:  Python: Logging module \n[^2]:  Python: Logging cookbook \n[^3]:  Python: Logging guide", 
+            "title": "load logging config"
+        }, 
+        {
+            "location": "/configuration/", 
+            "text": "Configuration\n\n\npyconfiguration\n\n\nInstallation\n\n\n[code]\nconda install -c rain1024 pyconfiguration\n[/code]\n\n\nUsage\n\n\nStep 1: Create \nconfig.json\n file\n\n\n[code]\n{\n  \"SERVICE_URL\": \"http://api.service.com\"\n}\n[/code]\n\n\nStep 2: Add these code to \nmain.py\n file\n\n\n[code]\nfrom pyconfiguration import Configuration\nConfiguration.load('config.json')\nprint Configuration.SERVICE_URL\n\n\n\n\nhttp://api.service.com\n[/code]\n\n\n\n\nReferences: What's the best practice using a settings file [^1]\n\n\n[^1]: \nWhat's the best practice using a settings file in Python?", 
+            "title": "Configuration"
+        }, 
+        {
+            "location": "/configuration/#configuration", 
+            "text": "pyconfiguration", 
+            "title": "Configuration"
+        }, 
+        {
+            "location": "/configuration/#installation", 
+            "text": "[code]\nconda install -c rain1024 pyconfiguration\n[/code]", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/configuration/#usage", 
+            "text": "Step 1: Create  config.json  file  [code]\n{\n  \"SERVICE_URL\": \"http://api.service.com\"\n}\n[/code]  Step 2: Add these code to  main.py  file  [code]\nfrom pyconfiguration import Configuration\nConfiguration.load('config.json')\nprint Configuration.SERVICE_URL   http://api.service.com\n[/code]   References: What's the best practice using a settings file [^1]  [^1]:  What's the best practice using a settings file in Python?", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/web/", 
+            "text": "Django \n^1\n\n\nDjango is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It\u2019s free and open source.\n\n\nProject Folder Structure\n\n\n[code]\nproject_folder/\n\u251c\u2500\u2500 your_project_name/\n\u2502   \u251c\u2500\u2500 your_project_name/\n\u2502   \u2502   \u251c\u2500\u2500 static/\n\u2502   \u2502   \u251c\u2500\u2500 models.py\n\u2502   \u2502   \u251c\u2500\u2500 serializers.py\n\u2502   \u2502   \u251c\u2500\u2500 settings.py\n\u2502   \u2502   \u251c\u2500\u2500 urls.py\n\u2502   \u2502   \u2514\u2500\u2500 views.py\n\u2514   \u2514\u2500\u2500 manage.py\n[/code]\n\n\nCreate (and use) REST API in 5 (+1) steps \n^1\n [^2]\n\n\nStep 1: Install dependencies\n\n\n[code lang=\"bash\"]\npip install django\npip install djangorestframework\npip install markdown             # Markdown support for the browsable API.\npip install django-filter        # Filtering support\npip install django-cors-headers  # CORS support\n[/code]\n\n\nStep 2: Create project\n\n\n[code]\ndjango-admin startproject your_project_name\n[/code]\n\n\nStep 3: Config apps [^3]\n\n\nAdd 'your_project_name', 'rest_framework' to your INSTALLED_APPS setting in \nyour_project_name/settings.py\n file\n\n\n[code]\nINSTALLED_APPS = (\n    ...\n    'your_project_name'\n    'rest_framework',\n)\n[/code]\n*\n\n\nStep 4: \nModel\n, \nView\n, \nRoute\n [^6]\n\n\nStep 4.1: Create model and serializer\n\n\nYou can go to \nDjango: Model field reference page\n for more fields.\n\n\nStep 4.1.1: Create \nTask\n class in \nyour_project_name/models.py\n file\n\n\n[code lang=\"python\"]\nfrom django.db import models\n\n\nclass Task(models.Model):\n    content = models.CharField(max_length=30)\n    status = models.CharField(max_length=30)\n[/code]\n\n\nStep 4.1.2: Create \nTaskSerializer\n class in \nyour_project_name/serializers.py\n file\n\n\n[code lang=\"python\"]\nfrom your_project_name.models import Task\nfrom rest_framework import serializers\n\n\nclass TaskSerializer(serializers.HyperlinkedModelSerializer):\n    class Meta:\n        model = Task\n        fields = ('id', 'content', 'status')\n[/code]\n\n\nStep 4.1.3: Create table in database [^4]\n\n\n[code lang=\"bash\"]\npython manage.py syncdb\n[/code]\n\n\nWith \ndjango 1.9\n\n\n[code lang=\"bash\"]\npython manage.py makemigrations your_project_name\npython manage.py migrate\n[/code]\n\n\nStep 4.2: Create \nTaskViewSet\n class in \nyour_project_name/views.py\n file\n\n\n[code lang=\"python\"]\nfrom your_project_name.models import Task\nfrom your_project_name.serializers import TaskSerializer\nfrom rest_framework import viewsets\n\n\nclass TaskViewSet(viewsets.ModelViewSet):\n    queryset = Task.objects.all()\n    serializer_class = TaskSerializer\n[/code]\n\n\nStep 4.3: Config \nroute\n [^5]\n\n\nChange \nyour_project_name/urls.py\n file\n\n\n[code lang=\"python\"]\nfrom django.conf.urls import include, url\nfrom django.contrib import admin\nfrom rest_framework import routers\nfrom your_project_name.views import TaskViewSet\n\n\nrouter = routers.DefaultRouter()\nrouter.register(r'api/tasks', TaskViewSet)\nadmin.autodiscover()\n\n\nurlpatterns = [\n    url(r'^admin/', include(admin.site.urls)),\n    url(r'^', include(router.urls)),\n    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))\n]\n[/code]\n\n\nStep 5: Run Server\n\n\n[code lang=\"bash\"]\npython manage.py runserver\n[/code]\n\n\nStep 6. Use API\n\n\nStep 6.1: Create a new task\n\n\n[code lang=\"bash\"]\ncurl -i -X POST -H \"Content-Type:application/json\" http://localhost:8000/api/tasks -d '{\n  \"content\": \"a\",\n  \"status\": \"INIT\"\n}'\n[/code]\n\n\nStep 6.2: List all tasks\n\n\n[code lang=\"bash\"]\ncurl http://localhost:8000/api/tasks\n[/code]\n\n\nStep 6.3: Get detail of task 1\n\n\n[code lang=\"bash\"]\ncurl http://localhost:8000/api/tasks/1\n[/code]\n\n\nStep 6.4: Delete task 1\n\n\n[code lang=\"bash\"]\ncurl -i -X DELETE http://localhost:8000/api/tasks/1\n[/code]\n\n\nStep 7: CORS\n\n\nKnown Error: \nNo 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access.\n\n\nStep 7.1: Install \ncorsheader\n app\n\n\nAdd module \ncorsheaders\n to \nyour_project_name/settings.py\n\n\n[code lang=\"bash\"]\nINSTALLED_APPS = (\n    ...\n    'corsheaders',\n    ...\n)\n[/code]\n\n\nStep 7.2 Add middleware classes\n\n\nAdd middleware_classes to \nyour_project_name/settings.py\n\n\n[code lang=\"bash\"]\nMIDDLEWARE_CLASSES = (\n    ...\n    'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    ...\n)\n[/code]\n\n\nStep 7.3 Configuration CORS Setting\n\n\nOption 1\n: Allow All\n\n\nAdd this line to \nyour_project_name/settings.py\n\n\n[code lang=\"bash\"]\nCORS_ORIGIN_ALLOW_ALL: True\n[/code]\n\n\nStep 8: https\n\n\nYou can use \nhttps://github.com/teddziuba/django-sslserver\n\n\nUnicode\n\n\n[code lang=\"python\"]\nREST_FRAMEWORK = {\n    'DEFAULT_RENDERER_CLASSES': (\n        'rest_framework.renderers.JSONRenderer',\n        'rest_framework.renderers.BrowsableAPIRenderer',\n    )\n}\n[/code]\n\n\nStep 9: Paging\n\n\nAdd this module setting to \nyour_project_name/settings.py\n\n\n[code lang=\"python\"]\n\n\nREST_FRAMEWORK = {\n    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',\n}\n\n\n[/code]\n\n\nAPI:\n\n\n[code]\n\n\nGET \n/?limit=\noffset=\n\n\n[/code]\n\n\nStep 10: Search by field in\n\n\nimport this to your \nviewsets.py\n\n\n[code lang=\"python\"]\n\n\nfrom rest_framework import filters\n\n\n[/code]\n\n\nadd this to your viewsets class\n\n\n[code lang=\"python\"]\n\n\nfilter_backends = (filters.SearchFilter, )\nsearch_fields = ('\n','\n',)\n\n\n[/code]\n\n\nOne-to-Many Relationship [^7]\n\n\n[code lang=\"python\"]\nfrom django.db import models\n\n\nclass User(models.Model):\n    name = models.TextField()\n\n\ndef __str__(self):\n    return \"{} - {}\".format(str(self.id), self.name)\n\n\n\nclass Task(models.Model):\n    name = models.TextField()\n    assign = models.ForeignKey(User, on_delete=models.CASCADE)\n[/code]\n\n\nStarting with Mysql\n\n\nAdd this database settings to \nyour_project_name/settings.py\n\n\n[code lang=\"python\"]\n\n\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': '[DB_NAME]',\n        'USER': '[DB_USER]',\n        'PASSWORD': '[PASSWORD]',\n        'HOST': '[HOST]',   # Or an IP Address that your DB is hosted on\n        'PORT': '3306',\n    }\n}\n\n\n[/code]\n\n\nInstall this module to your virtual environment\n\n\n[code]\n\n\nconda install mysql-python #if you are using virtual environment\n\n\npip install mysql-python #if you using are root environment\n\n\n[/code]\n\n\nCustom View \n^8\n\n\n[code lang=\"python\"]\nfrom rest_framework import mixins\n\n\nclass CreateModelMixin(object):\n    \"\"\"\n    Create a model instance.\n    \"\"\"\n    def create(self, request, \nargs, \n*kwargs):\n        event = request.data\n        try:\n            event['time'] = int(time.time())\n        except Exception, e:\n            print 'Set Time Error'\n        serializer = self.get_serializer(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        self.perform_create(serializer)\n        headers = self.get_success_headers(serializer.data)\n        return Response(serializer.data, status=status.HTTP_201_CREATED, headers=headers)\n\n\ndef perform_create(self, serializer):\n    serializer.save()\n\ndef get_success_headers(self, data):\n    try:\n        return {'Location': data[api_settings.URL_FIELD_NAME]}\n    except (TypeError, KeyError):\n        return {}\n\n\n\nclass YourViewSet(CreateModelMixin,\n                  mixins.RetrieveModelMixin,\n                  mixins.UpdateModelMixin,\n                  mixins.DestroyModelMixin,\n                  mixins.ListModelMixin,\n                  GenericViewSet):\n    queryset = YourModel.objects.all()\n    serializer_class = YourModelSerializer\n[/code]\n\n\nLogging settings\n\n\nHere is an example, put this settings dict into your \nsettings.py\n file:\n\n\n[code lang=\"python\"]\n\n\nLOGGING = {\n    'version': 1,\n    'disable_existing_loggers': False,\n    'formatters': {\n        'verbose': {\n            'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'\n        },\n        'simple': {\n            'format': '%(levelname)s %(message)s'\n        },\n    },\n    'filters': {\n        'special': {\n            '()': 'project.logging.SpecialFilter',\n            'foo': 'bar',\n        },\n        'require_debug_true': {\n            '()': 'django.utils.log.RequireDebugTrue',\n        },\n    },\n    'handlers': {\n        'console': {\n            'level': 'INFO',\n            'filters': ['require_debug_true'],\n            'class': 'logging.StreamHandler',\n            'formatter': 'simple'\n        },\n        'mail_admins': {\n            'level': 'ERROR',\n            'class': 'django.utils.log.AdminEmailHandler',\n            'filters': ['special']\n        }\n    },\n    'loggers': {\n        'django': {\n            'handlers': ['console'],\n            'propagate': True,\n        },\n        'django.request': {\n            'handlers': ['mail_admins'],\n            'level': 'ERROR',\n            'propagate': False,\n        },\n        'myproject.custom': {\n            'handlers': ['console', 'mail_admins'],\n            'level': 'INFO',\n            'filters': ['special']\n        }\n    }\n}\n\n\n[/code]\n\n\nPython: Build Python API Client package\n\n\nStep 1: Write document on \nSwagger Editor\n^1\n\n\nStep 2: Genenrate Client --\n Python --\n save \npython-client.zip\n\n\nStep 3: Extract \nzip\n\n\nStep 4: Open project in \nPycharm\n rename \nproject directory\n, \nproject name\n, \nswagger_client\n package\n\n\nStep 5: [^2]\n\n\n[code]\nmkdir conda\ncd conda\ngit clone https://github.com/hunguyen1702/condaBuildLocalTemplate.git\nmv condaBuildLocalTemplate your_package_name\nrm -rf .git README.md\n[/code]\n\n\nStep 6: Edit \nmeta.yaml\n file in \nyour_package\n folder\n\n\n6.1 Follow instruction inside \nmeta.yaml\n\n\n6.2 Replace these line\n\n\n[code]\nrequirements:\n  build:\n    - python\n    - setuptools\n  run:\n    - python\n[/code]\n\n\nwith:\n\n\n[code]\nrequirements:\n  build:\n    - python\n    - setuptools\n    - six\n    - certifi\n    - python-dateutil\n  run:\n    - python\n    - six\n    - certifi\n    - python-dateutil\n[/code]\n\n\nStep 7:\n\n\n[code]\ncd ..\nconda build your_package\n[/code]\n\n\nStep 8:\n\n\n[code]\nmkdir channel\ncd channel\nconda convert --platform all ~/anaconda/conda-bld/linux-64/your_package_0.1.0-py27_0.tar.bz2\n[/code]\n\n\nStep 9: Create \nvirtual-env\n\n\n[code]\nname: your_env_name\ndependencies:\n- certifi=2016.2.28=py27_0\n- openssl=1.0.2h=0\n- pip=8.1.2=py27_0\n- python=2.7.11=0\n- python-dateutil=2.5.3=py27_0\n- readline=6.2=2\n- setuptools=20.7.0=py27_0\n- six=1.10.0=py27_0\n- tk=8.5.18=0\n- wheel=0.29.0=py27_0\n- zlib=1.2.8=0\n- pip:\n  - urllib3==1.15.1\n[/code]\n\n\nStep 10: Install:\n\n\n[code]\nconda install --use-local your_package\n[/code]\n\n\n^1\n: \nSwagger Syntax\n\n[^2]: \nGithub: Conda build template\n\nSee more:\n1. \nEMAIL_BACKEND \n ADMIN setting\n\n2. \nLogging settings format in django\n\n\n[^2]: \nWriting your first Django app, part 1\n\n[^3]: \nDjango REST framework: Installation\n\n[^4]: \nDjango: Migrations\n\n[^5]: \nBuilding a Simple REST API for Mobile Applications\n\n[^6]: \nDjango: Models\n\n[^7]: \nHow to show object details in Django Rest Framework browseable API?", 
+            "title": "Web"
+        }, 
+        {
+            "location": "/web/#django-1", 
+            "text": "Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It\u2019s free and open source.  Project Folder Structure  [code]\nproject_folder/\n\u251c\u2500\u2500 your_project_name/\n\u2502   \u251c\u2500\u2500 your_project_name/\n\u2502   \u2502   \u251c\u2500\u2500 static/\n\u2502   \u2502   \u251c\u2500\u2500 models.py\n\u2502   \u2502   \u251c\u2500\u2500 serializers.py\n\u2502   \u2502   \u251c\u2500\u2500 settings.py\n\u2502   \u2502   \u251c\u2500\u2500 urls.py\n\u2502   \u2502   \u2514\u2500\u2500 views.py\n\u2514   \u2514\u2500\u2500 manage.py\n[/code]", 
+            "title": "Django ^1"
+        }, 
+        {
+            "location": "/web/#create-and-use-rest-api-in-5-1-steps-1-2", 
+            "text": "", 
+            "title": "Create (and use) REST API in 5 (+1) steps ^1 [^2]"
+        }, 
+        {
+            "location": "/web/#step-1-install-dependencies", 
+            "text": "[code lang=\"bash\"]\npip install django\npip install djangorestframework\npip install markdown             # Markdown support for the browsable API.\npip install django-filter        # Filtering support\npip install django-cors-headers  # CORS support\n[/code]", 
+            "title": "Step 1: Install dependencies"
+        }, 
+        {
+            "location": "/web/#step-2-create-project", 
+            "text": "[code]\ndjango-admin startproject your_project_name\n[/code]", 
+            "title": "Step 2: Create project"
+        }, 
+        {
+            "location": "/web/#step-3-config-apps-3", 
+            "text": "Add 'your_project_name', 'rest_framework' to your INSTALLED_APPS setting in  your_project_name/settings.py  file  [code]\nINSTALLED_APPS = (\n    ...\n    'your_project_name'\n    'rest_framework',\n)\n[/code]\n*", 
+            "title": "Step 3: Config apps [^3]"
+        }, 
+        {
+            "location": "/web/#step-4-model-view-route-6", 
+            "text": "", 
+            "title": "Step 4: Model, View, Route [^6]"
+        }, 
+        {
+            "location": "/web/#step-41-create-model-and-serializer", 
+            "text": "You can go to  Django: Model field reference page  for more fields.", 
+            "title": "Step 4.1: Create model and serializer"
+        }, 
+        {
+            "location": "/web/#step-411-create-task-class-in-your_project_namemodelspy-file", 
+            "text": "[code lang=\"python\"]\nfrom django.db import models  class Task(models.Model):\n    content = models.CharField(max_length=30)\n    status = models.CharField(max_length=30)\n[/code]", 
+            "title": "Step 4.1.1: Create Task class in your_project_name/models.py file"
+        }, 
+        {
+            "location": "/web/#step-412-create-taskserializer-class-in-your_project_nameserializerspy-file", 
+            "text": "[code lang=\"python\"]\nfrom your_project_name.models import Task\nfrom rest_framework import serializers  class TaskSerializer(serializers.HyperlinkedModelSerializer):\n    class Meta:\n        model = Task\n        fields = ('id', 'content', 'status')\n[/code]", 
+            "title": "Step 4.1.2: Create TaskSerializer class in your_project_name/serializers.py file"
+        }, 
+        {
+            "location": "/web/#step-413-create-table-in-database-4", 
+            "text": "[code lang=\"bash\"]\npython manage.py syncdb\n[/code]  With  django 1.9  [code lang=\"bash\"]\npython manage.py makemigrations your_project_name\npython manage.py migrate\n[/code]", 
+            "title": "Step 4.1.3: Create table in database [^4]"
+        }, 
+        {
+            "location": "/web/#step-42-create-taskviewset-class-in-your_project_nameviewspy-file", 
+            "text": "[code lang=\"python\"]\nfrom your_project_name.models import Task\nfrom your_project_name.serializers import TaskSerializer\nfrom rest_framework import viewsets  class TaskViewSet(viewsets.ModelViewSet):\n    queryset = Task.objects.all()\n    serializer_class = TaskSerializer\n[/code]", 
+            "title": "Step 4.2: Create TaskViewSet class in your_project_name/views.py file"
+        }, 
+        {
+            "location": "/web/#step-43-config-route-5", 
+            "text": "Change  your_project_name/urls.py  file  [code lang=\"python\"]\nfrom django.conf.urls import include, url\nfrom django.contrib import admin\nfrom rest_framework import routers\nfrom your_project_name.views import TaskViewSet  router = routers.DefaultRouter()\nrouter.register(r'api/tasks', TaskViewSet)\nadmin.autodiscover()  urlpatterns = [\n    url(r'^admin/', include(admin.site.urls)),\n    url(r'^', include(router.urls)),\n    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))\n]\n[/code]", 
+            "title": "Step 4.3: Config route [^5]"
+        }, 
+        {
+            "location": "/web/#step-5-run-server", 
+            "text": "[code lang=\"bash\"]\npython manage.py runserver\n[/code]", 
+            "title": "Step 5: Run Server"
+        }, 
+        {
+            "location": "/web/#step-6-use-api", 
+            "text": "", 
+            "title": "Step 6. Use API"
+        }, 
+        {
+            "location": "/web/#step-61-create-a-new-task", 
+            "text": "[code lang=\"bash\"]\ncurl -i -X POST -H \"Content-Type:application/json\" http://localhost:8000/api/tasks -d '{\n  \"content\": \"a\",\n  \"status\": \"INIT\"\n}'\n[/code]", 
+            "title": "Step 6.1: Create a new task"
+        }, 
+        {
+            "location": "/web/#step-62-list-all-tasks", 
+            "text": "[code lang=\"bash\"]\ncurl http://localhost:8000/api/tasks\n[/code]", 
+            "title": "Step 6.2: List all tasks"
+        }, 
+        {
+            "location": "/web/#step-63-get-detail-of-task-1", 
+            "text": "[code lang=\"bash\"]\ncurl http://localhost:8000/api/tasks/1\n[/code]", 
+            "title": "Step 6.3: Get detail of task 1"
+        }, 
+        {
+            "location": "/web/#step-64-delete-task-1", 
+            "text": "[code lang=\"bash\"]\ncurl -i -X DELETE http://localhost:8000/api/tasks/1\n[/code]", 
+            "title": "Step 6.4: Delete task 1"
+        }, 
+        {
+            "location": "/web/#step-7-cors", 
+            "text": "Known Error:  No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access.", 
+            "title": "Step 7: CORS"
+        }, 
+        {
+            "location": "/web/#step-71-install-corsheader-app", 
+            "text": "Add module  corsheaders  to  your_project_name/settings.py  [code lang=\"bash\"]\nINSTALLED_APPS = (\n    ...\n    'corsheaders',\n    ...\n)\n[/code]", 
+            "title": "Step 7.1: Install corsheader app"
+        }, 
+        {
+            "location": "/web/#step-72-add-middleware-classes", 
+            "text": "Add middleware_classes to  your_project_name/settings.py  [code lang=\"bash\"]\nMIDDLEWARE_CLASSES = (\n    ...\n    'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    ...\n)\n[/code]", 
+            "title": "Step 7.2 Add middleware classes"
+        }, 
+        {
+            "location": "/web/#step-73-configuration-cors-setting", 
+            "text": "Option 1 : Allow All  Add this line to  your_project_name/settings.py  [code lang=\"bash\"]\nCORS_ORIGIN_ALLOW_ALL: True\n[/code]", 
+            "title": "Step 7.3 Configuration CORS Setting"
+        }, 
+        {
+            "location": "/web/#step-8-https", 
+            "text": "You can use  https://github.com/teddziuba/django-sslserver", 
+            "title": "Step 8: https"
+        }, 
+        {
+            "location": "/web/#unicode", 
+            "text": "[code lang=\"python\"]\nREST_FRAMEWORK = {\n    'DEFAULT_RENDERER_CLASSES': (\n        'rest_framework.renderers.JSONRenderer',\n        'rest_framework.renderers.BrowsableAPIRenderer',\n    )\n}\n[/code]", 
+            "title": "Unicode"
+        }, 
+        {
+            "location": "/web/#step-9-paging", 
+            "text": "Add this module setting to  your_project_name/settings.py  [code lang=\"python\"]  REST_FRAMEWORK = {\n    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',\n}  [/code]  API:  [code]  GET  /?limit= offset=  [/code]", 
+            "title": "Step 9: Paging"
+        }, 
+        {
+            "location": "/web/#step-10-search-by-field-in", 
+            "text": "import this to your  viewsets.py  [code lang=\"python\"]  from rest_framework import filters  [/code]  add this to your viewsets class  [code lang=\"python\"]  filter_backends = (filters.SearchFilter, )\nsearch_fields = (' ',' ',)  [/code]", 
+            "title": "Step 10: Search by field in"
+        }, 
+        {
+            "location": "/web/#one-to-many-relationship-7", 
+            "text": "[code lang=\"python\"]\nfrom django.db import models  class User(models.Model):\n    name = models.TextField()  def __str__(self):\n    return \"{} - {}\".format(str(self.id), self.name)  class Task(models.Model):\n    name = models.TextField()\n    assign = models.ForeignKey(User, on_delete=models.CASCADE)\n[/code]", 
+            "title": "One-to-Many Relationship [^7]"
+        }, 
+        {
+            "location": "/web/#starting-with-mysql", 
+            "text": "Add this database settings to  your_project_name/settings.py  [code lang=\"python\"]  DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': '[DB_NAME]',\n        'USER': '[DB_USER]',\n        'PASSWORD': '[PASSWORD]',\n        'HOST': '[HOST]',   # Or an IP Address that your DB is hosted on\n        'PORT': '3306',\n    }\n}  [/code]  Install this module to your virtual environment  [code]  conda install mysql-python #if you are using virtual environment  pip install mysql-python #if you using are root environment  [/code]", 
+            "title": "Starting with Mysql"
+        }, 
+        {
+            "location": "/web/#custom-view-8", 
+            "text": "[code lang=\"python\"]\nfrom rest_framework import mixins  class CreateModelMixin(object):\n    \"\"\"\n    Create a model instance.\n    \"\"\"\n    def create(self, request,  args,  *kwargs):\n        event = request.data\n        try:\n            event['time'] = int(time.time())\n        except Exception, e:\n            print 'Set Time Error'\n        serializer = self.get_serializer(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        self.perform_create(serializer)\n        headers = self.get_success_headers(serializer.data)\n        return Response(serializer.data, status=status.HTTP_201_CREATED, headers=headers)  def perform_create(self, serializer):\n    serializer.save()\n\ndef get_success_headers(self, data):\n    try:\n        return {'Location': data[api_settings.URL_FIELD_NAME]}\n    except (TypeError, KeyError):\n        return {}  class YourViewSet(CreateModelMixin,\n                  mixins.RetrieveModelMixin,\n                  mixins.UpdateModelMixin,\n                  mixins.DestroyModelMixin,\n                  mixins.ListModelMixin,\n                  GenericViewSet):\n    queryset = YourModel.objects.all()\n    serializer_class = YourModelSerializer\n[/code]", 
+            "title": "Custom View ^8"
+        }, 
+        {
+            "location": "/web/#logging-settings", 
+            "text": "Here is an example, put this settings dict into your  settings.py  file:  [code lang=\"python\"]  LOGGING = {\n    'version': 1,\n    'disable_existing_loggers': False,\n    'formatters': {\n        'verbose': {\n            'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'\n        },\n        'simple': {\n            'format': '%(levelname)s %(message)s'\n        },\n    },\n    'filters': {\n        'special': {\n            '()': 'project.logging.SpecialFilter',\n            'foo': 'bar',\n        },\n        'require_debug_true': {\n            '()': 'django.utils.log.RequireDebugTrue',\n        },\n    },\n    'handlers': {\n        'console': {\n            'level': 'INFO',\n            'filters': ['require_debug_true'],\n            'class': 'logging.StreamHandler',\n            'formatter': 'simple'\n        },\n        'mail_admins': {\n            'level': 'ERROR',\n            'class': 'django.utils.log.AdminEmailHandler',\n            'filters': ['special']\n        }\n    },\n    'loggers': {\n        'django': {\n            'handlers': ['console'],\n            'propagate': True,\n        },\n        'django.request': {\n            'handlers': ['mail_admins'],\n            'level': 'ERROR',\n            'propagate': False,\n        },\n        'myproject.custom': {\n            'handlers': ['console', 'mail_admins'],\n            'level': 'INFO',\n            'filters': ['special']\n        }\n    }\n}  [/code]", 
+            "title": "Logging settings"
+        }, 
+        {
+            "location": "/web/#python-build-python-api-client-package", 
+            "text": "", 
+            "title": "Python: Build Python API Client package"
+        }, 
+        {
+            "location": "/web/#step-1-write-document-on-swagger-editor1", 
+            "text": "", 
+            "title": "Step 1: Write document on Swagger Editor^1"
+        }, 
+        {
+            "location": "/web/#step-2-genenrate-client-python-save-python-clientzip", 
+            "text": "", 
+            "title": "Step 2: Genenrate Client --&gt; Python --&gt; save python-client.zip"
+        }, 
+        {
+            "location": "/web/#step-3-extract-zip", 
+            "text": "", 
+            "title": "Step 3: Extract zip"
+        }, 
+        {
+            "location": "/web/#step-4-open-project-in-pycharm-rename-project-directory-project-name-swagger_client-package", 
+            "text": "", 
+            "title": "Step 4: Open project in Pycharm rename project directory, project name, swagger_client package"
+        }, 
+        {
+            "location": "/web/#step-5-2", 
+            "text": "[code]\nmkdir conda\ncd conda\ngit clone https://github.com/hunguyen1702/condaBuildLocalTemplate.git\nmv condaBuildLocalTemplate your_package_name\nrm -rf .git README.md\n[/code]", 
+            "title": "Step 5: [^2]"
+        }, 
+        {
+            "location": "/web/#step-6-edit-metayaml-file-in-your_package-folder", 
+            "text": "", 
+            "title": "Step 6: Edit meta.yaml file in your_package folder"
+        }, 
+        {
+            "location": "/web/#61-follow-instruction-inside-metayaml", 
+            "text": "", 
+            "title": "6.1 Follow instruction inside meta.yaml"
+        }, 
+        {
+            "location": "/web/#62-replace-these-line", 
+            "text": "[code]\nrequirements:\n  build:\n    - python\n    - setuptools\n  run:\n    - python\n[/code]", 
+            "title": "6.2 Replace these line"
+        }, 
+        {
+            "location": "/web/#with", 
+            "text": "[code]\nrequirements:\n  build:\n    - python\n    - setuptools\n    - six\n    - certifi\n    - python-dateutil\n  run:\n    - python\n    - six\n    - certifi\n    - python-dateutil\n[/code]", 
+            "title": "with:"
+        }, 
+        {
+            "location": "/web/#step-7", 
+            "text": "[code]\ncd ..\nconda build your_package\n[/code]", 
+            "title": "Step 7:"
+        }, 
+        {
+            "location": "/web/#step-8", 
+            "text": "[code]\nmkdir channel\ncd channel\nconda convert --platform all ~/anaconda/conda-bld/linux-64/your_package_0.1.0-py27_0.tar.bz2\n[/code]", 
+            "title": "Step 8:"
+        }, 
+        {
+            "location": "/web/#step-9-create-virtual-env", 
+            "text": "[code]\nname: your_env_name\ndependencies:\n- certifi=2016.2.28=py27_0\n- openssl=1.0.2h=0\n- pip=8.1.2=py27_0\n- python=2.7.11=0\n- python-dateutil=2.5.3=py27_0\n- readline=6.2=2\n- setuptools=20.7.0=py27_0\n- six=1.10.0=py27_0\n- tk=8.5.18=0\n- wheel=0.29.0=py27_0\n- zlib=1.2.8=0\n- pip:\n  - urllib3==1.15.1\n[/code]", 
+            "title": "Step 9: Create virtual-env"
+        }, 
+        {
+            "location": "/web/#step-10-install", 
+            "text": "[code]\nconda install --use-local your_package\n[/code]  ^1 :  Swagger Syntax \n[^2]:  Github: Conda build template \nSee more:\n1.  EMAIL_BACKEND   ADMIN setting \n2.  Logging settings format in django  [^2]:  Writing your first Django app, part 1 \n[^3]:  Django REST framework: Installation \n[^4]:  Django: Migrations \n[^5]:  Building a Simple REST API for Mobile Applications \n[^6]:  Django: Models \n[^7]:  How to show object details in Django Rest Framework browseable API?", 
+            "title": "Step 10: Install:"
+        }, 
+        {
+            "location": "/ide/", 
+            "text": "Today, I write some notes about my favorite Python IDE - \nPyCharm\n.\u00a0I believe it's a good one for developing python, which supports git, vim, etc. This list below contains my favorite features.\n\n\nEditing\n\n\nALT + SHIFT + UP/DOWN: Move line up and down\n\n\nAutocomplete\n\n\nTab (replace)\n\n\nCode Completion\n\n\n\n\ncheck.if ENTER\n\n\n\n\n[code]\nif check:\n  type_something\n[/code]\n\n\nMulticursor\n\n\nSHIFT + F6\n\n\nTemplating\n\n\n\n\nNavigator\n\n\nSearching\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\nDouble Shift\n\n\nSearch every where\n\n\n\n\n\n\n\nDebuging\n\n\nAlt + Enter\n\n\n\nAlt + Enter is one of shortcuts in \nKeyboard Shortcuts You Cannot Miss\n \n1\n, its\u00a0show the list of available intention actions.\n\n\n\n\nWorkspace\n\n\nCustom\u00a0Scheme\n\n\n\nGo to \nFile - Settings...\n then \nEditor - Colors Fonts\n\n\nNow you can change your scheme, I like \nDarcular\n\n\n\n\nIPython Support\n\n\n\nPyCharm supports usage of IPython magic commands.\n\n\n\n\nVim Support\n\n\n\nYou can configure PyCharm to work as a Vim editor \n2\n\n\n\n\n\n\n\n\n\n\n\n\n\nKeyboard Shortcuts You Cannot Miss\n\n\n\n\n\n\n\u00a0\nConfiguring PyCharm to work as a Vim editor\n\n\n\n\n\n\n\n\n\n\n\nhttp://pastebin.com/qGpWpFYW", 
+            "title": "IDE"
+        }, 
+        {
+            "location": "/ide/#editing", 
+            "text": "ALT + SHIFT + UP/DOWN: Move line up and down  Autocomplete  Tab (replace)  Code Completion   check.if ENTER   [code]\nif check:\n  type_something\n[/code]  Multicursor  SHIFT + F6  Templating", 
+            "title": "Editing"
+        }, 
+        {
+            "location": "/ide/#navigator", 
+            "text": "", 
+            "title": "Navigator"
+        }, 
+        {
+            "location": "/ide/#searching", 
+            "text": "Command  Description    Double Shift  Search every where", 
+            "title": "Searching"
+        }, 
+        {
+            "location": "/ide/#debuging", 
+            "text": "", 
+            "title": "Debuging"
+        }, 
+        {
+            "location": "/ide/#workspace", 
+            "text": "", 
+            "title": "Workspace"
+        }, 
+        {
+            "location": "/package_manager/", 
+            "text": "py2exe\n\n\nInstallation\n\n\n[code]\n\n\npy2exe\n\n\nconda install -c https://conda.anaconda.org/clinicalgraphics cg-py2exe\n[/code]\n\n\nBuild \n^1\n\n\n[code]\npython setup.py py2exe\n\n\nbuild PyQT\n\n\npython setup.py py2exe --includes sip\n[/code]", 
+            "title": "Package Manager"
+        }, 
+        {
+            "location": "/package_manager/#py2exe", 
+            "text": "", 
+            "title": "py2exe"
+        }, 
+        {
+            "location": "/package_manager/#installation", 
+            "text": "[code]", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/package_manager/#py2exe_1", 
+            "text": "conda install -c https://conda.anaconda.org/clinicalgraphics cg-py2exe\n[/code]", 
+            "title": "py2exe"
+        }, 
+        {
+            "location": "/package_manager/#build-1", 
+            "text": "[code]\npython setup.py py2exe", 
+            "title": "Build ^1"
+        }, 
+        {
+            "location": "/package_manager/#build-pyqt", 
+            "text": "python setup.py py2exe --includes sip\n[/code]", 
+            "title": "build PyQT"
+        }, 
+        {
+            "location": "/make_a_module/", 
+            "text": "Create Public Module\n\n\nconda\n, \npypi\n, \ngithub\n\n\nStep 0/4: Check your package name\n\n\nGo to \nhttps://pypi.python.org/pypi/your_package_name\n to see your package name is valid\n\n\nStep 1/4: Make your module [^1]\n\n\n1.1\n \npip install cookiecutter\n\n\n1.2\n \ncookiecutter https://github.com/audreyr/cookiecutter-pypackage.git\n\n\n1.3\n Fill all necessary information\n\n\n[code]\nfull_name [Audrey Roy Greenfeld]:\nemail [aroy@alum.mit.edu]:\ngithub_username [audreyr]:\nproject_name [Python Boilerplate]:\nproject_slug []:\nproject_short_description:\nrelease_date []:\npypi_username []:\nyear [2016]:\nversion [0.1.0]:\nuse_pypi_deployment_with_travis [y]:\n[/code]\n\n\nIt will create a directory\n\n\n[code]\n|- LICENSE\n|- README.md\n|- TODO.md\n|- docs\n|   |-- conf.py\n|   |-- generated\n|   |-- index.rst\n|   |-- installation.rst\n|   |-- modules.rst\n|   |-- quickstart.rst\n|   |-- sandman.rst\n|- requirements.txt\n|- your_package\n|   |-- \ninit\n.py\n|   |-- your_package.py\n|   |-- test\n|       |-- models.py\n|       |-- test_your_package.py\n|- setup.py\n[/code]\n\n\nStep 2/4: Git\n\n\nStep 3/4: Pypi [^3]\n\n\n1.\n Create your Pypi Account\n\n\n2.\n Create a \n.pypirc\n configuration file in \n$HOME\n directory\n\n\n[code]\n[distutils]\nindex-servers =\n  pypi\n\n\n[pypi]\nrepository=https://pypi.python.org/pypi\nusername=your_username\npassword=your_password\n[/code]\n\n\n3.\n Change your \nMANIFEST.in\n\n\n[code]\nrecursive-include project_folder *\n[/code]\n\n\n4.\n Upload your package to PyPI\n\n\n[code]\npython setup.py register -r pypi\npython setup.py sdist upload -r pypi\n[/code]\n\n\nStep 4/4: Conda [^2]\n\n\n1.\n Install conda tools\n\n\n[code]\nconda install conda-build\nconda install anaconda-client\n[/code]\n\n\n2.\n Build a simple package with conda skeleton pypi\n\n\n[code]\ncd your_package_folder\nmkdir conda\ncd conda\nconda skeleton pypi your_package\n[/code]\n\n\nThis creates a directory named \nyour_package\n and three skeleton files in that directory\n\n\n[code]\n|- your_package\n|   |-- bld.bat\n|   |-- meta.yaml\n|   |-- build.sh\n[/code]\n\n\n3.\n Build your package\n\n\n[code]\nconda build your_package\n\n\nconvert to all platform\n\n\nconda convert -f --platform all\n  C:\\Anaconda\\conda-bld\\win-64\\your_package-0.1.1-py27_0.tar.bz2\n[/code]\n\n\n4.\n Upload packages to Anaconda\n\n\n[code]\nanaconda login\nanaconda upload linux-32/your_package.tar.bz2\nanaconda upload linux-64/your_package.tar.bz2\nanaconda upload win-32/your_package.tar.bz2\nanaconda upload win-64/your_package.tar.bz2\n[/code]\n\n\nCreate Private Module\n\n\nStep 1: Make your module [^1]\n\n\n1.1\n \npip install cookiecutter\n\n\n1.2\n \ncookiecutter https://github.com/audreyr/cookiecutter-pypackage.git\n\n\n1.3\n Fill all necessary information\n\n\n[code]\nfull_name [Audrey Roy Greenfeld]:\nemail [aroy@alum.mit.edu]:\ngithub_username [audreyr]:\nproject_name [Python Boilerplate]:\nproject_slug []:\nproject_short_description:\nrelease_date []:\npypi_username []:\nyear [2016]:\nversion [0.1.0]:\nuse_pypi_deployment_with_travis [y]:\n[/code]\n\n\nStep 2: Build your module\n\n\nChange your \nMANIFEST.in\n\n\n[code]\nrecursive-include project_folder *\n[/code]\n\n\nBuild your module with setup.py\n\n\n[code]\ncd your_project_folder\n\n\nbuild local\n\n\npython setup.py build\n\n\n\n\nIt will create a new folder in\n$PYTHON_HOME/Lib/sites-packages/your_project_name-0.1.0-py2.7.egg\n\n\n\n\nbuild distribution\n\n\npython setup.py sdist\n\n\n\n\nIt will create a zip file in $PROJECT_FOLDER/dist\n[/code]\n\n\n\n\nStep 3: Usage your module\n\n\nIn the same machine\n\n\n[code]\nimport your_project_name\n[/code]\n\n\nIn other machine\n\n\n[code]\n[/code]\n\n\nPython: Build \n Install Local Package with Conda\n\n\nHere is a step by step tutorial about building a local module package \n install it from a custom channel [^1]\n\n\nStep 1: Make a setup folder for your package with \ncookkiecutter\n\n\non terminal:\n\n\n[code]\n\n\nmkdir build\ncd build\npip install cookiecutter\ncookiecutter https://github.com/audreyr/cookiecutter-pypackage.git\n\n\n[/code]\n\n\nFill all necessary information\n\n\n[code]\nfull_name [Audrey Roy Greenfeld]:\nemail [aroy@alum.mit.edu]:\ngithub_username [audreyr]:\nproject_name [Python Boilerplate]:\nproject_slug []:\nproject_short_description:\nrelease_date []:\npypi_username []:\nyear [2016]:\nversion [0.1.0]:\nuse_pypi_deployment_with_travis [y]:\n[/code]\n\n\nIt will create a directory\n\n\n[code]\n|- LICENSE\n|- README.md\n|- TODO.md\n|- docs\n|   |-- conf.py\n|   |-- generated\n|   |-- index.rst\n|   |-- installation.rst\n|   |-- modules.rst\n|   |-- quickstart.rst\n|   |-- sandman.rst\n|- requirements.txt\n|- your_package\n|   |-- \ninit\n.py\n|   |-- your_package.py\n|   |-- test\n|       |-- models.py\n|       |-- test_your_package.py\n|- setup.py\n[/code]\n\n\nCopy your real package into directory above \n replace the package has been generated by\n\ncookkiecutter\n\n\nAdd this line to \nMANIFEST.in\n\n\n[code]\nrecursive-include project_folder *\n[/code]\n\n\nStep 2: Build conda package\n\n\n[code]\nmkdir conda\ncd conda\nmkdir channel\ngit clone https://github.com/hunguyen1702/condaBuildLocalTemplate.git\nmv condaBuildLocalTemplate your_package_name #Which ones you have filled in \nproject_name\n above\ncd your_package_name\nrm -rf .git README.md\n[/code]\n\n\nEdit the file \nmeta.yaml\n with the instruction inside it\n\n\n[code]\ncd ..\nconda build your_package_name\n[/code]\n\n\nStep 3: Create custom channel and install from local package\n\n\nCreate a channel directory\n\n\n[code]\ncd channel\n[/code]\n\n\nConvert your_package you've built to all platform\n\n\n[code]\nconda convert --platform all ~/anaconda/conda-bld/linux-64/your_package_0.1.0-py27_0.tar.bz2\n[/code]\n\n\nand this will create:\n\n\n[code]\nchannel/\nlinux-64/\n   package-1.0-0.tar.bz2\nlinux-32/\n   package-1.0-0.tar.bz2\nosx-64/\n   package-1.0-0.tar.bz2\nwin-64/\n   package-1.0-0.tar.bz2\nwin-32/\n   package-1.0-0.tar.bz2\n[/code]\n\n\nRegister your package to your new channel\n\n\n[code]\ncd ..\nconda index channel/linux-64 channel/osx-64 channel/win-64\n[/code]\n\n\nVeriy your new channel\n\n\n[code]\nconda search -c file://path/to/channel/ --override-channels\n[/code]\n\n\nIf you see \nyour_package\n's appearance, so it's worked\n\n\nAfter that if you want to install that package from local, run this command:\n\n\n[code]\n\n\nconda install --use-local your_package\n\n\n[/code]\n\n\nand when you want to create environment with local package from file, you just have export environment to \n.yml\n file and add this \nchannels\n section before the \ndependencies\n section:\n\n\n[code]\n\n\nchannels:\n- file://path/to/your/channel/\n\n\n[/code]\n\n\n[^1]: \nBuild Tutorial\n\n\n[^1]: \nOpen Sourcing a Python Project the Right Way\n\n[^2]: \nBuilding conda packages with conda skeleton\n\n[^3]: [How to submit a package to PyPI](http://peterdowns.com/posts/first-time-with-pypi.html", 
+            "title": "Module"
+        }, 
+        {
+            "location": "/make_a_module/#create-public-module", 
+            "text": "conda ,  pypi ,  github", 
+            "title": "Create Public Module"
+        }, 
+        {
+            "location": "/make_a_module/#step-04-check-your-package-name", 
+            "text": "Go to  https://pypi.python.org/pypi/your_package_name  to see your package name is valid", 
+            "title": "Step 0/4: Check your package name"
+        }, 
+        {
+            "location": "/make_a_module/#step-14-make-your-module-1", 
+            "text": "1.1   pip install cookiecutter  1.2   cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git  1.3  Fill all necessary information  [code]\nfull_name [Audrey Roy Greenfeld]:\nemail [aroy@alum.mit.edu]:\ngithub_username [audreyr]:\nproject_name [Python Boilerplate]:\nproject_slug []:\nproject_short_description:\nrelease_date []:\npypi_username []:\nyear [2016]:\nversion [0.1.0]:\nuse_pypi_deployment_with_travis [y]:\n[/code]  It will create a directory  [code]\n|- LICENSE\n|- README.md\n|- TODO.md\n|- docs\n|   |-- conf.py\n|   |-- generated\n|   |-- index.rst\n|   |-- installation.rst\n|   |-- modules.rst\n|   |-- quickstart.rst\n|   |-- sandman.rst\n|- requirements.txt\n|- your_package\n|   |--  init .py\n|   |-- your_package.py\n|   |-- test\n|       |-- models.py\n|       |-- test_your_package.py\n|- setup.py\n[/code]", 
+            "title": "Step 1/4: Make your module [^1]"
+        }, 
+        {
+            "location": "/make_a_module/#step-24-git", 
+            "text": "", 
+            "title": "Step 2/4: Git"
+        }, 
+        {
+            "location": "/make_a_module/#step-34-pypi-3", 
+            "text": "1.  Create your Pypi Account  2.  Create a  .pypirc  configuration file in  $HOME  directory  [code]\n[distutils]\nindex-servers =\n  pypi  [pypi]\nrepository=https://pypi.python.org/pypi\nusername=your_username\npassword=your_password\n[/code]  3.  Change your  MANIFEST.in  [code]\nrecursive-include project_folder *\n[/code]  4.  Upload your package to PyPI  [code]\npython setup.py register -r pypi\npython setup.py sdist upload -r pypi\n[/code]", 
+            "title": "Step 3/4: Pypi [^3]"
+        }, 
+        {
+            "location": "/make_a_module/#step-44-conda-2", 
+            "text": "1.  Install conda tools  [code]\nconda install conda-build\nconda install anaconda-client\n[/code]  2.  Build a simple package with conda skeleton pypi  [code]\ncd your_package_folder\nmkdir conda\ncd conda\nconda skeleton pypi your_package\n[/code]  This creates a directory named  your_package  and three skeleton files in that directory  [code]\n|- your_package\n|   |-- bld.bat\n|   |-- meta.yaml\n|   |-- build.sh\n[/code]  3.  Build your package  [code]\nconda build your_package", 
+            "title": "Step 4/4: Conda [^2]"
+        }, 
+        {
+            "location": "/make_a_module/#convert-to-all-platform", 
+            "text": "conda convert -f --platform all\n  C:\\Anaconda\\conda-bld\\win-64\\your_package-0.1.1-py27_0.tar.bz2\n[/code]  4.  Upload packages to Anaconda  [code]\nanaconda login\nanaconda upload linux-32/your_package.tar.bz2\nanaconda upload linux-64/your_package.tar.bz2\nanaconda upload win-32/your_package.tar.bz2\nanaconda upload win-64/your_package.tar.bz2\n[/code]", 
+            "title": "convert to all platform"
+        }, 
+        {
+            "location": "/make_a_module/#create-private-module", 
+            "text": "", 
+            "title": "Create Private Module"
+        }, 
+        {
+            "location": "/make_a_module/#step-1-make-your-module-1", 
+            "text": "1.1   pip install cookiecutter  1.2   cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git  1.3  Fill all necessary information  [code]\nfull_name [Audrey Roy Greenfeld]:\nemail [aroy@alum.mit.edu]:\ngithub_username [audreyr]:\nproject_name [Python Boilerplate]:\nproject_slug []:\nproject_short_description:\nrelease_date []:\npypi_username []:\nyear [2016]:\nversion [0.1.0]:\nuse_pypi_deployment_with_travis [y]:\n[/code]", 
+            "title": "Step 1: Make your module [^1]"
+        }, 
+        {
+            "location": "/make_a_module/#step-2-build-your-module", 
+            "text": "Change your  MANIFEST.in  [code]\nrecursive-include project_folder *\n[/code]  Build your module with setup.py  [code]\ncd your_project_folder", 
+            "title": "Step 2: Build your module"
+        }, 
+        {
+            "location": "/make_a_module/#build-local", 
+            "text": "python setup.py build   It will create a new folder in\n$PYTHON_HOME/Lib/sites-packages/your_project_name-0.1.0-py2.7.egg", 
+            "title": "build local"
+        }, 
+        {
+            "location": "/make_a_module/#build-distribution", 
+            "text": "python setup.py sdist   It will create a zip file in $PROJECT_FOLDER/dist\n[/code]", 
+            "title": "build distribution"
+        }, 
+        {
+            "location": "/make_a_module/#step-3-usage-your-module", 
+            "text": "In the same machine  [code]\nimport your_project_name\n[/code]  In other machine  [code]\n[/code]", 
+            "title": "Step 3: Usage your module"
+        }, 
+        {
+            "location": "/make_a_module/#python-build-install-local-package-with-conda", 
+            "text": "Here is a step by step tutorial about building a local module package   install it from a custom channel [^1]", 
+            "title": "Python: Build &amp; Install Local Package with Conda"
+        }, 
+        {
+            "location": "/make_a_module/#step-1-make-a-setup-folder-for-your-package-with-cookkiecutter", 
+            "text": "on terminal:  [code]  mkdir build\ncd build\npip install cookiecutter\ncookiecutter https://github.com/audreyr/cookiecutter-pypackage.git  [/code]  Fill all necessary information  [code]\nfull_name [Audrey Roy Greenfeld]:\nemail [aroy@alum.mit.edu]:\ngithub_username [audreyr]:\nproject_name [Python Boilerplate]:\nproject_slug []:\nproject_short_description:\nrelease_date []:\npypi_username []:\nyear [2016]:\nversion [0.1.0]:\nuse_pypi_deployment_with_travis [y]:\n[/code]  It will create a directory  [code]\n|- LICENSE\n|- README.md\n|- TODO.md\n|- docs\n|   |-- conf.py\n|   |-- generated\n|   |-- index.rst\n|   |-- installation.rst\n|   |-- modules.rst\n|   |-- quickstart.rst\n|   |-- sandman.rst\n|- requirements.txt\n|- your_package\n|   |--  init .py\n|   |-- your_package.py\n|   |-- test\n|       |-- models.py\n|       |-- test_your_package.py\n|- setup.py\n[/code]  Copy your real package into directory above   replace the package has been generated by cookkiecutter  Add this line to  MANIFEST.in  [code]\nrecursive-include project_folder *\n[/code]", 
+            "title": "Step 1: Make a setup folder for your package with cookkiecutter"
+        }, 
+        {
+            "location": "/make_a_module/#step-2-build-conda-package", 
+            "text": "[code]\nmkdir conda\ncd conda\nmkdir channel\ngit clone https://github.com/hunguyen1702/condaBuildLocalTemplate.git\nmv condaBuildLocalTemplate your_package_name #Which ones you have filled in  project_name  above\ncd your_package_name\nrm -rf .git README.md\n[/code]", 
+            "title": "Step 2: Build conda package"
+        }, 
+        {
+            "location": "/make_a_module/#edit-the-file-metayaml-with-the-instruction-inside-it", 
+            "text": "[code]\ncd ..\nconda build your_package_name\n[/code]", 
+            "title": "Edit the file meta.yaml with the instruction inside it"
+        }, 
+        {
+            "location": "/make_a_module/#step-3-create-custom-channel-and-install-from-local-package", 
+            "text": "Create a channel directory  [code]\ncd channel\n[/code]  Convert your_package you've built to all platform  [code]\nconda convert --platform all ~/anaconda/conda-bld/linux-64/your_package_0.1.0-py27_0.tar.bz2\n[/code]  and this will create:  [code]\nchannel/\nlinux-64/\n   package-1.0-0.tar.bz2\nlinux-32/\n   package-1.0-0.tar.bz2\nosx-64/\n   package-1.0-0.tar.bz2\nwin-64/\n   package-1.0-0.tar.bz2\nwin-32/\n   package-1.0-0.tar.bz2\n[/code]  Register your package to your new channel  [code]\ncd ..\nconda index channel/linux-64 channel/osx-64 channel/win-64\n[/code]  Veriy your new channel  [code]\nconda search -c file://path/to/channel/ --override-channels\n[/code]  If you see  your_package 's appearance, so it's worked  After that if you want to install that package from local, run this command:  [code]  conda install --use-local your_package  [/code]  and when you want to create environment with local package from file, you just have export environment to  .yml  file and add this  channels  section before the  dependencies  section:  [code]  channels:\n- file://path/to/your/channel/  [/code]  [^1]:  Build Tutorial  [^1]:  Open Sourcing a Python Project the Right Way \n[^2]:  Building conda packages with conda skeleton \n[^3]: [How to submit a package to PyPI](http://peterdowns.com/posts/first-time-with-pypi.html", 
+            "title": "Step 3: Create custom channel and install from local package"
+        }, 
+        {
+            "location": "/production/", 
+            "text": "Production with \ndocker\n\n\nBase Image: \nmagizbox/conda2.7/\n\n\nDocker Folder\n\n\n[code]\nyour_app/\n\u251c\u2500\u2500 app\n\u2502\u00a0\u00a0 \u251c\u2500\u2500 config\n\u2502\u00a0\u00a0 \u2514\u2500\u2500 main.py\n\u251c\u2500\u2500 Dockerfile\n\u2514\u2500\u2500 run.sh\n[/code]\n\n\nDockerfile\n\n\n[code]\nFROM magizbox/conda2.7:4.0\n\n\nADD ./app /app\nADD ./run.sh /run.sh\n\n\nRUN conda env create -f environment.yml\n[/code]\n\n\nrun.sh\n\n\n[code]\nsource activate your_environment\n\n\ncd /app\n\n\npython main.py\n[/code]\n\n\nCompose\n\n\n[code]\n service:\n  build: ./service-app\n  command: 'bash run.sh'\n[/code]\n\n\nNote: an other python conda with lower version (such as 3.5), will occur error when install requests package", 
+            "title": "Production"
+        }, 
+        {
+            "location": "/production/#production-with-docker", 
+            "text": "Base Image:  magizbox/conda2.7/  Docker Folder  [code]\nyour_app/\n\u251c\u2500\u2500 app\n\u2502\u00a0\u00a0 \u251c\u2500\u2500 config\n\u2502\u00a0\u00a0 \u2514\u2500\u2500 main.py\n\u251c\u2500\u2500 Dockerfile\n\u2514\u2500\u2500 run.sh\n[/code]  Dockerfile  [code]\nFROM magizbox/conda2.7:4.0  ADD ./app /app\nADD ./run.sh /run.sh  RUN conda env create -f environment.yml\n[/code]  run.sh  [code]\nsource activate your_environment  cd /app  python main.py\n[/code]  Compose  [code]\n service:\n  build: ./service-app\n  command: 'bash run.sh'\n[/code]  Note: an other python conda with lower version (such as 3.5), will occur error when install requests package", 
+            "title": "Production with docker"
+        }
+    ]
+}

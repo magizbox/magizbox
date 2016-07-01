@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>IDE - PythonTutorial</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">PythonTutorial</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Basic <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../101/">101</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../201/">201</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Data Structure</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../data_object/">Object</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data_string/">String</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data_collection/">Collection</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data_time/">Time</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+<li >
+    <a href="../oop/">OOP</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../networking/">Networking</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../io/">IO</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Intermediate <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../event_based/">Event Based</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../logging/">Logging</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../configuration/">Configuration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../web/">Web</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Advanced <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li class="active">
+    <a href="./">IDE</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../package_manager/">Package Manager</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../make_a_module/">Module</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../production/">Production</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../web/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../package_manager/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#editing">Editing</a></li>
+        
+    
+        <li class="main "><a href="#navigator">Navigator</a></li>
+        
+    
+        <li class="main "><a href="#searching">Searching</a></li>
+        
+    
+        <li class="main "><a href="#debuging">Debuging</a></li>
+        
+    
+        <li class="main "><a href="#workspace">Workspace</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<p>Today, I write some notes about my favorite Python IDE - <strong>PyCharm</strong>. I believe it's a good one for developing python, which supports git, vim, etc. This list below contains my favorite features.</p>
+<h3 id="editing">Editing</h3>
+<p>ALT + SHIFT + UP/DOWN: Move line up and down</p>
+<p><strong>Autocomplete</strong></p>
+<p>Tab (replace)</p>
+<p><strong>Code Completion</strong></p>
+<blockquote>
+<p>check.if ENTER</p>
+</blockquote>
+<p>[code]
+if check:
+  type_something
+[/code]</p>
+<p><strong>Multicursor</strong></p>
+<p>SHIFT + F6</p>
+<p><strong>Templating</strong></p>
+<p><img alt="" src="https://lh3.googleusercontent.com/qHBauwtBmhMmiD6C2fTL-WxhXk8NQrCPDB4y7JbaeFP3synnksOve6_g8kRfrHcP3k45o-H9jCw-7Q=w729-h484-no" /></p>
+<h3 id="navigator">Navigator</h3>
+<h3 id="searching">Searching</h3>
+<table>
+<tr>
+<td style="text-align:center; font-weight:bold;">Command</td>
+<td style="text-align:center; font-weight:bold;">Description</td>
+</tr>
+<tr>
+<td>Double Shift</td>
+<td>Search every where</td>
+</tr>
+</table>
+
+<h3 id="debuging">Debuging</h3>
+<h3>Alt + Enter</h3>
+
+<p>Alt + Enter is one of shortcuts in <em>Keyboard Shortcuts You Cannot Miss</em> <sup id="fnref-544-1"><a href="#fn-544-1" rel="footnote">1</a></sup>, its show the list of available intention actions.</p>
+<p><img src="http://blog.jetbrains.com/pycharm/files/2015/03/intentions2.png" alt="http://blog.jetbrains.com/pycharm/files/2015/03/intentions2.png" /></p>
+<h3 id="workspace">Workspace</h3>
+<h3>Custom Scheme</h3>
+
+<p>Go to <code>File - Settings...</code> then <code>Editor - Colors Fonts</code></p>
+<p>Now you can change your scheme, I like <em>Darcular</em></p>
+<p><img src="https://confluence.jetbrains.com/download/attachments/51945983/appearance3.png?version=1&amp;modificationDate=1372843959000" alt="https://confluence.jetbrains.com/download/attachments/51945983/appearance3.png?version=1&amp;modificationDate=1372843959000" /></p>
+<h3>IPython Support</h3>
+
+<p>PyCharm supports usage of IPython magic commands.</p>
+<p><img src="http://i.stack.imgur.com/aTEW2.png" alt="http://i.stack.imgur.com/aTEW2.png" /></p>
+<h3>Vim Support</h3>
+
+<p>You can configure PyCharm to work as a Vim editor <sup id="fnref-544-2"><a href="#fn-544-2" rel="footnote">2</a></sup></p>
+<p><img src="https://confluence.jetbrains.com/download/attachments/51946537/vim4.png?version=1&amp;modificationDate=1370956971000" alt="https://confluence.jetbrains.com/download/attachments/51946537/vim4.png?version=1&amp;modificationDate=1370956971000" /></p>
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn-544-1">
+<a href="https://www.jetbrains.com/idea/help/keyboard-shortcuts-you-cannot-miss.html" target="_blank">Keyboard Shortcuts You Cannot Miss</a>&#160;<a href="#fnref-544-1" rev="footnote">&#8617;</a>
+</li>
+
+<li id="fn-544-2">
+ <a href="https://confluence.jetbrains.com/display/PYH/Configuring+PyCharm+to+work+as+a+Vim+editor" target="_blank">Configuring PyCharm to work as a Vim editor</a>&#160;<a href="#fnref-544-2" rev="footnote">&#8617;</a>
+</li>
+
+</ol>
+</div>
+
+<div style="visibility:hidden">
+http://pastebin.com/qGpWpFYW
+</div></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

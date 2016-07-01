@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>Web - PythonTutorial</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">PythonTutorial</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Basic <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../101/">101</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../201/">201</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Data Structure</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../data_object/">Object</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data_string/">String</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data_collection/">Collection</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data_time/">Time</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+<li >
+    <a href="../oop/">OOP</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../networking/">Networking</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../io/">IO</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Intermediate <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../event_based/">Event Based</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../logging/">Logging</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../configuration/">Configuration</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">Web</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Advanced <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../ide/">IDE</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../package_manager/">Package Manager</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../make_a_module/">Module</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../production/">Production</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../configuration/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../ide/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#django-1">Django ^1</a></li>
+        
+    
+        <li class="main "><a href="#create-and-use-rest-api-in-5-1-steps-1-2">Create (and use) REST API in 5 (+1) steps ^1 [^2]</a></li>
+        
+            <li><a href="#step-1-install-dependencies">Step 1: Install dependencies</a></li>
+        
+            <li><a href="#step-2-create-project">Step 2: Create project</a></li>
+        
+            <li><a href="#step-3-config-apps-3">Step 3: Config apps [^3]</a></li>
+        
+            <li><a href="#step-4-model-view-route-6">Step 4: Model, View, Route [^6]</a></li>
+        
+            <li><a href="#step-5-run-server">Step 5: Run Server</a></li>
+        
+            <li><a href="#step-6-use-api">Step 6. Use API</a></li>
+        
+            <li><a href="#step-7-cors">Step 7: CORS</a></li>
+        
+            <li><a href="#step-8-https">Step 8: https</a></li>
+        
+            <li><a href="#step-9-paging">Step 9: Paging</a></li>
+        
+            <li><a href="#step-10-search-by-field-in">Step 10: Search by field in</a></li>
+        
+    
+        <li class="main "><a href="#one-to-many-relationship-7">One-to-Many Relationship [^7]</a></li>
+        
+    
+        <li class="main "><a href="#starting-with-mysql">Starting with Mysql</a></li>
+        
+            <li><a href="#custom-view-8">Custom View ^8</a></li>
+        
+    
+        <li class="main "><a href="#logging-settings">Logging settings</a></li>
+        
+    
+        <li class="main "><a href="#python-build-python-api-client-package">Python: Build Python API Client package</a></li>
+        
+            <li><a href="#step-1-write-document-on-swagger-editor1">Step 1: Write document on Swagger Editor^1</a></li>
+        
+            <li><a href="#step-2-genenrate-client-python-save-python-clientzip">Step 2: Genenrate Client --&gt; Python --&gt; save python-client.zip</a></li>
+        
+            <li><a href="#step-3-extract-zip">Step 3: Extract zip</a></li>
+        
+            <li><a href="#step-4-open-project-in-pycharm-rename-project-directory-project-name-swagger_client-package">Step 4: Open project in Pycharm rename project directory, project name, swagger_client package</a></li>
+        
+            <li><a href="#step-5-2">Step 5: [^2]</a></li>
+        
+            <li><a href="#step-6-edit-metayaml-file-in-your_package-folder">Step 6: Edit meta.yaml file in your_package folder</a></li>
+        
+            <li><a href="#step-7">Step 7:</a></li>
+        
+            <li><a href="#step-8">Step 8:</a></li>
+        
+            <li><a href="#step-9-create-virtual-env">Step 9: Create virtual-env</a></li>
+        
+            <li><a href="#step-10-install">Step 10: Install:</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="django-1">Django <a href="../[Django](https://www.djangoproject.com/)">^1</a></h1>
+<p>Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.</p>
+<p><strong>Project Folder Structure</strong></p>
+<p>[code]
+project_folder/
+├── your_project_name/
+│   ├── your_project_name/
+│   │   ├── static/
+│   │   ├── models.py
+│   │   ├── serializers.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── views.py
+└   └── manage.py
+[/code]</p>
+<h1 id="create-and-use-rest-api-in-5-1-steps-1-2">Create (and use) REST API in 5 (+1) steps <a href="../[Django](https://www.djangoproject.com/)">^1</a> [^2]</h1>
+<h2 id="step-1-install-dependencies">Step 1: Install dependencies</h2>
+<p>[code lang="bash"]
+pip install django
+pip install djangorestframework
+pip install markdown             # Markdown support for the browsable API.
+pip install django-filter        # Filtering support
+pip install django-cors-headers  # CORS support
+[/code]</p>
+<h2 id="step-2-create-project">Step 2: Create project</h2>
+<p>[code]
+django-admin startproject your_project_name
+[/code]</p>
+<h2 id="step-3-config-apps-3">Step 3: Config apps [^3]</h2>
+<p>Add 'your_project_name', 'rest_framework' to your INSTALLED_APPS setting in <code>your_project_name/settings.py</code> file</p>
+<p>[code]
+INSTALLED_APPS = (
+    ...
+    'your_project_name'
+    'rest_framework',
+)
+[/code]
+*</p>
+<h2 id="step-4-model-view-route-6">Step 4: <code>Model</code>, <code>View</code>, <code>Route</code> [^6]</h2>
+<h3 id="step-41-create-model-and-serializer">Step 4.1: Create model and serializer</h3>
+<p>You can go to <a href="https://docs.djangoproject.com/en/1.9/ref/models/fields/#model-field-types">Django: Model field reference page</a> for more fields.</p>
+<h4 id="step-411-create-task-class-in-your_project_namemodelspy-file">Step 4.1.1: Create <code>Task</code> class in <code>your_project_name/models.py</code> file</h4>
+<p>[code lang="python"]
+from django.db import models</p>
+<p>class Task(models.Model):
+    content = models.CharField(max_length=30)
+    status = models.CharField(max_length=30)
+[/code]</p>
+<h4 id="step-412-create-taskserializer-class-in-your_project_nameserializerspy-file">Step 4.1.2: Create <code>TaskSerializer</code> class in <code>your_project_name/serializers.py</code> file</h4>
+<p>[code lang="python"]
+from your_project_name.models import Task
+from rest_framework import serializers</p>
+<p>class TaskSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Task
+        fields = ('id', 'content', 'status')
+[/code]</p>
+<h4 id="step-413-create-table-in-database-4">Step 4.1.3: Create table in database [^4]</h4>
+<p>[code lang="bash"]
+python manage.py syncdb
+[/code]</p>
+<p>With <code>django 1.9</code></p>
+<p>[code lang="bash"]
+python manage.py makemigrations your_project_name
+python manage.py migrate
+[/code]</p>
+<h3 id="step-42-create-taskviewset-class-in-your_project_nameviewspy-file">Step 4.2: Create <code>TaskViewSet</code> class in <code>your_project_name/views.py</code> file</h3>
+<p>[code lang="python"]
+from your_project_name.models import Task
+from your_project_name.serializers import TaskSerializer
+from rest_framework import viewsets</p>
+<p>class TaskViewSet(viewsets.ModelViewSet):
+    queryset = Task.objects.all()
+    serializer_class = TaskSerializer
+[/code]</p>
+<h3 id="step-43-config-route-5">Step 4.3: Config <code>route</code> [^5]</h3>
+<p>Change <code>your_project_name/urls.py</code> file</p>
+<p>[code lang="python"]
+from django.conf.urls import include, url
+from django.contrib import admin
+from rest_framework import routers
+from your_project_name.views import TaskViewSet</p>
+<p>router = routers.DefaultRouter()
+router.register(r'api/tasks', TaskViewSet)
+admin.autodiscover()</p>
+<p>urlpatterns = [
+    url(r'^admin/', include(admin.site.urls)),
+    url(r'^', include(router.urls)),
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+]
+[/code]</p>
+<h2 id="step-5-run-server">Step 5: Run Server</h2>
+<p>[code lang="bash"]
+python manage.py runserver
+[/code]</p>
+<h2 id="step-6-use-api">Step 6. Use API</h2>
+<h4 id="step-61-create-a-new-task">Step 6.1: Create a new task</h4>
+<p>[code lang="bash"]
+curl -i -X POST -H "Content-Type:application/json" http://localhost:8000/api/tasks -d '{
+  "content": "a",
+  "status": "INIT"
+}'
+[/code]</p>
+<h4 id="step-62-list-all-tasks">Step 6.2: List all tasks</h4>
+<p>[code lang="bash"]
+curl http://localhost:8000/api/tasks
+[/code]</p>
+<h4 id="step-63-get-detail-of-task-1">Step 6.3: Get detail of task 1</h4>
+<p>[code lang="bash"]
+curl http://localhost:8000/api/tasks/1
+[/code]</p>
+<h4 id="step-64-delete-task-1">Step 6.4: Delete task 1</h4>
+<p>[code lang="bash"]
+curl -i -X DELETE http://localhost:8000/api/tasks/1
+[/code]</p>
+<h2 id="step-7-cors">Step 7: CORS</h2>
+<p>Known Error: <code>No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access.</code></p>
+<h3 id="step-71-install-corsheader-app">Step 7.1: Install <code>corsheader</code> app</h3>
+<p>Add module <code>corsheaders</code> to <code>your_project_name/settings.py</code></p>
+<p>[code lang="bash"]
+INSTALLED_APPS = (
+    ...
+    'corsheaders',
+    ...
+)
+[/code]</p>
+<h3 id="step-72-add-middleware-classes">Step 7.2 Add middleware classes</h3>
+<p>Add middleware_classes to <code>your_project_name/settings.py</code></p>
+<p>[code lang="bash"]
+MIDDLEWARE_CLASSES = (
+    ...
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    ...
+)
+[/code]</p>
+<h3 id="step-73-configuration-cors-setting">Step 7.3 Configuration CORS Setting</h3>
+<p><strong>Option 1</strong>: Allow All</p>
+<p>Add this line to <code>your_project_name/settings.py</code></p>
+<p>[code lang="bash"]
+CORS_ORIGIN_ALLOW_ALL: True
+[/code]</p>
+<h2 id="step-8-https">Step 8: https</h2>
+<p>You can use <code>https://github.com/teddziuba/django-sslserver</code></p>
+<h3 id="unicode">Unicode</h3>
+<p>[code lang="python"]
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': (
+        'rest_framework.renderers.JSONRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer',
+    )
+}
+[/code]</p>
+<h2 id="step-9-paging">Step 9: Paging</h2>
+<p>Add this module setting to <code>your_project_name/settings.py</code></p>
+<p>[code lang="python"]</p>
+<p>REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+}</p>
+<p>[/code]</p>
+<p>API:</p>
+<p>[code]</p>
+<p>GET &lt;&gt;/?limit=<limit>&amp;offset=<offset></p>
+<p>[/code]</p>
+<h2 id="step-10-search-by-field-in">Step 10: Search by field in</h2>
+<p>import this to your <code>viewsets.py</code></p>
+<p>[code lang="python"]</p>
+<p>from rest_framework import filters</p>
+<p>[/code]</p>
+<p>add this to your viewsets class</p>
+<p>[code lang="python"]</p>
+<p>filter_backends = (filters.SearchFilter, )
+search_fields = ('<field>','<field>',)</p>
+<p>[/code]</p>
+<h1 id="one-to-many-relationship-7">One-to-Many Relationship [^7]</h1>
+<p>[code lang="python"]
+from django.db import models</p>
+<p>class User(models.Model):
+    name = models.TextField()</p>
+<pre><code>def __str__(self):
+    return "{} - {}".format(str(self.id), self.name)
+</code></pre>
+<p>class Task(models.Model):
+    name = models.TextField()
+    assign = models.ForeignKey(User, on_delete=models.CASCADE)
+[/code]</p>
+<h1 id="starting-with-mysql">Starting with Mysql</h1>
+<p>Add this database settings to <code>your_project_name/settings.py</code></p>
+<p>[code lang="python"]</p>
+<p>DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': '[DB_NAME]',
+        'USER': '[DB_USER]',
+        'PASSWORD': '[PASSWORD]',
+        'HOST': '[HOST]',   # Or an IP Address that your DB is hosted on
+        'PORT': '3306',
+    }
+}</p>
+<p>[/code]</p>
+<p>Install this module to your virtual environment</p>
+<p>[code]</p>
+<p>conda install mysql-python #if you are using virtual environment</p>
+<p>pip install mysql-python #if you using are root environment</p>
+<p>[/code]</p>
+<h2 id="custom-view-8">Custom View <a href="../[rest_framework:mixins](https://github.com/tomchristie/django-rest-framework/blob/master/rest_framework/mixins.py)">^8</a></h2>
+<p>[code lang="python"]
+from rest_framework import mixins</p>
+<p>class CreateModelMixin(object):
+    """
+    Create a model instance.
+    """
+    def create(self, request, <em>args, </em>*kwargs):
+        event = request.data
+        try:
+            event['time'] = int(time.time())
+        except Exception, e:
+            print 'Set Time Error'
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        self.perform_create(serializer)
+        headers = self.get_success_headers(serializer.data)
+        return Response(serializer.data, status=status.HTTP_201_CREATED, headers=headers)</p>
+<pre><code>def perform_create(self, serializer):
+    serializer.save()
+
+def get_success_headers(self, data):
+    try:
+        return {'Location': data[api_settings.URL_FIELD_NAME]}
+    except (TypeError, KeyError):
+        return {}
+</code></pre>
+<p>class YourViewSet(CreateModelMixin,
+                  mixins.RetrieveModelMixin,
+                  mixins.UpdateModelMixin,
+                  mixins.DestroyModelMixin,
+                  mixins.ListModelMixin,
+                  GenericViewSet):
+    queryset = YourModel.objects.all()
+    serializer_class = YourModelSerializer
+[/code]</p>
+<h1 id="logging-settings">Logging settings</h1>
+<p>Here is an example, put this settings dict into your <code>settings.py</code> file:</p>
+<p>[code lang="python"]</p>
+<p>LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s'
+        },
+    },
+    'filters': {
+        'special': {
+            '()': 'project.logging.SpecialFilter',
+            'foo': 'bar',
+        },
+        'require_debug_true': {
+            '()': 'django.utils.log.RequireDebugTrue',
+        },
+    },
+    'handlers': {
+        'console': {
+            'level': 'INFO',
+            'filters': ['require_debug_true'],
+            'class': 'logging.StreamHandler',
+            'formatter': 'simple'
+        },
+        'mail_admins': {
+            'level': 'ERROR',
+            'class': 'django.utils.log.AdminEmailHandler',
+            'filters': ['special']
+        }
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console'],
+            'propagate': True,
+        },
+        'django.request': {
+            'handlers': ['mail_admins'],
+            'level': 'ERROR',
+            'propagate': False,
+        },
+        'myproject.custom': {
+            'handlers': ['console', 'mail_admins'],
+            'level': 'INFO',
+            'filters': ['special']
+        }
+    }
+}</p>
+<p>[/code]</p>
+<h1 id="python-build-python-api-client-package">Python: Build Python API Client package</h1>
+<h2 id="step-1-write-document-on-swagger-editor1">Step 1: Write document on <a href="http://editor.swagger.io/#/">Swagger Editor</a><a href="../[Django](https://www.djangoproject.com/)">^1</a></h2>
+<h2 id="step-2-genenrate-client-python-save-python-clientzip">Step 2: Genenrate Client --&gt; Python --&gt; save <code>python-client.zip</code></h2>
+<h2 id="step-3-extract-zip">Step 3: Extract <code>zip</code></h2>
+<h2 id="step-4-open-project-in-pycharm-rename-project-directory-project-name-swagger_client-package">Step 4: Open project in <code>Pycharm</code> rename <code>project directory</code>, <code>project name</code>, <code>swagger_client</code> package</h2>
+<h2 id="step-5-2">Step 5: [^2]</h2>
+<p>[code]
+mkdir conda
+cd conda
+git clone https://github.com/hunguyen1702/condaBuildLocalTemplate.git
+mv condaBuildLocalTemplate your_package_name
+rm -rf .git README.md
+[/code]</p>
+<h2 id="step-6-edit-metayaml-file-in-your_package-folder">Step 6: Edit <code>meta.yaml</code> file in <code>your_package</code> folder</h2>
+<h4 id="61-follow-instruction-inside-metayaml">6.1 Follow instruction inside <code>meta.yaml</code></h4>
+<h4 id="62-replace-these-line">6.2 Replace these line</h4>
+<p>[code]
+requirements:
+  build:
+    - python
+    - setuptools
+  run:
+    - python
+[/code]</p>
+<h5 id="with">with:</h5>
+<p>[code]
+requirements:
+  build:
+    - python
+    - setuptools
+    - six
+    - certifi
+    - python-dateutil
+  run:
+    - python
+    - six
+    - certifi
+    - python-dateutil
+[/code]</p>
+<h2 id="step-7">Step 7:</h2>
+<p>[code]
+cd ..
+conda build your_package
+[/code]</p>
+<h2 id="step-8">Step 8:</h2>
+<p>[code]
+mkdir channel
+cd channel
+conda convert --platform all ~/anaconda/conda-bld/linux-64/your_package_0.1.0-py27_0.tar.bz2
+[/code]</p>
+<h2 id="step-9-create-virtual-env">Step 9: Create <code>virtual-env</code></h2>
+<p>[code]
+name: your_env_name
+dependencies:
+- certifi=2016.2.28=py27_0
+- openssl=1.0.2h=0
+- pip=8.1.2=py27_0
+- python=2.7.11=0
+- python-dateutil=2.5.3=py27_0
+- readline=6.2=2
+- setuptools=20.7.0=py27_0
+- six=1.10.0=py27_0
+- tk=8.5.18=0
+- wheel=0.29.0=py27_0
+- zlib=1.2.8=0
+- pip:
+  - urllib3==1.15.1
+[/code]</p>
+<h2 id="step-10-install">Step 10: Install:</h2>
+<p>[code]
+conda install --use-local your_package
+[/code]</p>
+<p><a href="../[Django](https://www.djangoproject.com/)">^1</a>: <a href="http://swagger.io/specification/">Swagger Syntax</a>
+[^2]: <a href="https://github.com/hunguyen1702/condaBuildLocalTemplate/blob/master/build.sh">Github: Conda build template</a>
+See more:
+1. <a href="https://docs.djangoproject.com/en/1.9/ref/settings/#std:setting-EMAIL_BACKEND">EMAIL_BACKEND &amp; ADMIN setting</a>
+2. <a href="https://docs.djangoproject.com/en/1.9/topics/logging/#configuring-logging">Logging settings format in django</a></p>
+<p>[^2]: <a href="https://docs.djangoproject.com/en/1.9/intro/tutorial01/">Writing your first Django app, part 1</a>
+[^3]: <a href="http://www.django-rest-framework.org/#installation">Django REST framework: Installation</a>
+[^4]: <a href="https://docs.djangoproject.com/en/1.9/topics/migrations/">Django: Migrations</a>
+[^5]: <a href="http://www.sitepoint.com/building-simple-rest-api-mobile-applications/">Building a Simple REST API for Mobile Applications</a>
+[^6]: <a href="https://docs.djangoproject.com/en/1.9/topics/db/models/">Django: Models</a>
+[^7]: <a href="http://stackoverflow.com/questions/33747597/how-to-show-object-details-in-django-rest-framework-browseable-api">How to show object details in Django Rest Framework browseable API?</a></p></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

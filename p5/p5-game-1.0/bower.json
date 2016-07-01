@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "authors": [
+    "Vu Anh <anhv@mvcorp.vn>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3",
+    "moment": "~2.10.6",
+    "sprintf": "~1.0.3",
+    "bootstrap": "~3.3.6",
+    "angular": "~1.4.8"
+  }
+}

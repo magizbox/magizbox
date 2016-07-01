@@ -1,0 +1,24 @@
+site_name: PythonTutorial
+pages:
+- "Home": 'index.md'
+- "Basic":
+  - "101": '101.md'
+  - "201": '201.md'
+  - "Data Structure":
+      - "Object": 'data_object.md'
+      - "String": 'data_string.md'
+      - "Collection": 'data_collection.md'
+      - "Time": 'data_time.md'
+  - "OOP": 'oop.md'
+  - "Networking": 'networking.md'
+  - "IO": 'io.md'
+- "Intermediate":
+  - "Event Based": 'event_based.md'
+  - "Logging": 'logging.md'
+  - "Configuration": 'configuration.md'
+  - "Web": 'web.md'
+- "Advanced":
+  - "IDE": 'ide.md'
+  - "Package Manager": 'package_manager.md'
+  - "Module": 'make_a_module.md'
+  - "Production": 'production.md'

@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>Module - PythonTutorial</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">PythonTutorial</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Basic <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../101/">101</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../201/">201</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Data Structure</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../data_object/">Object</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data_string/">String</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data_collection/">Collection</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data_time/">Time</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+<li >
+    <a href="../oop/">OOP</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../networking/">Networking</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../io/">IO</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Intermediate <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../event_based/">Event Based</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../logging/">Logging</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../configuration/">Configuration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../web/">Web</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Advanced <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../ide/">IDE</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../package_manager/">Package Manager</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">Module</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../production/">Production</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../package_manager/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../production/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#create-public-module">Create Public Module</a></li>
+        
+            <li><a href="#step-04-check-your-package-name">Step 0/4: Check your package name</a></li>
+        
+            <li><a href="#step-14-make-your-module-1">Step 1/4: Make your module [^1]</a></li>
+        
+            <li><a href="#step-24-git">Step 2/4: Git</a></li>
+        
+            <li><a href="#step-34-pypi-3">Step 3/4: Pypi [^3]</a></li>
+        
+            <li><a href="#step-44-conda-2">Step 4/4: Conda [^2]</a></li>
+        
+    
+        <li class="main "><a href="#convert-to-all-platform">convert to all platform</a></li>
+        
+            <li><a href="#create-private-module">Create Private Module</a></li>
+        
+    
+        <li class="main "><a href="#build-local">build local</a></li>
+        
+    
+        <li class="main "><a href="#build-distribution">build distribution</a></li>
+        
+            <li><a href="#step-3-usage-your-module">Step 3: Usage your module</a></li>
+        
+    
+        <li class="main "><a href="#python-build-install-local-package-with-conda">Python: Build &amp; Install Local Package with Conda</a></li>
+        
+            <li><a href="#step-1-make-a-setup-folder-for-your-package-with-cookkiecutter">Step 1: Make a setup folder for your package with cookkiecutter</a></li>
+        
+            <li><a href="#step-2-build-conda-package">Step 2: Build conda package</a></li>
+        
+            <li><a href="#step-3-create-custom-channel-and-install-from-local-package">Step 3: Create custom channel and install from local package</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h2 id="create-public-module">Create Public Module</h2>
+<p><code>conda</code>, <code>pypi</code>, <code>github</code></p>
+<h3 id="step-04-check-your-package-name">Step 0/4: Check your package name</h3>
+<p>Go to <code>https://pypi.python.org/pypi/your_package_name</code> to see your package name is valid</p>
+<h3 id="step-14-make-your-module-1">Step 1/4: Make your module [^1]</h3>
+<p><strong>1.1</strong> <code>pip install cookiecutter</code></p>
+<p><strong>1.2</strong> <code>cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git</code></p>
+<p><strong>1.3</strong> Fill all necessary information</p>
+<p>[code]
+full_name [Audrey Roy Greenfeld]:
+email [aroy@alum.mit.edu]:
+github_username [audreyr]:
+project_name [Python Boilerplate]:
+project_slug []:
+project_short_description:
+release_date []:
+pypi_username []:
+year [2016]:
+version [0.1.0]:
+use_pypi_deployment_with_travis [y]:
+[/code]</p>
+<p>It will create a directory</p>
+<p>[code]
+|- LICENSE
+|- README.md
+|- TODO.md
+|- docs
+|   |-- conf.py
+|   |-- generated
+|   |-- index.rst
+|   |-- installation.rst
+|   |-- modules.rst
+|   |-- quickstart.rst
+|   |-- sandman.rst
+|- requirements.txt
+|- your_package
+|   |-- <strong>init</strong>.py
+|   |-- your_package.py
+|   |-- test
+|       |-- models.py
+|       |-- test_your_package.py
+|- setup.py
+[/code]</p>
+<h3 id="step-24-git">Step 2/4: Git</h3>
+<h3 id="step-34-pypi-3">Step 3/4: Pypi [^3]</h3>
+<p><strong>1.</strong> Create your Pypi Account</p>
+<p><strong>2.</strong> Create a <code>.pypirc</code> configuration file in <code>$HOME</code> directory</p>
+<p>[code]
+[distutils]
+index-servers =
+  pypi</p>
+<p>[pypi]
+repository=https://pypi.python.org/pypi
+username=your_username
+password=your_password
+[/code]</p>
+<p><strong>3.</strong> Change your <code>MANIFEST.in</code></p>
+<p>[code]
+recursive-include project_folder *
+[/code]</p>
+<p><strong>4.</strong> Upload your package to PyPI</p>
+<p>[code]
+python setup.py register -r pypi
+python setup.py sdist upload -r pypi
+[/code]</p>
+<h3 id="step-44-conda-2">Step 4/4: Conda [^2]</h3>
+<p><strong>1.</strong> Install conda tools</p>
+<p>[code]
+conda install conda-build
+conda install anaconda-client
+[/code]</p>
+<p><strong>2.</strong> Build a simple package with conda skeleton pypi</p>
+<p>[code]
+cd your_package_folder
+mkdir conda
+cd conda
+conda skeleton pypi your_package
+[/code]</p>
+<p>This creates a directory named <code>your_package</code> and three skeleton files in that directory</p>
+<p>[code]
+|- your_package
+|   |-- bld.bat
+|   |-- meta.yaml
+|   |-- build.sh
+[/code]</p>
+<p><strong>3.</strong> Build your package</p>
+<p>[code]
+conda build your_package</p>
+<h1 id="convert-to-all-platform">convert to all platform</h1>
+<p>conda convert -f --platform all
+  C:\Anaconda\conda-bld\win-64\your_package-0.1.1-py27_0.tar.bz2
+[/code]</p>
+<p><strong>4.</strong> Upload packages to Anaconda</p>
+<p>[code]
+anaconda login
+anaconda upload linux-32/your_package.tar.bz2
+anaconda upload linux-64/your_package.tar.bz2
+anaconda upload win-32/your_package.tar.bz2
+anaconda upload win-64/your_package.tar.bz2
+[/code]</p>
+<h2 id="create-private-module">Create Private Module</h2>
+<h3 id="step-1-make-your-module-1">Step 1: Make your module [^1]</h3>
+<p><strong>1.1</strong> <code>pip install cookiecutter</code></p>
+<p><strong>1.2</strong> <code>cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git</code></p>
+<p><strong>1.3</strong> Fill all necessary information</p>
+<p>[code]
+full_name [Audrey Roy Greenfeld]:
+email [aroy@alum.mit.edu]:
+github_username [audreyr]:
+project_name [Python Boilerplate]:
+project_slug []:
+project_short_description:
+release_date []:
+pypi_username []:
+year [2016]:
+version [0.1.0]:
+use_pypi_deployment_with_travis [y]:
+[/code]</p>
+<h3 id="step-2-build-your-module">Step 2: Build your module</h3>
+<p>Change your <code>MANIFEST.in</code></p>
+<p>[code]
+recursive-include project_folder *
+[/code]</p>
+<p>Build your module with setup.py</p>
+<p>[code]
+cd your_project_folder</p>
+<h1 id="build-local">build local</h1>
+<p>python setup.py build</p>
+<blockquote>
+<p>It will create a new folder in
+$PYTHON_HOME/Lib/sites-packages/your_project_name-0.1.0-py2.7.egg</p>
+</blockquote>
+<h1 id="build-distribution">build distribution</h1>
+<p>python setup.py sdist</p>
+<blockquote>
+<p>It will create a zip file in $PROJECT_FOLDER/dist
+[/code]</p>
+</blockquote>
+<h3 id="step-3-usage-your-module">Step 3: Usage your module</h3>
+<p>In the same machine</p>
+<p>[code]
+import your_project_name
+[/code]</p>
+<p>In other machine</p>
+<p>[code]
+[/code]</p>
+<h1 id="python-build-install-local-package-with-conda">Python: Build &amp; Install Local Package with Conda</h1>
+<p>Here is a step by step tutorial about building a local module package &amp; install it from a custom channel [^1]</p>
+<h3 id="step-1-make-a-setup-folder-for-your-package-with-cookkiecutter">Step 1: Make a setup folder for your package with <code>cookkiecutter</code></h3>
+<p>on terminal:</p>
+<p>[code]</p>
+<p>mkdir build
+cd build
+pip install cookiecutter
+cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git</p>
+<p>[/code]</p>
+<p>Fill all necessary information</p>
+<p>[code]
+full_name [Audrey Roy Greenfeld]:
+email [aroy@alum.mit.edu]:
+github_username [audreyr]:
+project_name [Python Boilerplate]:
+project_slug []:
+project_short_description:
+release_date []:
+pypi_username []:
+year [2016]:
+version [0.1.0]:
+use_pypi_deployment_with_travis [y]:
+[/code]</p>
+<p>It will create a directory</p>
+<p>[code]
+|- LICENSE
+|- README.md
+|- TODO.md
+|- docs
+|   |-- conf.py
+|   |-- generated
+|   |-- index.rst
+|   |-- installation.rst
+|   |-- modules.rst
+|   |-- quickstart.rst
+|   |-- sandman.rst
+|- requirements.txt
+|- your_package
+|   |-- <strong>init</strong>.py
+|   |-- your_package.py
+|   |-- test
+|       |-- models.py
+|       |-- test_your_package.py
+|- setup.py
+[/code]</p>
+<p>Copy your real package into directory above &amp; replace the package has been generated by
+<code>cookkiecutter</code></p>
+<p>Add this line to <code>MANIFEST.in</code></p>
+<p>[code]
+recursive-include project_folder *
+[/code]</p>
+<h3 id="step-2-build-conda-package">Step 2: Build conda package</h3>
+<p>[code]
+mkdir conda
+cd conda
+mkdir channel
+git clone https://github.com/hunguyen1702/condaBuildLocalTemplate.git
+mv condaBuildLocalTemplate your_package_name #Which ones you have filled in <code>project_name</code> above
+cd your_package_name
+rm -rf .git README.md
+[/code]</p>
+<h4 id="edit-the-file-metayaml-with-the-instruction-inside-it"><strong>Edit the file <code>meta.yaml</code> with the instruction inside it</strong></h4>
+<p>[code]
+cd ..
+conda build your_package_name
+[/code]</p>
+<h3 id="step-3-create-custom-channel-and-install-from-local-package">Step 3: Create custom channel and install from local package</h3>
+<p>Create a channel directory</p>
+<p>[code]
+cd channel
+[/code]</p>
+<p>Convert your_package you've built to all platform</p>
+<p>[code]
+conda convert --platform all ~/anaconda/conda-bld/linux-64/your_package_0.1.0-py27_0.tar.bz2
+[/code]</p>
+<p>and this will create:</p>
+<p>[code]
+channel/
+linux-64/
+   package-1.0-0.tar.bz2
+linux-32/
+   package-1.0-0.tar.bz2
+osx-64/
+   package-1.0-0.tar.bz2
+win-64/
+   package-1.0-0.tar.bz2
+win-32/
+   package-1.0-0.tar.bz2
+[/code]</p>
+<p>Register your package to your new channel</p>
+<p>[code]
+cd ..
+conda index channel/linux-64 channel/osx-64 channel/win-64
+[/code]</p>
+<p>Veriy your new channel</p>
+<p>[code]
+conda search -c file://path/to/channel/ --override-channels
+[/code]</p>
+<p>If you see <code>your_package</code>'s appearance, so it's worked</p>
+<p>After that if you want to install that package from local, run this command:</p>
+<p>[code]</p>
+<p>conda install --use-local your_package</p>
+<p>[/code]</p>
+<p>and when you want to create environment with local package from file, you just have export environment to <code>.yml</code> file and add this <code>channels</code> section before the <code>dependencies</code> section:</p>
+<p>[code]</p>
+<p>channels:
+- file://path/to/your/channel/</p>
+<p>[/code]</p>
+<p>[^1]: <a href="http://conda-test.pydata.org/docs/build_tutorials/pkgs.html">Build Tutorial</a></p>
+<p>[^1]: <a href="http://jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/">Open Sourcing a Python Project the Right Way</a>
+[^2]: <a href="http://conda.pydata.org/docs/build_tutorials/pkgs.html">Building conda packages with conda skeleton</a>
+[^3]: [How to submit a package to PyPI](http://peterdowns.com/posts/first-time-with-pypi.html</p></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
