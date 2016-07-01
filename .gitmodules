@@ -4,3 +4,6 @@
 [submodule "training/javascript"]
 	path = training/javascript
 	url = git@github.com:magizbox/javascript.git
+[submodule "training/bigdata"]
+	path = training/bigdata
+	url = git@github.com:magizbox/bigdata.git
