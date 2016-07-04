@@ -7,3 +7,6 @@
 [submodule "training/bigdata"]
 	path = training/bigdata
 	url = git@github.com:magizbox/bigdata.git
+[submodule "training/deep_learning"]
+	path = training/deep_learning
+	url = git@github.com:magizbox/deep_learning.git
