@@ -10,79 +10,79 @@ myApp.controller('MyController', function MyController($scope) {
       "name": "Code 101",
       "image": "https://d13yacurqjgara.cloudfront.net/users/210858/screenshots/2113044/code_logo_1x.jpg",
       "url": "/training/code",
-      "tag": "training"
+      "tag": "code"
     },
     {
       "name": "Python",
       "image": "https://d13yacurqjgara.cloudfront.net/users/210858/screenshots/2113044/code_logo_1x.jpg",
       "url": "/training/python",
-      "tag": "training"
+      "tag": "code"
     },
     {
       "name": "CPP",
       "image": "https://d13yacurqjgara.cloudfront.net/users/210858/screenshots/2113044/code_logo_1x.jpg",
       "url": "/training/cpp",
-      "tag": "training"
+      "tag": "code"
     },
     {
       "name": "Java",
       "image": "https://d13yacurqjgara.cloudfront.net/users/210858/screenshots/2113044/code_logo_1x.jpg",
       "url": "/training/java",
-      "tag": "training"
+      "tag": "code"
     },
     {
       "name": "Javascript",
       "image": "https://d13yacurqjgara.cloudfront.net/users/210858/screenshots/2113044/code_logo_1x.jpg",
       "url": "/training/javascript",
-      "tag": "training"
+      "tag": "code"
     },
     {
       "name": "R",
       "image": "https://d13yacurqjgara.cloudfront.net/users/210858/screenshots/2113044/code_logo_1x.jpg",
       "url": "/training/r",
-      "tag": "training"
+      "tag": "code"
     },
     {
       "name": "Scala",
       "image": "https://d13yacurqjgara.cloudfront.net/users/210858/screenshots/2113044/code_logo_1x.jpg",
       "url": "/training/scala",
-      "tag": "training"
+      "tag": "code"
     },
     {
       "name": "NodeJS",
       "image": "https://d13yacurqjgara.cloudfront.net/users/210858/screenshots/2113044/code_logo_1x.jpg",
       "url": "/training/nodejs",
-      "tag": "training"
+      "tag": "code"
     },
     {
       "name": "Octave",
       "image": "https://d13yacurqjgara.cloudfront.net/users/210858/screenshots/2113044/code_logo_1x.jpg",
       "url": "/training/octave",
-      "tag": "training"
+      "tag": "code"
     },
     {
       "name": "Platform",
       "image": "https://d13yacurqjgara.cloudfront.net/users/210858/screenshots/2113044/code_logo_1x.jpg",
       "url": "/training/platform",
-      "tag": "training"
+      "tag": "code"
     },
     {
       "name": "Big Data",
-      "image": "https://d13yacurqjgara.cloudfront.net/users/210858/screenshots/2113044/code_logo_1x.jpg",
+      "image": "https://maxdemarzidotcom.files.wordpress.com/2012/02/matrix.jpg?w=400",
       "url": "/training/bigdata",
-      "tag": "training"
+      "tag": "data"
     },
     {
       "name": "Data Science",
-      "image": "https://d13yacurqjgara.cloudfront.net/users/210858/screenshots/2113044/code_logo_1x.jpg",
+      "image": "https://maxdemarzidotcom.files.wordpress.com/2012/02/matrix.jpg?w=400",
       "url": "/training/datascience",
-      "tag": "training"
+      "tag": "data"
     },
     {
       "name": "Deep Learning",
-      "image": "https://d13yacurqjgara.cloudfront.net/users/210858/screenshots/2113044/code_logo_1x.jpg",
+      "image": "https://maxdemarzidotcom.files.wordpress.com/2012/02/matrix.jpg?w=400",
       "url": "/training/deep_learning",
-      "tag": "training"
+      "tag": "data"
     },
     {
       "name": "p5js",
@@ -96,6 +96,6 @@ myApp.controller('MyController', function MyController($scope) {
   $scope.now = moment();
   $scope.journey = $scope.now.diff($scope.startDate, "day");
 
-  $scope.countTraining = _.where($scope.works, {"tag": "training"}).length;
+  $scope.countTraining = _.where($scope.works, {"tag": "code"}).length;
   $scope.countLab = _.where($scope.works, {"tag": "lab"}).length;
 });
