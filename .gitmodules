@@ -19,3 +19,6 @@
 [submodule "training/cpp"]
 	path = training/cpp
 	url = git@github.com:magizbox/cpp.git
+[submodule "training/java"]
+	path = training/java
+	url = git@github.com:magizbox/java.git
