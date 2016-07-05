@@ -25,6 +25,12 @@ myApp.controller('MyController', function MyController($scope) {
       "tag": "training"
     },
     {
+      "name": "Data Science",
+      "image": "https://d13yacurqjgara.cloudfront.net/users/210858/screenshots/2113044/code_logo_1x.jpg",
+      "url": "/training/datascience",
+      "tag": "training"
+    },
+    {
       "name": "Deep Learning",
       "image": "https://d13yacurqjgara.cloudfront.net/users/210858/screenshots/2113044/code_logo_1x.jpg",
       "url": "/training/deep_learning",
