@@ -16,3 +16,6 @@
 [submodule "training/code"]
 	path = training/code
 	url = git@github.com:magizbox/code.git
+[submodule "training/cpp"]
+	path = training/cpp
+	url = git@github.com:magizbox/cpp.git
