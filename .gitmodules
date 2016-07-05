@@ -25,3 +25,6 @@
 [submodule "training/r"]
 	path = training/r
 	url = git@github.com:magizbox/r.git
+[submodule "training/scala"]
+	path = training/scala
+	url = git@github.com:magizbox/scala.git
