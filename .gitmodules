@@ -34,3 +34,6 @@
 [submodule "training/octave"]
 	path = training/octave
 	url = git@github.com:magizbox/octave.git
+[submodule "training/platform"]
+	path = training/platform
+	url = git@github.com:magizbox/platform.git
