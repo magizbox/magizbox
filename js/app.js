@@ -7,6 +7,12 @@ var myApp = angular.module('myApp', []);
 myApp.controller('MyController', function MyController($scope) {
   $scope.works = [
     {
+      "name": "Code 101",
+      "image": "https://d13yacurqjgara.cloudfront.net/users/210858/screenshots/2113044/code_logo_1x.jpg",
+      "url": "/training/code",
+      "tag": "training"
+    },
+    {
       "name": "Python",
       "image": "https://d13yacurqjgara.cloudfront.net/users/210858/screenshots/2113044/code_logo_1x.jpg",
       "url": "/training/python",

@@ -13,3 +13,6 @@
 [submodule "training/datascience"]
 	path = training/datascience
 	url = git@github.com:magizbox/datascience.git
+[submodule "training/code"]
+	path = training/code
+	url = git@github.com:magizbox/code.git
