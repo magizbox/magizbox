@@ -49,6 +49,12 @@ myApp.controller('MyController', function MyController($scope) {
       "tag": "training"
     },
     {
+      "name": "NodeJS",
+      "image": "https://d13yacurqjgara.cloudfront.net/users/210858/screenshots/2113044/code_logo_1x.jpg",
+      "url": "/training/nodejs",
+      "tag": "training"
+    },
+    {
       "name": "Big Data",
       "image": "https://d13yacurqjgara.cloudfront.net/users/210858/screenshots/2113044/code_logo_1x.jpg",
       "url": "/training/bigdata",
