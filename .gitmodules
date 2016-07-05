@@ -31,3 +31,6 @@
 [submodule "training/nodejs"]
 	path = training/nodejs
 	url = git@github.com:magizbox/nodejs.git
+[submodule "training/octave"]
+	path = training/octave
+	url = git@github.com:magizbox/octave.git
