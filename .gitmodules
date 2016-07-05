@@ -22,3 +22,6 @@
 [submodule "training/java"]
 	path = training/java
 	url = git@github.com:magizbox/java.git
+[submodule "training/r"]
+	path = training/r
+	url = git@github.com:magizbox/r.git
