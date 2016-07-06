@@ -11,6 +11,12 @@ myApp.controller('MyController', function MyController($scope) {
       "image": "https://cdn.meme.am/instances/66964443.jpg",
       "url": "/training/agile",
       "tag": "tool"
+    },
+    {
+      "name": "Git",
+      "image": "https://blog.seibert-media.net/wp-content/uploads/2014/12/git-artikelbild.png",
+      "url": "/training/git",
+      "tag": "tool"
     }
   ];
   
