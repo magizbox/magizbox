@@ -19,7 +19,7 @@ myApp.controller('MyController', function MyController($scope) {
       "tag": "code"
     },
     {
-      "name": "CPP",
+      "name": "C++",
       "image": "https://d13yacurqjgara.cloudfront.net/users/46200/screenshots/799814/cpp-logo-dribbble_1x.png",
       "url": "/training/cpp",
       "tag": "code"
@@ -64,6 +64,12 @@ myApp.controller('MyController', function MyController($scope) {
       "name": "Platform",
       "image": "http://brevardapps.com/blog/wp-content/uploads/2015/08/melbourne-fl-mobile-app-development-companies.jpg",
       "url": "/training/platform",
+      "tag": "code"
+    },
+    {
+      "name": "Computer Science",
+      "image": "http://www2.wlv.ac.uk/webteam/email-images/fse/033.jpg",
+      "url": "/training/computer_science",
       "tag": "code"
     },
     {

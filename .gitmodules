@@ -37,3 +37,6 @@
 [submodule "training/platform"]
 	path = training/platform
 	url = git@github.com:magizbox/platform.git
+[submodule "training/computer_science"]
+	path = training/computer_science
+	url = git@github.com:magizbox/computer_science.git
