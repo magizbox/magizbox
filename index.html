@@ -74,6 +74,7 @@ Fixed Navigation
       <ul id="nav" class="nav navbar-nav">
         <li class="current"><a href="#body">Home</a></li>
         <li><a href="#features">Features</a></li>
+        <li><a href="#tools">How to</a></li>
         <li><a href="#works">Works</a></li>
       </ul>
     </nav>
@@ -155,6 +156,37 @@ End Features
 ==================================== -->
 
 <!--
+Our Tools
+==================================== -->
+
+<section id="tools" class="works clearfix">
+  <div class="container">
+    <div class="row">
+      <div class="sec-title text-center">
+        <h2>How to</h2>
+        <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+      </div>
+    </div>
+
+    <div class="project-wrapper">
+      <figure class="mix work-item {{ work.tag }}" ng-repeat="work in tools ">
+        <img src="{{ work.image }}" alt="">
+        <!--<span class="figurecaption">{{ work.name }}</span>-->
+        <figcaption class="overlay">
+          <a class="fancybox" rel="works" title="" href="{{ work.url }}"><i
+            class="fa fa-eye fa-lg"></i></a>
+          <h4>{{ work.name }}</h4>
+          <p></p>
+        </figcaption>
+      </figure>
+    </div>
+</section>
+
+<!--
+End Our Works
+==================================== -->
+
+<!--
 Our Works
 ==================================== -->
 
@@ -200,9 +232,10 @@ Our Works
 <!--
 End Our Works
 ==================================== -->
+
 <!--
-        Some fun facts
-        ==================================== -->
+Some fun facts
+==================================== -->
 
 <section id="facts" class="facts">
   <div class="parallax-overlay">
@@ -242,13 +275,13 @@ End Our Works
           </div>
         </div>
         <!--<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"-->
-             <!--data-wow-delay="900ms">-->
-          <!--<div class="counters-item">-->
-            <!--<i class="fa fa-trophy fa-3x"></i>-->
-            <!--<strong data-to="6454">0</strong>-->
-            <!--&lt;!&ndash; Set Your Number here. i,e. data-to="56" &ndash;&gt;-->
-            <!--<p>Awards Won</p>-->
-          <!--</div>-->
+        <!--data-wow-delay="900ms">-->
+        <!--<div class="counters-item">-->
+        <!--<i class="fa fa-trophy fa-3x"></i>-->
+        <!--<strong data-to="6454">0</strong>-->
+        <!--&lt;!&ndash; Set Your Number here. i,e. data-to="56" &ndash;&gt;-->
+        <!--<p>Awards Won</p>-->
+        <!--</div>-->
         <!--</div>-->
         <!-- end first count item -->
 

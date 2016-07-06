@@ -5,6 +5,15 @@ var myApp = angular.module('myApp', []);
 
 // Define the `PhoneListController` controller on the `phonecatApp` module
 myApp.controller('MyController', function MyController($scope) {
+  $scope.tools = [
+    {
+      "name": "Agile",
+      "image": "https://cdn.meme.am/instances/66964443.jpg",
+      "url": "/training/agile",
+      "tag": "code"
+    }
+  ];
+  
   $scope.works = [
     {
       "name": "Code 101",
