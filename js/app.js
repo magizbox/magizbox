@@ -10,7 +10,7 @@ myApp.controller('MyController', function MyController($scope) {
       "name": "Agile",
       "image": "https://cdn.meme.am/instances/66964443.jpg",
       "url": "/training/agile",
-      "tag": "code"
+      "tag": "tool"
     }
   ];
   
