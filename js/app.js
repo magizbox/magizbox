@@ -35,7 +35,7 @@ myApp.controller('MyController', function MyController($scope) {
     },
     {
       "name": "C++",
-      "image": "https://d13yacurqjgara.cloudfront.net/users/46200/screenshots/799814/cpp-logo-dribbble_1x.png",
+      "image": "./img/homepage/cpp.png",
       "url": "/training/cpp",
       "tag": "code"
     },
@@ -47,19 +47,19 @@ myApp.controller('MyController', function MyController($scope) {
     },
     {
       "name": "Javascript",
-      "image": "https://qph.is.quoracdn.net/main-qimg-c673bc3d007e79ef4d9f1ca689b0de43?convert_to_webp=true",
+      "image": "./img/homepage/js.png",
       "url": "/training/javascript",
       "tag": "code"
     },
     {
       "name": "R",
-      "image": "http://ccs.miami.edu/wp-content/uploads/ucompute/logo/logo-26.png",
+      "image": "./img/homepage/r.png",
       "url": "/training/r",
       "tag": "code"
     },
     {
       "name": "Scala",
-      "image": "http://nextlab.herokuapp.com/assets/images/zf/portfolio/Scala.png",
+      "image": "./img/homepage/scala.png",
       "url": "/training/scala",
       "tag": "code"
     },
@@ -77,7 +77,7 @@ myApp.controller('MyController', function MyController($scope) {
     },
     {
       "name": "Platform",
-      "image": "http://brevardapps.com/blog/wp-content/uploads/2015/08/melbourne-fl-mobile-app-development-companies.jpg",
+      "image": "./img/homepage/platform.jpg",
       "url": "/training/platform",
       "tag": "code"
     },
@@ -95,7 +95,7 @@ myApp.controller('MyController', function MyController($scope) {
     },
     {
       "name": "Data Science",
-      "image": "http://www.brightfonts.com/uploads/brightfonts/data_science_400x300.png",
+      "image": "./img/homepage/data_science.png",
       "url": "/training/datascience",
       "tag": "data"
     },
