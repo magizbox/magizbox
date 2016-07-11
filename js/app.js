@@ -8,7 +8,7 @@ myApp.controller('MyController', function MyController($scope) {
   $scope.tools = [
     {
       "name": "Agile",
-      "image": "https://cdn.meme.am/instances/66964443.jpg",
+      "image": "https://lh3.googleusercontent.com/qTfENDsHkpLGv0hBGiDFRzBaYlJzvCqUpjMbvDBnHuPpMlobxRRAjbBIFiO4ucEtiFQ-xTIeYyF0Pz_8ZEOWlgtHfP4RPKr8up9TXeMTYGAQ7-wPFpjMRuTdrA7GTEdW5_nV941bxcrpeR0r4ioGqJS4Kv4HYHZAmg6EvUouuCaDD6pMpPjCSa2EF4K5H_H3RZEfdagej53gBaxQr_8r1BiJA_9w_6P2zxuFvzV9NtCfTAUaAvHuWH5jJUTJhOT1P7TjVpyXaSrQFI4GHPaONasouN_2mvM33FxhtktJOW9LNC_I2OF15b82buAsmBFYQOFtZNqzhAkNTbwEK_MPcx_TVCyjoU8Uj9sq3M1kmrSpCxew0Wq3Gw9Je-62YWgSjHJYD6Z9Ys8twCkVhUQkw_O_oyu896R6cM4sYGnWYd62O3ZsH2YdtRDlxWcE_UhSXiQ8Av-cj-1Mr5sVjnPtUh9fy3JZUy68ZuQ8IPPSyx5E5qImGqtLdWBDA2OkOlI18ZMwcI4_XSoLb0oA_ocZF3V2VA8hmbUWWaDYyqUSaspiaEpr24ww9b5Imwz0lUZRksGAPCAyiT7T1LbAVU9BKyqE5FpWHguw=w400-h300-no",
       "url": "/training/agile",
       "tag": "tool"
     },
@@ -23,7 +23,7 @@ myApp.controller('MyController', function MyController($scope) {
   $scope.works = [
     {
       "name": "Code 101",
-      "image": "https://d13yacurqjgara.cloudfront.net/users/365027/screenshots/1412849/go-code-colorado-logo_1x.jpg",
+      "image": "https://lh3.googleusercontent.com/OG3mQ5-oySBBahIETBLK9n2k3uCeZUxOg1sICPpWWSPiQStucDUbQrE86WZoPbBhUKA_S-m86gLZxtu7Z3vIjunQZRvc43p0E_LmlpHOh_b5FfNW8BIvWNdu4kSf4Lnj7GJXtIwguAwocSw5S3F-UcE7BDXfzjyqofkH4hI_HcsNY3R_Etuj75F8LXETHiwPCA28oxYFklbM-zrhLvbrvQmw1j-Qdy2LIfxWN7mGiLEb8PaxOOSI9XlR5IMb2aJlibo36UlDPhEiLW9QfQ6tDcEpbUIBtGKtVMsendrXO0re5xHvc86rF1ygrkSpNn2emphiXGnUYXtjJx73DmitxwJ7uEsXe2lpTPzezKtjdYtZlUirrW7VG2qFFvikQXss8PdpnU_BwQ2aT3F1cGQ4hi5K5Er3dsyXSzK3edAnPXjLWJj-bUkwJPZb2YAtscAaaTOHKQ9GRlTbTmGNKE5BSUwWnJcQXQfS1gYQvTbY1jZ2AhD3TbglQSEkm7OlDJfkFFklafg8zRoUjd280hDSsqLjJVbhl-lTako4rb_ixGaIKV7o6xflVT_3JWNayLmwuU1gauia9eO4DQ-_a_6lVVTC9z3Bc3tx=w400-h300-no",
       "url": "/training/code",
       "tag": "code"
     },
@@ -41,7 +41,7 @@ myApp.controller('MyController', function MyController($scope) {
     },
     {
       "name": "Java",
-      "image": "http://freebiesarena.heck.in/files/java-icon.jpg",
+      "image": "./img/homepage/java.jpg",
       "url": "/training/java",
       "tag": "code"
     },
@@ -83,7 +83,7 @@ myApp.controller('MyController', function MyController($scope) {
     },
     {
       "name": "Computer Science",
-      "image": "http://www2.wlv.ac.uk/webteam/email-images/fse/033.jpg",
+      "image": "https://lh3.googleusercontent.com/Uufy8m5rZNANW1-Sk0CnCeigcYRBUgUwiRlA_flWeVFWTO2er83UDof3wufje83X5okMPFOqzo_pRqHy1ADmQKFMO3waBmbzcjBKKV3_n120tvuDDYg6PgZ1TAGcDEZXPap0RpAA9S3ci8FWJyEe4T8Virxc_Un2xjtoHobptYrx_YUohRoYRH6kZAPvOJnXje6NJwnOM5dwcJi5bUzSEBIeF5THSflPC_gIWcyR3p42eoTHMK7UR9tvSgYM9m9Oy-16lAjvADv88zhXutAt035U_nmc6hEOYSzoco6GA8X4JKB4f0IIs9eD16C-uzZXplb-YIyrwAFYVOwJLazRSTzZLvSrPMJ7E_2WCP7jjvDbEbf0q-WABGDkXfRqYjB4z6UAybSEQT0D01G63d2-6fM7FOfdKLQF3tuh1PM8KOhFFZdhEuqYn0zpHPZ870cTZEebfPsbxX8jjJEYZZW5TTXQ1Fx4CvUNyFtsHDnJCgS934PMWlurmEcn6hGFajD7lHxnp94TfykZMVBeJUMVrAa8XgzAuJNnFkJno7CM0YoxypRounCIKY3yGG1QoWE-_Zx-7EfnK2ysY2I6DrVTA7WSeKaQ9y3K=w400-h300-no",
       "url": "/training/computer_science",
       "tag": "code"
     },

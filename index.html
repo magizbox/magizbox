@@ -170,7 +170,7 @@ TOOLS
 
     <div class="project-wrapper">
       <figure class="work-item {{ work.tag }}" ng-repeat="work in tools ">
-        <img src="{{ work.image }}" alt="">
+        <img ng-src="{{ work.image }}" alt="">
         <figcaption class="overlay">
           <a class="fancybox" rel="works" title="" href="{{ work.url }}"><i
             class="fa fa-eye fa-lg"></i></a>
@@ -217,7 +217,7 @@ Our Works
 
   <div class="project-wrapper">
     <figure class="mix work-item {{ work.tag }}" ng-repeat="work in works">
-      <img src="{{ work.image }}" alt="">
+      <img ng-src="{{ work.image }}" alt="">
       <!--<span class="figurecaption">{{ work.name }}</span>-->
       <figcaption class="overlay">
         <a class="fancybox" rel="works" title="" href="{{ work.url }}"><i
@@ -320,8 +320,6 @@ End Some fun facts
 <!-- Contact form validation -->
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
-<!-- Google Map -->
-<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <!-- jquery easing -->
 <script src="js/jquery.easing.min.js"></script>
 <!-- jquery easing -->
