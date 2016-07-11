@@ -14,7 +14,7 @@ myApp.controller('MyController', function MyController($scope) {
     },
     {
       "name": "Git",
-      "image": "https://blog.seibert-media.net/wp-content/uploads/2014/12/git-artikelbild.png",
+      "image": "https://lh3.googleusercontent.com/lBTShcBoSIrAuuuT4_L9vrbXioBz5fpV1gpN2001cz35XVtcjZPGIo2njycXozdds2EgdgGePxSe1nXrhgeHq-KY_m0zKvdyo9MLM5UuDUrLXCvzFgJrDaP5KMzV4M9wlH3rxPIXDlJ5MjJSli7KSHuJObXovexeJhA1I05CYDiajetC_9-8Xc0hCIBbQJfP1SJy0hssi1wta9HCAATNgqXVderIREOwUN8OAYzkRkMig0KgS_5MgttzhtxgNJwqxRB8TYjovVDpDHSo6Y-US0JhKTyt-uFDHghTCVx8wuwihvIKdfPrNy2eEcCWTFsgrBs0xpDkvTtqKprXbgOACOOhjQh549jqX-wq0csqYkl4OFq0ndLKSOyNdvW9Ro-ppiR9h5fOETbw2wATchOuZj78pFb1qOqJatnO5Vh8fUAM9C-H9U9KCWzR58X0wT_fuiRGRXC7UZesa-y7fKIOlNuXsKKT9cmuE7i_rmbaGQjyOrnjDYWGbD38aRJbeCvvhKkoqbl0TaNNUJC1UWbM9g0Zcf__PmjnCIFdcxrQHFjZ5X7n4ulGFh6cNMkRkuBo5DNJC-7FIXXyMvlrlDn9gVQTo4slEF5t=w400-h300-no",
       "url": "/training/git",
       "tag": "tool"
     }
