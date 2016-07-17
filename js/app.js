@@ -100,12 +100,6 @@ myApp.controller('MyController', function MyController($scope) {
       "tag": "data"
     },
     {
-      "name": "Deep Learning",
-      "image": "https://575717b777ff8d928c6b-704c46a8034042e4fc898baf7b3e75d9.ssl.cf1.rackcdn.com/3410318_556dc8f_m.jpeg",
-      "url": "/training/deep_learning",
-      "tag": "data"
-    },
-    {
       "name": "p5js",
       "image": "https://res.cloudinary.com/hashnode/image/upload/w_400/w_400,h_300,c_thumb/v1462445070/ftvmb9z1rkvdliydvj84.jpg",
       "url": "/lab/p5",
