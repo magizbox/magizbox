@@ -73,9 +73,9 @@ Fixed Navigation
     <nav class="collapse navbar-collapse navbar-right" role="navigation">
       <ul id="nav" class="nav navbar-nav">
         <li class="current"><a href="#body">Home</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#tools">How to</a></li>
-        <li><a href="#works">Works</a></li>
+        <li><a href="#foundation">Foundation</a></li>
+        <li><a href="#datascience">Data Science</a></li>
+        <li><a href="#more">More</a></li>
       </ul>
     </nav>
     <!-- /main nav -->
@@ -87,128 +87,23 @@ End Fixed Navigation
 ==================================== -->
 
 <!--
-Features
+Foundation
 ==================================== -->
-
-<section id="features" class="features">
-  <div class="container">
-    <div class="row">
-
-      <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
-        <h2>Features</h2>
-        <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-      </div>
-
-      <!-- service item -->
-      <div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms">
-        <div class="service-item">
-          <div class="service-icon">
-            <i class="fa fa-github fa-2x"></i>
-          </div>
-
-          <div class="service-desc">
-            <h3>Big Data</h3>
-            <p>Big Data is like teenage sex: everyone talks about it, nobody really knows how to do it,
-              every things everyone else is doing it, so everyone claims they are doing it. - Dan
-              Ariely</p>
-          </div>
-        </div>
-      </div>
-      <!-- end service item -->
-
-      <!-- service item -->
-      <div class="col-md-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
-        <div class="service-item">
-          <div class="service-icon">
-            <i class="fa fa-pencil fa-2x"></i>
-          </div>
-
-          <div class="service-desc">
-            <h3><a class="feature-title" target="_blank" href="/training/deep_learning">Deep Learning</a></h3>
-            <p>I've worked all my life in Machine Learning, and I've never seen one alogirthm knock over
-              benchmarks like Deep Learning. - Andrew Ng</p>
-          </div>
-        </div>
-      </div>
-      <!-- end service item -->
-
-      <!-- service item -->
-      <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="900ms">
-        <div class="service-item">
-          <div class="service-icon">
-            <i class="fa fa-bullhorn fa-2x"></i>
-          </div>
-
-          <div class="service-desc">
-            <h3>Machine Learning</h3>
-            <p>Machine Learning is the next Internet. - Tony Tether</p>
-          </div>
-        </div>
-      </div>
-      <!-- end service item -->
-
-    </div>
-  </div>
-</section>
-
-<!--
-End Features
-==================================== -->
-
-<!--
-TOOLS
-==================================== -->
-
-<section id="tools" class="works clearfix">
-  <div class="container">
-    <div class="row">
-      <div class="sec-title text-center">
-        <h2>How to</h2>
-        <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-      </div>
-    </div>
-
-    <div class="project-wrapper">
-      <figure class="work-item {{ work.tag }}" ng-repeat="work in tools ">
-        <img ng-src="{{ work.image }}" alt="">
-        <figcaption class="overlay">
-          <a class="fancybox" rel="works" title="" href="{{ work.url }}"><i
-            class="fa fa-eye fa-lg"></i></a>
-          <h4>{{ work.name }}</h4>
-          <p></p>
-        </figcaption>
-      </figure>
-    </div>
-  </div>
-</section>
-
-<!--
-End Our Works
-==================================== -->
-
-<!--
-Our Works
-==================================== -->
-
-<section id="works" class="works features clearfix">
+<section id="foundation" class="bg-primary clearfix">
   <div class="container">
     <div class="row">
 
       <div class="sec-title text-center">
-        <h2>Works</h2>
+        <h2>Foundation</h2>
         <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-      </div>
-
-      <div class="sec-sub-title text-center">
-        <p>TO REIMAGE THE FUTURE<br/>WE'RE REWRITING THE RULES</p>
+        <br/>
       </div>
 
       <div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
-        <ul class="text-center">
-          <li><a href="javascript:;" data-filter="all" class="active filter">All</a></li>
-          <li><a href="javascript:;" data-filter=".code" class="filter">Code</a></li>
+        <ul class="text-center" id="foundation-list">
+          <li><a href="javascript:;" data-filter=".code" class="filter active">Code</a></li>
+          <li><a href="javascript:;" data-filter=".cs" class="filter active">Computer Science</a></li>
           <li><a href="javascript:;" data-filter=".lab" class="filter">Labs</a></li>
-          <li><a href="javascript:;" data-filter=".data" class="filter">Data Science</a></li>
         </ul>
       </div>
 
@@ -230,8 +125,111 @@ Our Works
 </section>
 
 <!--
-End Our Works
+End Foundation
 ==================================== -->
+
+<!--
+DataScience
+==================================== -->
+<section id="datascience">
+  <div class="container">
+    <div class="row">
+
+      <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+        <h2>Data Science</h2>
+        <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+      </div>
+
+      <!-- service item -->
+      <div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms">
+        <div class="service-item">
+          <div class="service-icon">
+            <i class="fa fa-github fa-2x"></i>
+          </div>
+
+          <div class="service-desc">
+            <h3>
+              <a class="feature-title" target="_blank" href="/training/bigdata">Big Data</a>
+            </h3>
+            <p>Big Data is like teenage sex: everyone talks about it, nobody really knows how to do it,
+              every things everyone else is doing it, so everyone claims they are doing it. - Dan
+              Ariely</p>
+          </div>
+        </div>
+      </div>
+      <!-- end service item -->
+
+      <!-- service item -->
+      <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="900ms">
+        <div class="service-item">
+          <div class="service-icon">
+            <i class="fa fa-bullhorn fa-2x"></i>
+          </div>
+
+          <div class="service-desc">
+            <h3>
+              <a class="feature-title" target="_blank" href="/training/datascience">Machine Learning</a>
+            </h3>
+            <p>Machine Learning is the next Internet. - Tony Tether</p>
+          </div>
+        </div>
+      </div>
+      <!-- end service item -->
+
+      <!-- service item -->
+      <div class="col-md-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+        <div class="service-item">
+          <div class="service-icon">
+            <i class="fa fa-pencil fa-2x"></i>
+          </div>
+
+          <div class="service-desc">
+            <h3><a class="feature-title" target="_blank" href="/training/deep_learning">Deep Learning</a></h3>
+            <p>I've worked all my life in Machine Learning, and I've never seen one alogirthm knock over
+              benchmarks like Deep Learning. - Andrew Ng</p>
+          </div>
+        </div>
+      </div>
+      <!-- end service item -->
+    </div>
+  </div>
+</section>
+
+<!--
+End DataScience
+==================================== -->
+
+<!--
+More
+==================================== -->
+
+<section id="more" class="clearfix bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="sec-title text-center">
+        <h2>More</h2>
+        <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+      </div>
+    </div>
+
+    <div class="project-wrapper">
+      <figure class="work-item {{ work.tag }}" ng-repeat="work in tools ">
+        <img ng-src="{{ work.image }}" alt="">
+        <figcaption class="overlay">
+          <a class="fancybox" rel="works" title="" href="{{ work.url }}"><i
+            class="fa fa-eye fa-lg"></i></a>
+          <h4>{{ work.name }}</h4>
+          <p></p>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!--
+End More
+==================================== -->
+
 
 <!--
 Some fun facts
@@ -343,4 +341,3 @@ End Some fun facts
 <script src="js/custom.js"></script>
 </body>
 </html>
-

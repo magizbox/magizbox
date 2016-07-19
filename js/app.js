@@ -85,19 +85,7 @@ myApp.controller('MyController', function MyController($scope) {
       "name": "Computer Science",
       "image": "https://lh3.googleusercontent.com/Uufy8m5rZNANW1-Sk0CnCeigcYRBUgUwiRlA_flWeVFWTO2er83UDof3wufje83X5okMPFOqzo_pRqHy1ADmQKFMO3waBmbzcjBKKV3_n120tvuDDYg6PgZ1TAGcDEZXPap0RpAA9S3ci8FWJyEe4T8Virxc_Un2xjtoHobptYrx_YUohRoYRH6kZAPvOJnXje6NJwnOM5dwcJi5bUzSEBIeF5THSflPC_gIWcyR3p42eoTHMK7UR9tvSgYM9m9Oy-16lAjvADv88zhXutAt035U_nmc6hEOYSzoco6GA8X4JKB4f0IIs9eD16C-uzZXplb-YIyrwAFYVOwJLazRSTzZLvSrPMJ7E_2WCP7jjvDbEbf0q-WABGDkXfRqYjB4z6UAybSEQT0D01G63d2-6fM7FOfdKLQF3tuh1PM8KOhFFZdhEuqYn0zpHPZ870cTZEebfPsbxX8jjJEYZZW5TTXQ1Fx4CvUNyFtsHDnJCgS934PMWlurmEcn6hGFajD7lHxnp94TfykZMVBeJUMVrAa8XgzAuJNnFkJno7CM0YoxypRounCIKY3yGG1QoWE-_Zx-7EfnK2ysY2I6DrVTA7WSeKaQ9y3K=w400-h300-no",
       "url": "/training/computer_science",
-      "tag": "code"
-    },
-    {
-      "name": "Big Data",
-      "image": "http://economictimes.indiatimes.com/photo/50433108.cms",
-      "url": "/training/bigdata",
-      "tag": "data"
-    },
-    {
-      "name": "Data Science",
-      "image": "./img/homepage/data_science.png",
-      "url": "/training/datascience",
-      "tag": "data"
+      "tag": "cs"
     },
     {
       "name": "p5js",

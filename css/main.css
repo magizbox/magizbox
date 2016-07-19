@@ -266,7 +266,7 @@ body > section,
 	Features
 ==========================================*/
 
-.features {
+.bg-primary {
     background-color: #f4f7f9;
 }
 
@@ -712,9 +712,10 @@ label.error {
     color: #062033;
 }
 
-.feature-title:hover {
+.feature-title:hover, .feature-title:focus {
     background-color: #0eb493;
     border-radius: 6px;
     color: #fff;
     padding: 5px 17px;
 }
+
