@@ -49,3 +49,9 @@
 [submodule "training/ai"]
 	path = training/ai
 	url = git@github.com:magizbox/ai.git
+[submodule "training/docker"]
+	path = training/docker
+	url = git@github.com:magizbox/docker.git
+[submodule "training/lean"]
+	path = training/lean
+	url = git@github.com:magizbox/lean.git
