@@ -68,3 +68,12 @@ h1#logo {
         width: 100%;
     }
 }
+
+a.link-note {
+    color: black;
+    font-weight: bold;
+}
+
+a.link-note:hover {
+    color: #0eb493;
+}
