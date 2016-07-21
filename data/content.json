@@ -1,0 +1,62 @@
+[
+    {
+        "value": "code",
+        "link": "http://magizbox.com/training/code/site/"
+    },
+    {
+        "value": "python",
+        "link": "http://magizbox.com/training/python/site/"
+    },
+    {
+        "value": "cpp",
+        "link": "http://magizbox.com/training/cpp/site/"
+    },
+    {
+        "value": "java",
+        "link": "http://magizbox.com/training/java/site/"
+    },
+    {
+        "value": "javascript",
+        "link": "http://magizbox.com/training/javascript/site/"
+    },
+    {
+        "value": "r",
+        "link": "http://magizbox.com/training/r/site/"
+    },
+    {
+        "value": "scala",
+        "link": "http://magizbox.com/training/scala/site/"
+    },
+    {
+        "value": "nodejs",
+        "link": "http://magizbox.com/training/nodejs/site/"
+    },
+    {
+        "value": "octave",
+        "link": "http://magizbox.com/training/octave/site/"
+    },
+    {
+        "value": "platform",
+        "link": "http://magizbox.com/training/platform/site/"
+    },
+    {
+        "value": "bigdata",
+        "link": "http://magizbox.com/training/bigdata/site/"
+    },
+    {
+        "value": "datascience",
+        "link": "http://magizbox.com/training/datascience/site/"
+    },
+    {
+        "value": "deep_learning",
+        "link": "http://magizbox.com/training/deep_learning/site/"
+    },
+    {
+        "value": "agile",
+        "link": "http://magizbox.com/training/agile/site/"
+    },
+    {
+        "value": "git",
+        "link": "http://magizbox.com/training/git/site/"
+    }
+]

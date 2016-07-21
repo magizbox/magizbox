@@ -34,6 +34,7 @@
 
   <!-- Modernizer Script for old Browsers -->
   <script src="js/modernizr-2.6.2.min.js"></script>
+  <link rel="stylesheet" href="bower_components/search/css/typeahead.css">
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="css/custom.css">
 
@@ -70,13 +71,17 @@ Fixed Navigation
     </div>
 
     <!-- main nav -->
-    <nav class="collapse navbar-collapse navbar-right" role="navigation">
+    <nav class="row collapse navbar-collapse navbar-right" role="navigation">
       <ul id="nav" class="nav navbar-nav">
-        <li class="current"><a href="#body">Home</a></li>
         <li><a href="#foundation">Foundation</a></li>
         <li><a href="#datascience">Data Science</a></li>
         <li><a href="#more">More</a></li>
       </ul>
+
+      <div id="search-container">
+          <input id="search" type="text" placeholder="Search Magizbox"/>
+          <div class="clearfix"></div>
+      </div>
     </nav>
     <!-- /main nav -->
 
@@ -227,7 +232,6 @@ More
 End More
 ==================================== -->
 
-
 <!--
 Some fun facts
 ==================================== -->
@@ -268,17 +272,6 @@ Some fun facts
             <p> Labs </p>
           </div>
         </div>
-        <!--<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"-->
-        <!--data-wow-delay="900ms">-->
-        <!--<div class="counters-item">-->
-        <!--<i class="fa fa-trophy fa-3x"></i>-->
-        <!--<strong data-to="6454">0</strong>-->
-        <!--&lt;!&ndash; Set Your Number here. i,e. data-to="56" &ndash;&gt;-->
-        <!--<p>Awards Won</p>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!-- end first count item -->
-
       </div>
     </div>
   </div>
@@ -320,6 +313,10 @@ End Some fun facts
 <script src="js/wow.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
 <script src="js/app.js"></script>
+
+
+<script src="bower_components/search/js/handlebars.js"></script>
+<script src="bower_components/search/js/typeahead.bundle.js"></script>
 
 <script>
   var wow = new WOW({
