@@ -9,25 +9,25 @@ myApp.controller('MyController', function MyController($scope) {
     {
       "name": "Agile",
       "image": "./img/homepage/agile.jpg",
-      "url": "/training/agile",
+      "url": "/training/agile/site",
       "tag": "tool"
     },
     {
       "name": "Git",
       "image": "./img/homepage/git.png",
-      "url": "/training/git",
+      "url": "/training/git/site",
       "tag": "tool"
     },
     {
       "name": "Docker",
       "image": "./img/homepage/docker.png",
-      "url": "/training/docker",
+      "url": "/training/docker/site",
       "tag": "tool"
     },
     {
       "name": "Lean",
       "image": "./img/homepage/lean.jpg",
-      "url": "/training/lean",
+      "url": "/training/lean/site",
       "tag": "tool"
     }
   ];
@@ -36,67 +36,67 @@ myApp.controller('MyController', function MyController($scope) {
     {
       "name": "Code 101",
       "image": "./img/homepage/code101.jpg",
-      "url": "/training/code",
+      "url": "/training/code/site",
       "tag": "code"
     },
     {
       "name": "Python",
       "image": "./img/homepage/python.png",
-      "url": "/training/python",
+      "url": "/training/python/site",
       "tag": "code"
     },
     {
       "name": "C++",
       "image": "./img/homepage/cpp.png",
-      "url": "/training/cpp",
+      "url": "/training/cpp/site",
       "tag": "code"
     },
     {
       "name": "Java",
       "image": "./img/homepage/java.jpg",
-      "url": "/training/java",
+      "url": "/training/java/site",
       "tag": "code"
     },
     {
       "name": "Javascript",
       "image": "./img/homepage/js.png",
-      "url": "/training/javascript",
+      "url": "/training/javascript/site",
       "tag": "code"
     },
     {
       "name": "R",
       "image": "./img/homepage/r.png",
-      "url": "/training/r",
+      "url": "/training/r/site",
       "tag": "code"
     },
     {
       "name": "Scala",
       "image": "./img/homepage/scala.png",
-      "url": "/training/scala",
+      "url": "/training/scala/site",
       "tag": "code"
     },
     {
       "name": "NodeJS",
       "image": "./img/homepage/nodejs.png",
-      "url": "/training/nodejs",
+      "url": "/training/nodejs/site",
       "tag": "code"
     },
     {
       "name": "Octave",
       "image": "./img/homepage/octave.jpg",
-      "url": "/training/octave",
+      "url": "/training/octave/site",
       "tag": "code"
     },
     {
       "name": "Computer Science",
       "image": "./img/homepage/cs.jpg",
-      "url": "/training/computer_science",
+      "url": "/training/computer_science/site",
       "tag": "cs"
     },
     {
       "name": "p5js",
-      "image": "https://res.cloudinary.com/hashnode/image/upload/w_400/w_400,h_300,c_thumb/v1462445070/ftvmb9z1rkvdliydvj84.jpg",
       "image": "./img/homepage/p5.jpg",
+      "url": "/lab/p5/p5-game-1.0/index.html",
       "tag": "lab"
     }
   ];
