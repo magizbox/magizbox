@@ -52,3 +52,6 @@
 [submodule "training/lean"]
 	path = training/lean
 	url = git@github.com:magizbox/lean.git
+[submodule "training/machinelearning"]
+	path = training/machinelearning
+	url = git@github.com:magizbox/machinelearning.git
