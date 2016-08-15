@@ -10,9 +10,6 @@
 [submodule "training/deep_learning"]
 	path = training/deep_learning
 	url = git@github.com:magizbox/deep_learning.git
-[submodule "training/datascience"]
-	path = training/datascience
-	url = git@github.com:magizbox/datascience.git
 [submodule "training/code"]
 	path = training/code
 	url = git@github.com:magizbox/code.git
