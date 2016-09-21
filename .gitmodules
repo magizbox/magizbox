@@ -55,3 +55,6 @@
 [submodule "training/machinelearning"]
 	path = training/machinelearning
 	url = git@github.com:magizbox/machinelearning.git
+[submodule "training/natural_language_processing"]
+	path = training/natural_language_processing
+	url = git@github.com:magizbox/natural_language_processing.git
