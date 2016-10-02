@@ -58,3 +58,6 @@
 [submodule "training/natural_language_processing"]
 	path = training/natural_language_processing
 	url = git@github.com:magizbox/natural_language_processing.git
+[submodule "training/danda"]
+	path = training/danda
+	url = git@github.com:magizbox/danda.git
