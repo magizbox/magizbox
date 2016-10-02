@@ -62,7 +62,7 @@ Fixed Navigation
       <!-- /responsive nav button -->
 
       <!-- logo -->
-      <a class="navbar-brand" href="#body">
+      <a class="navbar-brand" href="#">
         <h1 id="logo">
           <img src="img/logo.png" alt="Magizbox">
         </h1>
@@ -73,14 +73,15 @@ Fixed Navigation
     <!-- main nav -->
     <nav class="row collapse navbar-collapse navbar-right" role="navigation">
       <ul id="nav" class="nav navbar-nav">
-        <li><a href="#foundation">Foundation</a></li>
+        <li><a href="#cs">Computer Science</a></li>
         <li><a href="#datascience">Data Science</a></li>
         <li><a href="#more">More</a></li>
       </ul>
 
       <div id="search-container">
-          <input id="search" type="text" placeholder="Search Magizbox"/>
-          <div class="clearfix"></div>
+        <input id="search" type="text" placeholder="Search Magizbox"/>
+
+        <div class="clearfix"></div>
       </div>
     </nav>
     <!-- /main nav -->
@@ -91,45 +92,122 @@ Fixed Navigation
 End Fixed Navigation
 ==================================== -->
 
-<!--
-Foundation
-==================================== -->
-<section id="foundation" class="bg-primary clearfix">
+<section class="clearfix">
   <div class="container">
     <div class="row">
-
-      <div class="sec-title text-center">
-        <h2>Foundation</h2>
-        <div class="devider"><i class="fa fa-sun-o fa-lg"></i></div>
-        <br/>
+      <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+        <h2>Welcome to my website</h2>
       </div>
-
-      <div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
-        <ul class="text-center" id="foundation-list">
-          <li><a href="javascript:;" data-filter=".code" class="filter active">Code</a></li>
-          <li><a href="javascript:;" data-filter=".cs" class="filter active">Computer Science</a></li>
-          <li><a href="javascript:;" data-filter=".lab" class="filter">Labs</a></li>
-        </ul>
-      </div>
-
+      <blockquote>
+        My name is Vu Anh: I'm an engineering working at a startup in Hanoi, Vietnam. I love coding and writing. So I
+        make this site to share some notes about computer science and data science, maybe some other things such as
+        git, agile, docker,... It's helpful for me to keep my hobby and note my pieces of information what I usually forget, I
+        hope it will be useful for you too.<br/>
+        PS: I always looking for collaboration. Feel free to contact me via twitter @rain_1024 or email
+        brother.rain.1024[at]gmail.com (I will answer all
+        emails for sure).
+        <cite>Vu Anh</cite>
+      </blockquote>
     </div>
-  </div>
-
-  <div class="project-wrapper">
-    <figure class="mix work-item {{ work.tag }}" ng-repeat="work in works">
-      <img ng-src="{{ work.image }}" alt="">
-      <!--<span class="figurecaption">{{ work.name }}</span>-->
-      <figcaption class="overlay">
-        <a class="fancybox" rel="works" title="" href="{{ work.url }}"><i
-          class="fa fa-eye fa-lg"></i></a>
-        <h4>{{ work.name }}</h4>
-        <p></p>
-      </figcaption>
-    </figure>
   </div>
 </section>
 <!--
-End Foundation
+Computer Science
+==================================== -->
+<section id="cs" class="bg-primary clearfix">
+
+  <div class="container">
+    <div class="row">
+
+      <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+        <h2>Computer Science</h2>
+
+        <div class="devider"><i class="fa fa-database fa-lg"></i></div>
+      </div>
+
+      <!-- code item -->
+      <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="900ms">
+        <div class="service-item">
+          <div class="service-icon" style="padding: 10px 10px;">
+            <i class="fa fa-tag fa"></i>
+          </div>
+
+          <div class="service-desc">
+            <h3>
+              <a class="feature-title" target="_blank" href="/training/code">Code</a>
+            </h3>
+            <ul>
+              <li><a href="/training/python" target="_blank" class="link-note">Python</a></li>
+              <li><a href="/training/cpp" target="_blank" class="link-note">C++</a></li>
+              <li><a href="/training/java" target="_blank" class="link-note">Java</a></li>
+              <li><a href="/training/javascript" target="_blank" class="link-note">Javascript</a></li>
+              <li><a href="/training/r" target="_blank" class="link-note">R</a></li>
+              <li><a href="/training/scala" target="_blank" class="link-note">Scala</a></li>
+              <li><a href="/training/node" target="_blank" class="link-note">NodeJS</a></li>
+              <li><a href="/training/octave" target="_blank" class="link-note">Octave</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- end code item -->
+
+      <!-- computer science item -->
+      <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="900ms">
+        <div class="service-item">
+          <div class="service-icon" style="padding: 10px 10px;">
+            <i class="fa fa-tag"></i>
+          </div>
+
+          <div class="service-desc">
+            <h3>
+              <a class="feature-title" target="_blank" href="/training/computer_science">Computer Science</a>
+            </h3>
+            <ul>
+              <li><a href="/training/python" target="_blank" class="link-note">Data Structures and Algorithms</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- end computer science item -->
+
+      <!-- lab item -->
+      <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="900ms">
+        <div class="service-item">
+          <div class="service-icon" style="padding: 10px 10px;">
+            <i class="fa fa-tag"></i>
+          </div>
+
+          <div class="service-desc">
+            <h3>
+              <a class="feature-title" href="#">Projects</a>
+            </h3>
+            <ul>
+              <li><a href="/lab/p5/p5-game-1.0/index.html" target="_blank" class="link-note">p5 Game</a></li>
+              <li><a href="https://github.com/rain1024/design-patterns-lab" target="_blank" class="link-note">Design
+                Patterns</a></li>
+              <li><a href="https://github.com/rain1024/Life" target="_blank" class="link-note">Life
+                <small>(Andoid App)</small>
+              </a></li>
+              <li><a href="https://github.com/rain1024/Life" target="_blank" class="link-note">Bookmark
+                <small>(Zsh Plugin)</small>
+              </a></li>
+              <li><a href="https://github.com/rain1024/Life" target="_blank" class="link-note">pyconfiguration
+                <small>(Python Lib)</small>
+              </a></li>
+              <li><a href="https://aschinchon.wordpress.com/2015/04/08/discovering-shiny/" target="_blank"
+                     class="link-note">Discovery Shiny
+                <small>(R script)</small>
+              </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- end computer science item -->
+    </div>
+  </div>
+</section>
+<!--
+END Computer Science
 ==================================== -->
 
 <!--
@@ -141,6 +219,7 @@ DataScience
 
       <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
         <h2>Data Science</h2>
+
         <div class="devider"><i class="fa fa-database fa-lg"></i></div>
       </div>
 
@@ -155,6 +234,7 @@ DataScience
             <h3>
               <a class="feature-title" target="_blank" href="/training/bigdata">Big Data</a>
             </h3>
+
             <p>Big Data is like teenage sex: everyone talks about it, nobody really knows how to do it,
               every things everyone else is doing it, so everyone claims they are doing it. - Dan
               Ariely</p>
@@ -176,7 +256,8 @@ DataScience
             </h3>
             <ul>
               <li><a href="/training/ai" target="_blank" class="link-note">- Artificial Intelligence</a></li>
-              <li><a href="/training/natural_language_processing" target="_blank" class="link-note">- Natural Language Processing</a></li>
+              <li><a href="/training/natural_language_processing" target="_blank" class="link-note">- Natural Language
+                Processing</a></li>
             </ul>
           </div>
         </div>
@@ -192,6 +273,7 @@ DataScience
 
           <div class="service-desc">
             <h3><a class="feature-title" target="_blank" href="/training/deep_learning">Deep Learning</a></h3>
+
             <p>I've worked all my life in Machine Learning, and I've never seen one alogirthm knock over
               benchmarks like Deep Learning. - Andrew Ng</p>
           </div>
@@ -213,6 +295,7 @@ More
     <div class="row">
       <div class="sec-title text-center">
         <h2>More</h2>
+
         <div class="devider"><i class="fa fa-cubes fa-lg"></i></div>
         <br/>
       </div>
@@ -223,8 +306,9 @@ More
         <img ng-src="{{ work.image }}" alt="">
         <figcaption class="overlay">
           <a class="fancybox" rel="works" title="" href="{{ work.url }}"><i
-            class="fa fa-eye fa-lg"></i></a>
+              class="fa fa-eye fa-lg"></i></a>
           <h4>{{ work.name }}</h4>
+
           <p></p>
         </figcaption>
       </figure>
@@ -245,6 +329,7 @@ Some fun facts
 
         <div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
           <h2>Some Fun Facts</h2>
+
           <div class="devider"><i class="fa fa-bolt fa-lg"></i></div>
         </div>
 
@@ -261,18 +346,18 @@ Some fun facts
              data-wow-delay="300ms">
           <div class="counters-item">
             <i class="fa fa-users fa-3x"></i>
-            <strong data-to="{{ countTraining }}">0</strong>
+            <strong data-to="17">0</strong>
             <!-- Set Your Number here. i,e. data-to="56" -->
-            <p>Training</p>
+            <p>Notebooks</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
              data-wow-delay="600ms">
           <div class="counters-item">
             <i class="fa fa-rocket fa-3x"></i>
-            <strong data-to="{{ countLab }}">0</strong>
+            <strong data-to="6">0</strong>
             <!-- Set Your Number here. i,e. data-to="56" -->
-            <p> Labs </p>
+            <p>Projects</p>
           </div>
         </div>
       </div>
@@ -287,10 +372,17 @@ End Some fun facts
 <!-- Google Analytics
 ================================================== -->
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
   ga('create', 'UA-68978617-1', 'auto');
   ga('send', 'pageview');
@@ -334,12 +426,12 @@ End Some fun facts
 
 <script>
   var wow = new WOW({
-      boxClass: 'wow',      // animated element css class (default is wow)
-      animateClass: 'animated', // animation css class (default is animated)
-      offset: 120,          // distance to the element when triggering the animation (default is 0)
-      mobile: false,       // trigger animations on mobile devices (default is true)
-      live: true        // act on asynchronously loaded content (default is true)
-    }
+        boxClass: 'wow',      // animated element css class (default is wow)
+        animateClass: 'animated', // animation css class (default is animated)
+        offset: 120,          // distance to the element when triggering the animation (default is 0)
+        mobile: false,       // trigger animations on mobile devices (default is true)
+        live: true        // act on asynchronously loaded content (default is true)
+      }
   );
   wow.init();
 </script>
