@@ -61,3 +61,6 @@
 [submodule "training/danda"]
 	path = training/danda
 	url = git@github.com:magizbox/danda.git
+[submodule "training/ml_data_python"]
+	path = training/ml_data_python
+	url = git@github.com:magizbox/ml_data_python.git
