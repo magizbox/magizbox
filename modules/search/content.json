@@ -36,15 +36,43 @@
         "link": "http://magizbox.com/training/octave/site/"
     },
     {
-        "value": "bigdata",
+        "value": "data structures",
+        "link": "http://magizbox.com/training/danda/site/"
+    },
+    {
+        "value": "algorithms",
+        "link": "http://magizbox.com/training/danda/site/"
+    },
+    {
+        "value": "big data",
         "link": "http://magizbox.com/training/bigdata/site/"
     },
     {
-        "value": "machinelearning",
+        "value": "machine learning",
         "link": "http://magizbox.com/training/machinelearning/site/"
     },
     {
-        "value": "deep_learning",
+        "value": "artificial intelligence",
+        "link": "http://magizbox.com/training/ai/site/"
+    },
+    {
+        "value": "natural language processing",
+        "link": "http://magizbox.com/training/natural_language_processing/site/"
+    },
+    {
+        "value": "probabilistic graphical models",
+        "link": "http://magizbox.com/training/probabilistic_graphical_models/site/"
+    },
+    {
+        "value": "data science with python",
+        "link": "http://magizbox.com/training/ml_data_python/site/"
+    },
+    {
+        "value": "pgm",
+        "link": "http://magizbox.com/training/probabilistic_graphical_models/site/"
+    },
+    {
+        "value": "deep learning",
         "link": "http://magizbox.com/training/deep_learning/site/"
     },
     {
@@ -54,5 +82,13 @@
     {
         "value": "git",
         "link": "http://magizbox.com/training/git/site/"
+    },
+    {
+        "value": "docker",
+        "link": "http://magizbox.com/training/docker/site/"
+    },
+    {
+        "value": "lean",
+        "link": "http://magizbox.com/training/lean/site/"
     }
 ]

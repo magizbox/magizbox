@@ -3,7 +3,7 @@ $(document).ready(function () {
   var bestPictures = new Bloodhound({
     datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
     queryTokenizer: Bloodhound.tokenizers.whitespace,
-    prefetch: './data/content.json'
+    prefetch: './modules/search/content.json'
   });
 
   $('#custom-templates .typeahead').typeahead(null, {
