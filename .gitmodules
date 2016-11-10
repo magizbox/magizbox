@@ -67,3 +67,6 @@
 [submodule "training/probabilistic_graphical_models"]
 	path = training/probabilistic_graphical_models
 	url = git@github.com:magizbox/probabilistic_graphical_models.git
+[submodule "training/neo4j"]
+	path = training/neo4j
+	url = git@github.com:magizbox/neo4j.git

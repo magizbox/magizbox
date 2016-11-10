@@ -48,6 +48,10 @@
         "link": "http://magizbox.com/training/bigdata/site/"
     },
     {
+        "value": "neo4j",
+        "link": "http://magizbox.com/training/neo4j/site/"
+    },
+    {
         "value": "machine learning",
         "link": "http://magizbox.com/training/machinelearning/site/"
     },
