@@ -61,6 +61,7 @@ __pycache__/
 env/
 build/
 develop-eggs/
+/users/rain1024.html
 downloads/
 /test
 eggs/
