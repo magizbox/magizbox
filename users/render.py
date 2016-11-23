@@ -33,10 +33,10 @@ def get_last_contribute(username):
     result = datetime.datetime.strptime(datestring, "%Y-%m-%dT%H:%M:%SZ")
     now = datetime.datetime.now()
     days = (now - result).days
+    print "Last Contribute:", days, "days"
     return days
 # last_contribute = min([get_last_contribute(project) for project in projects])
 last_contribute = get_last_contribute("rain1024")
-
 from jinja2 import Environment, FileSystemLoader
 templateLoader = FileSystemLoader(searchpath="./templates")
 env = Environment(loader=templateLoader)
