@@ -1,4 +1,5 @@
 import datetime
+
 import requests
 import dateutil
 
@@ -24,7 +25,7 @@ projects = [
 #     return (now - result).days
 
 def get_last_contribute(username):
-    url = "https://api.github.com/users/rain1024/events"
+    url = "https://api.github.com/users/rain1024/events?access_token=88e54bc794ec1c53e0bdcdcdeb18a6e361aab2bb"
     data = requests.get(url).json()
     datestring = filter(lambda event: event['type'] == "PushEvent", data)[0]['created_at']
     result = datetime.datetime.strptime(datestring, "%Y-%m-%dT%H:%M:%SZ")
@@ -34,8 +35,9 @@ def get_last_contribute(username):
 # last_contribute = min([get_last_contribute(project) for project in projects])
 last_contribute = get_last_contribute("rain1024")
 
-from jinja2 import Environment, PackageLoader
-env = Environment(loader=PackageLoader('users', 'templates'))
+from jinja2 import Environment, FileSystemLoader
+templateLoader = FileSystemLoader(searchpath="./templates")
+env = Environment(loader=templateLoader)
 template = env.get_template('user.html')
 user = {
     "image": "rain1024.png",
@@ -45,5 +47,4 @@ user = {
 result = template.render(last_contribute=last_contribute, user=user)
 
 open("rain1024.html", "w").write(result)
-pass
 
