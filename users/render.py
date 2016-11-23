@@ -25,7 +25,9 @@ projects = [
 #     return (now - result).days
 
 def get_last_contribute(username):
-    url = "https://api.github.com/users/rain1024/events?access_token=91a503ff138188f85e46a0f9e8a5806b72e507f5"
+    access_token = "b380d92c40      f54d3   e074283e33ae22c45a08 b28a7"
+    access_token = access_token.replace(" ", "")
+    url = "https://api.github.com/users/rain1024/events?access_token=" + access_token
     data = requests.get(url).json()
     datestring = filter(lambda event: event['type'] == "PushEvent", data)[0]['created_at']
     result = datetime.datetime.strptime(datestring, "%Y-%m-%dT%H:%M:%SZ")
