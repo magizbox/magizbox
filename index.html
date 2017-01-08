@@ -1,42 +1,42 @@
 <html ng-app="myApp">
 <head>
-  <!-- meta charec set -->
-  <meta charset="utf-8">
-  <!-- Always force latest IE rendering engine or request Chrome Frame -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <!-- Page Title -->
-  <title>Magizbox - Think Data</title>
-  <!-- Meta Description -->
-  <meta name="description" content="magizbox team">
-  <meta name="keywords" content="big data, machine learning, deep learning">
-  <meta name="author" content="brother.rain">
-  <!-- Mobile Specific Meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- meta charec set -->
+    <meta charset="utf-8">
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Page Title -->
+    <title>Magizbox - Think Data</title>
+    <!-- Meta Description -->
+    <meta name="description" content="magizbox team">
+    <meta name="keywords" content="big data, machine learning, deep learning">
+    <meta name="author" content="brother.rain">
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Google Font -->
+    <!-- Google Font -->
 
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-  <!-- CSS
-  ================================================== -->
-  <!-- Fontawesome Icon font -->
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <!-- Twitter Bootstrap css -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- jquery.fancybox  -->
-  <link rel="stylesheet" href="css/jquery.fancybox.css">
-  <!-- animate -->
-  <link rel="stylesheet" href="css/animate.css">
-  <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="css/main.css">
-  <!-- media-queries -->
-  <link rel="stylesheet" href="css/media-queries.css">
+    <!-- CSS
+    ================================================== -->
+    <!-- Fontawesome Icon font -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Twitter Bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- jquery.fancybox  -->
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <!-- animate -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- media-queries -->
+    <link rel="stylesheet" href="css/media-queries.css">
 
-  <!-- Modernizer Script for old Browsers -->
-  <script src="js/modernizr-2.6.2.min.js"></script>
-  <link rel="stylesheet" href="bower_components/search/css/typeahead.css">
-  <!-- Custom Stylesheet -->
-  <link rel="stylesheet" href="css/custom.css">
+    <!-- Modernizer Script for old Browsers -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <link rel="stylesheet" href="bower_components/search/css/typeahead.css">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/custom.css">
 
 </head>
 
@@ -44,7 +44,7 @@
 
 <!-- preloader -->
 <div id="preloader">
-  <img src="img/preloader.gif" alt="Preloader">
+    <img src="img/preloader.gif" alt="Preloader">
 </div>
 <!-- end preloader -->
 
@@ -52,177 +52,186 @@
 Fixed Navigation
 ==================================== -->
 <header id="navigation" class="navbar-fixed-top navbar" style="background-color: rgb(14, 180, 147);">
-  <div class="container">
-    <div class="navbar-header">
-      <!-- responsive nav button -->
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <i class="fa fa-bars fa-2x"></i>
-      </button>
-      <!-- /responsive nav button -->
+    <div class="container">
+        <div class="navbar-header">
+            <!-- responsive nav button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-bars fa-2x"></i>
+            </button>
+            <!-- /responsive nav button -->
 
-      <!-- logo -->
-      <a class="navbar-brand" href="#">
-        <h1 id="logo">
-          <img src="img/logo.png" alt="Magizbox">
-        </h1>
-      </a>
-      <!-- /logo -->
+            <!-- logo -->
+            <a class="navbar-brand" href="#">
+                <h1 id="logo">
+                    <img src="img/logo.png" alt="Magizbox">
+                </h1>
+            </a>
+            <!-- /logo -->
+        </div>
+
+        <!-- main nav -->
+        <nav class="row collapse navbar-collapse navbar-right" role="navigation">
+            <ul id="nav" class="nav navbar-nav">
+                <li><a href="#cs">Computer Science</a></li>
+                <li><a href="#datascience">Data Science</a></li>
+                <li><a href="#more">More</a></li>
+            </ul>
+
+            <div id="search-container">
+                <input id="search" type="text" placeholder="Search Magizbox"/>
+
+                <div class="clearfix"></div>
+            </div>
+        </nav>
+        <!-- /main nav -->
+
     </div>
-
-    <!-- main nav -->
-    <nav class="row collapse navbar-collapse navbar-right" role="navigation">
-      <ul id="nav" class="nav navbar-nav">
-        <li><a href="#cs">Computer Science</a></li>
-        <li><a href="#datascience">Data Science</a></li>
-        <li><a href="#more">More</a></li>
-      </ul>
-
-      <div id="search-container">
-        <input id="search" type="text" placeholder="Search Magizbox"/>
-
-        <div class="clearfix"></div>
-      </div>
-    </nav>
-    <!-- /main nav -->
-
-  </div>
 </header>
 <!--
 End Fixed Navigation
 ==================================== -->
 
 <section class="clearfix">
-  <div class="container">
-    <div class="row">
-      <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
-        <h2>Welcome to my website</h2>
-      </div>
-      <blockquote>
-        My name is Vu Anh: I'm an engineering working at a startup in Hanoi, Vietnam. I love coding and writing. So I
-        make this site to share some notes about computer science and data science, maybe some other things such as
-        git, agile, docker,... It's helpful for me to keep my hobby and note my pieces of information what I usually forget, I
-        hope it will be useful for you too.<br/>
-        PS: I always looking for collaboration. Feel free to contact me via twitter @rain_1024 or email
-        brother.rain.1024[at]gmail.com (I will answer all
-        emails for sure).
-        <cite>Vu Anh</cite>
-      </blockquote>
+    <div class="container">
+        <div class="row">
+            <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+                <h2>Welcome to my website</h2>
+            </div>
+            <blockquote>
+                My name is Vu Anh: I'm an engineer working at a startup in Hanoi, Vietnam. Because I love coding and
+                writing so mush, I make this site to share my notes about computer science and data science, and other
+                technology things such as git, agile, docker,... It helps me keep my hobby and stick some information
+                what I usually forget, I hope it will be useful for you too.<br/>
+                PS: I always looking for collaboration. Feel free to contact me via twitter @rain_1024 or email
+                brother.rain.1024[at]gmail.com (I will answer all emails for sure).
+                <cite>Vu Anh</cite>
+            </blockquote>
+        </div>
     </div>
-  </div>
 </section>
 <!--
 Computer Science
 ==================================== -->
 <section id="cs" class="bg-primary clearfix">
 
-  <div class="container">
-    <div class="row">
+    <div class="container">
+        <div class="row">
 
-      <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
-        <h2>Computer Science</h2>
+            <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+                <h2>Computer Science</h2>
 
-        <div class="devider"><i class="fa fa-database fa-lg"></i></div>
-      </div>
+                <div class="devider"><i class="fa fa-database fa-lg"></i></div>
+            </div>
 
-      <!-- code item -->
-      <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="900ms">
-        <div class="service-item">
-          <div class="service-icon" style="padding: 10px 10px;">
-            <i class="fa fa-tag fa"></i>
-          </div>
+            <!-- code item -->
+            <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="900ms">
+                <div class="service-item">
+                    <div class="service-icon" style="padding: 10px 10px;">
+                        <i class="fa fa-tag fa"></i>
+                    </div>
 
-          <div class="service-desc">
-            <h3>
-              <a class="feature-title" target="_blank" href="/training/code">Code</a>
-            </h3>
-            <ul>
-              <li><a href="/training/python" target="_blank" class="link-note">Python</a></li>
-              <li><a href="/training/cpp" target="_blank" class="link-note">C++</a></li>
-              <li><a href="/training/java" target="_blank" class="link-note">Java</a></li>
-              <li><a href="/training/javascript" target="_blank" class="link-note">Javascript</a></li>
-              <li><a href="/training/r" target="_blank" class="link-note">R</a></li>
-              <li><a href="/training/scala" target="_blank" class="link-note">Scala</a></li>
-              <li><a href="/training/nodejs" target="_blank" class="link-note">NodeJS</a></li>
-              <li><a href="/training/octave" target="_blank" class="link-note">Octave</a></li>
-            </ul>
-          </div>
+                    <div class="service-desc">
+                        <h3>
+                            <a class="feature-title" target="_blank" href="/training/code">Code</a>
+                        </h3>
+                        <ul>
+                            <li><a href="/training/python" target="_blank" class="link-note">Python</a></li>
+                            <li><a href="/training/cpp" target="_blank" class="link-note">C++</a></li>
+                            <li><a href="/training/java" target="_blank" class="link-note">Java</a></li>
+                            <li><a href="/training/javascript" target="_blank" class="link-note">Javascript</a></li>
+                            <li><a href="/training/r" target="_blank" class="link-note">R</a></li>
+                            <li><a href="/training/scala" target="_blank" class="link-note">Scala</a></li>
+                            <li><a href="/training/nodejs" target="_blank" class="link-note">NodeJS</a></li>
+                            <li><a href="/training/octave" target="_blank" class="link-note">Octave</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end code item -->
+
+            <!-- computer science item -->
+            <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="900ms">
+                <div class="service-item">
+                    <div class="service-icon" style="padding: 10px 10px;">
+                        <i class="fa fa-tag"></i>
+                    </div>
+
+                    <div class="service-desc">
+                        <h3>
+                            <a class="feature-title" target="_blank" href="/training/computer_science">Computer
+                                Science</a>
+                        </h3>
+                        <ul>
+                            <li><a href="/training/danda" target="_blank" class="link-note">Data Structures and
+                                Algorithms</a></li>
+                            <li><a href="/training/semantic_web" target="_blank" class="link-note">Semantic Web</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end computer science item -->
+
+            <!-- lab item -->
+            <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="900ms">
+                <div class="service-item">
+                    <div class="service-icon" style="padding: 10px 10px;">
+                        <i class="fa fa-tag"></i>
+                    </div>
+
+                    <div class="service-desc">
+                        <h3>
+                            <a class="feature-title" href="#">Projects</a>
+                        </h3>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/magizbox/pygame_build" target="_blank"
+                                   class="link-note">Build with pygame
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/magizbox/magic-components" target="_blank"
+                                   class="link-note">Magic Components
+                                    <small>(Semantic Web UI)</small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/lab/p5/p5-game-1.0/index.html" target="_blank" class="link-note">p5 Game
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/rain1024/design-patterns-lab" target="_blank"
+                                   class="link-note">Design Patterns
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/rain1024/Life" target="_blank" class="link-note">Life
+                                    <small>(Andoid App)</small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/rain1024/Life" target="_blank" class="link-note">Bookmark
+                                    <small>(Zsh Plugin)</small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/rain1024/Life" target="_blank" class="link-note">pyconfiguration
+                                    <small>(Python Lib)</small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://aschinchon.wordpress.com/2015/04/08/discovering-shiny/" target="_blank"
+                                   class="link-note">Discovery Shiny
+                                    <small>(R script)</small>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end computer science item -->
         </div>
-      </div>
-      <!-- end code item -->
-
-      <!-- computer science item -->
-      <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="900ms">
-        <div class="service-item">
-          <div class="service-icon" style="padding: 10px 10px;">
-            <i class="fa fa-tag"></i>
-          </div>
-
-          <div class="service-desc">
-            <h3>
-              <a class="feature-title" target="_blank" href="/training/computer_science">Computer Science</a>
-            </h3>
-            <ul>
-              <li><a href="/training/danda" target="_blank" class="link-note">Data Structures and Algorithms</a></li>
-              <li><a href="/training/semantic_web" target="_blank" class="link-note">Semantic Web</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- end computer science item -->
-
-      <!-- lab item -->
-      <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="900ms">
-        <div class="service-item">
-          <div class="service-icon" style="padding: 10px 10px;">
-            <i class="fa fa-tag"></i>
-          </div>
-
-          <div class="service-desc">
-            <h3>
-              <a class="feature-title" href="#">Projects</a>
-            </h3>
-            <ul>
-              <li>
-                  <a href="https://github.com/magizbox/magic-components" target="_blank" class="link-note">Magic Components
-                    <small>(Semantic Web UI)</small>
-                  </a>
-              </li>
-              <li>
-                <a href="/lab/p5/p5-game-1.0/index.html" target="_blank" class="link-note">p5 Game
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/rain1024/design-patterns-lab" target="_blank" class="link-note">Design Patterns
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/rain1024/Life" target="_blank" class="link-note">Life
-                  <small>(Andoid App)</small>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/rain1024/Life" target="_blank" class="link-note">Bookmark
-                  <small>(Zsh Plugin)</small>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/rain1024/Life" target="_blank" class="link-note">pyconfiguration
-                  <small>(Python Lib)</small>
-                </a>
-              </li>
-              <li>
-                <a href="https://aschinchon.wordpress.com/2015/04/08/discovering-shiny/" target="_blank" class="link-note">Discovery Shiny
-                  <small>(R script)</small>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- end computer science item -->
     </div>
-  </div>
 </section>
 <!--
 END Computer Science
@@ -232,77 +241,83 @@ END Computer Science
 DataScience
 ==================================== -->
 <section id="datascience">
-  <div class="container">
-    <div class="row">
+    <div class="container">
+        <div class="row">
 
-      <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
-        <h2>Data Science</h2>
+            <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+                <h2>Data Science</h2>
 
-        <div class="devider"><i class="fa fa-database fa-lg"></i></div>
-      </div>
+                <div class="devider"><i class="fa fa-database fa-lg"></i></div>
+            </div>
 
-      <!-- service item -->
-      <div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms">
-        <div class="service-item">
-          <div class="service-icon" style="padding: 10px 10px;">
-            <i class="fa fa-cloud fa-2x"></i>
-          </div>
+            <!-- service item -->
+            <div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms">
+                <div class="service-item">
+                    <div class="service-icon" style="padding: 10px 10px;">
+                        <i class="fa fa-cloud fa-2x"></i>
+                    </div>
 
-          <div class="service-desc">
-            <h3>
-              <a class="feature-title" target="_blank" href="/training/bigdata">Big Data</a>
-            </h3>
+                    <div class="service-desc">
+                        <h3>
+                            <a class="feature-title" target="_blank" href="/training/bigdata">Big Data</a>
+                        </h3>
 
-            <ul>
-              <li>
-                - <a href="/training/neo4j" target="_blank" class="link-note">Neo4J</a>
-              </li>
-            </ul>
-          </div>
+                        <ul>
+                            <li>
+                                - <a href="/training/neo4j" target="_blank" class="link-note">Neo4J</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end service item -->
+
+            <!-- service item -->
+            <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="900ms">
+                <div class="service-item">
+                    <div class="service-icon" style="padding: 10px 10px;">
+                        <i class="fa fa-bar-chart fa-2x"></i>
+                    </div>
+
+                    <div class="service-desc">
+                        <h3>
+                            <a class="feature-title" target="_blank" href="/training/machinelearning">Machine
+                                Learning</a>
+                        </h3>
+                        <ul>
+                            <li><a href="/training/ai" target="_blank" class="link-note">- Artificial Intelligence</a>
+                            </li>
+                            <li><a href="/training/natural_language_processing" target="_blank" class="link-note">-
+                                Natural Language Processing</a></li>
+                            <li><a href="/training/probabilistic_graphical_models" target="_blank" class="link-note">-
+                                Probabilistic Graphical Models</a></li>
+                            <li><a href="/training/ml_data_python" target="_blank" class="link-note">- Data Science with
+                                Python</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end service item -->
+
+            <!-- service item -->
+            <div class="col-md-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fa fa-codepen fa-2x"></i>
+                    </div>
+
+                    <div class="service-desc">
+                        <h3><a class="feature-title" target="_blank" href="/training/deep_learning">Deep Learning</a>
+                        </h3>
+
+                        <p>I've worked all my life in Machine Learning, and I've never seen one alogirthm knock over
+                            benchmarks like Deep Learning. - Andrew Ng</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end service item -->
         </div>
-      </div>
-      <!-- end service item -->
-
-      <!-- service item -->
-      <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="900ms">
-        <div class="service-item">
-          <div class="service-icon" style="padding: 10px 10px;">
-            <i class="fa fa-bar-chart fa-2x"></i>
-          </div>
-
-          <div class="service-desc">
-            <h3>
-              <a class="feature-title" target="_blank" href="/training/machinelearning">Machine Learning</a>
-            </h3>
-            <ul>
-              <li><a href="/training/ai" target="_blank" class="link-note">- Artificial Intelligence</a></li>
-              <li><a href="/training/natural_language_processing" target="_blank" class="link-note">- Natural Language Processing</a></li>
-              <li><a href="/training/probabilistic_graphical_models" target="_blank" class="link-note">- Probabilistic Graphical Models</a></li>
-              <li><a href="/training/ml_data_python" target="_blank" class="link-note">- Data Science with Python</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- end service item -->
-
-      <!-- service item -->
-      <div class="col-md-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
-        <div class="service-item">
-          <div class="service-icon">
-            <i class="fa fa-codepen fa-2x"></i>
-          </div>
-
-          <div class="service-desc">
-            <h3><a class="feature-title" target="_blank" href="/training/deep_learning">Deep Learning</a></h3>
-
-            <p>I've worked all my life in Machine Learning, and I've never seen one alogirthm knock over
-              benchmarks like Deep Learning. - Andrew Ng</p>
-          </div>
-        </div>
-      </div>
-      <!-- end service item -->
     </div>
-  </div>
 </section>
 <!--
 End DataScience
@@ -312,29 +327,29 @@ End DataScience
 More
 ==================================== -->
 <section id="more" class="clearfix bg-primary">
-  <div class="container">
-    <div class="row">
-      <div class="sec-title text-center">
-        <h2>More</h2>
+    <div class="container">
+        <div class="row">
+            <div class="sec-title text-center">
+                <h2>More</h2>
 
-        <div class="devider"><i class="fa fa-cubes fa-lg"></i></div>
-        <br/>
-      </div>
+                <div class="devider"><i class="fa fa-cubes fa-lg"></i></div>
+                <br/>
+            </div>
+        </div>
+
+        <div class="project-wrapper">
+            <figure class="work-item {{ work.tag }}" ng-repeat="work in tools ">
+                <img ng-src="{{ work.image }}" alt="">
+                <figcaption class="overlay">
+                    <a class="fancybox" rel="works" title="" href="{{ work.url }}"><i
+                            class="fa fa-eye fa-lg"></i></a>
+                    <h4>{{ work.name }}</h4>
+
+                    <p></p>
+                </figcaption>
+            </figure>
+        </div>
     </div>
-
-    <div class="project-wrapper">
-      <figure class="work-item {{ work.tag }}" ng-repeat="work in tools ">
-        <img ng-src="{{ work.image }}" alt="">
-        <figcaption class="overlay">
-          <a class="fancybox" rel="works" title="" href="{{ work.url }}"><i
-              class="fa fa-eye fa-lg"></i></a>
-          <h4>{{ work.name }}</h4>
-
-          <p></p>
-        </figcaption>
-      </figure>
-    </div>
-  </div>
 </section>
 <!--
 End More
@@ -344,55 +359,55 @@ End More
 Some fun facts
 ==================================== -->
 <section id="facts" class="facts">
-  <div class="parallax-overlay">
-    <div class="container">
-      <div class="row number-counters">
+    <div class="parallax-overlay">
+        <div class="container">
+            <div class="row number-counters">
 
-        <div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
-          <h2>Some Fun Facts</h2>
+                <div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
+                    <h2>Some Fun Facts</h2>
 
-          <div class="devider"><i class="fa fa-bolt fa-lg"></i></div>
-        </div>
+                    <div class="devider"><i class="fa fa-bolt fa-lg"></i></div>
+                </div>
 
-        <!-- first count item -->
-        <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-          <div class="counters-item">
-            <i class="fa fa-clock-o fa-3x"></i>
-            <strong data-to="{{ journey }}">0</strong>
-            <!-- Set Your Number here. i,e. data-to="56" -->
-            <p>Days of Work</p>
-          </div>
+                <!-- first count item -->
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+                    <div class="counters-item">
+                        <i class="fa fa-clock-o fa-3x"></i>
+                        <strong data-to="{{ journey }}">0</strong>
+                        <!-- Set Your Number here. i,e. data-to="56" -->
+                        <p>Days of Work</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
+                     data-wow-delay="300ms">
+                    <div class="counters-item">
+                        <a href="/users/rain1024.html"><i class="fa fa-users fa-3x"></i></a>
+                        <strong data-to="1">1</strong>
+                        <!-- Set Your Number here. i,e. data-to="56" -->
+                        <p>Person</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
+                     data-wow-delay="300ms">
+                    <div class="counters-item">
+                        <a href="/users/rain1024.html"><i class="fa fa-cube fa-3x"></i></a>
+                        <strong data-to="22">0</strong>
+                        <!-- Set Your Number here. i,e. data-to="56" -->
+                        <p>Notebooks</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
+                     data-wow-delay="600ms">
+                    <div class="counters-item">
+                        <i class="fa fa-rocket fa-3x"></i>
+                        <strong data-to="8">0</strong>
+                        <!-- Set Your Number here. i,e. data-to="56" -->
+                        <p>Projects</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
-             data-wow-delay="300ms">
-          <div class="counters-item">
-            <a href="/users/rain1024.html"><i class="fa fa-users fa-3x"></i></a>
-            <strong data-to="1">1</strong>
-            <!-- Set Your Number here. i,e. data-to="56" -->
-            <p>Person</p>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
-             data-wow-delay="300ms">
-          <div class="counters-item">
-            <a href="/users/rain1024.html"><i class="fa fa-cube fa-3x"></i></a>
-            <strong data-to="22">0</strong>
-            <!-- Set Your Number here. i,e. data-to="56" -->
-            <p>Notebooks</p>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
-             data-wow-delay="600ms">
-          <div class="counters-item">
-            <i class="fa fa-rocket fa-3x"></i>
-            <strong data-to="7">0</strong>
-            <!-- Set Your Number here. i,e. data-to="56" -->
-            <p>Projects</p>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 </section>
 <!--
 End Some fun facts
@@ -402,20 +417,20 @@ End Some fun facts
 <!-- Google Analytics
 ================================================== -->
 <script>
-  (function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r;
-    i[r] = i[r] || function () {
-          (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-    a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-    a.async = 1;
-    a.src = g;
-    m.parentNode.insertBefore(a, m)
-  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-68978617-1', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-68978617-1', 'auto');
+    ga('send', 'pageview');
 </script>
 
 <!-- Essential jQuery Plugins
@@ -455,15 +470,15 @@ End Some fun facts
 <script src="bower_components/search/js/typeahead.bundle.js"></script>
 
 <script>
-  var wow = new WOW({
-        boxClass: 'wow',      // animated element css class (default is wow)
-        animateClass: 'animated', // animation css class (default is animated)
-        offset: 120,          // distance to the element when triggering the animation (default is 0)
-        mobile: false,       // trigger animations on mobile devices (default is true)
-        live: true        // act on asynchronously loaded content (default is true)
-      }
-  );
-  wow.init();
+    var wow = new WOW({
+            boxClass: 'wow',      // animated element css class (default is wow)
+            animateClass: 'animated', // animation css class (default is animated)
+            offset: 120,          // distance to the element when triggering the animation (default is 0)
+            mobile: false,       // trigger animations on mobile devices (default is true)
+            live: true        // act on asynchronously loaded content (default is true)
+        }
+    );
+    wow.init();
 </script>
 
 <!-- Custom Functions -->
