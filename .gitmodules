@@ -73,3 +73,6 @@
 [submodule "training/semantic_web"]
 	path = training/semantic_web
 	url = git@github.com:magizbox/semantic_web.git
+[submodule "training/web_crawling"]
+	path = training/web_crawling
+	url = git@github.com:magizbox/web_crawling.git
