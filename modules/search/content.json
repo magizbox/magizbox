@@ -40,6 +40,14 @@
         "link": "http://magizbox.com/training/danda/site/"
     },
     {
+        "value": "oop",
+        "link": "http://magizbox.com/training/object_oriented_programming/site/"
+    },
+    {
+        "value": "object oriented programming",
+        "link": "http://magizbox.com/training/object_oriented_programming/site/"
+    },
+    {
         "value": "semantic web",
         "link": "http://magizbox.com/training/semantic_web/site/"
     },

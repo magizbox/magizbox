@@ -76,3 +76,6 @@
 [submodule "training/web_crawling"]
 	path = training/web_crawling
 	url = git@github.com:magizbox/web_crawling.git
+[submodule "training/object_oriented_programming"]
+	path = training/object_oriented_programming
+	url = git@github.com:magizbox/object_oriented_programming.git
