@@ -5,7 +5,15 @@
     },
     {
         "value": "python",
+        "link": "http://magizbox.com/training/python3/site/"
+    },
+    {
+        "value": "python 2",
         "link": "http://magizbox.com/training/python/site/"
+    },
+    {
+        "value": "python 3",
+        "link": "http://magizbox.com/training/python3/site/"
     },
     {
         "value": "cpp",

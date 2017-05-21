@@ -82,3 +82,6 @@
 [submodule "training/operating_system"]
 	path = training/operating_system
 	url = git@github.com:magizbox/operating_system.git
+[submodule "training/python3"]
+	path = training/python3
+	url = git@github.com:magizbox/python3.git
