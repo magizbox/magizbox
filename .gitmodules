@@ -79,3 +79,6 @@
 [submodule "training/object_oriented_programming"]
 	path = training/object_oriented_programming
 	url = git@github.com:magizbox/object_oriented_programming.git
+[submodule "training/operating_system"]
+	path = training/operating_system
+	url = git@github.com:magizbox/operating_system.git
