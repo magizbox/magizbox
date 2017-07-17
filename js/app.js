@@ -8,7 +8,7 @@ myApp.controller('MyController', function MyController($scope) {
   $scope.tools = [
     {
       "name": "Agile",
-      "image": "./img/homepage/agile.jpg",
+      "image": "./img/homepage/agile.png",
       "url": "/training/agile/site",
       "tag": "tool"
     },
