@@ -85,3 +85,6 @@
 [submodule "training/python3"]
 	path = training/python3
 	url = git@github.com:magizbox/python3.git
+[submodule "lab/chiness_chess"]
+	path = lab/chiness_chess
+	url = git@github.com:rain1024/chiness_chess.git
