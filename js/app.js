@@ -3,7 +3,6 @@
  */
 var myApp = angular.module('myApp', []);
 
-// Define the `PhoneListController` controller on the `phonecatApp` module
 myApp.controller('MyController', function MyController($scope) {
   $scope.tools = [
     {

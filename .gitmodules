@@ -88,3 +88,6 @@
 [submodule "lab/chiness_chess"]
 	path = lab/chiness_chess
 	url = git@github.com:rain1024/chiness_chess.git
+[submodule "training/toolbox"]
+	path = training/toolbox
+	url = git@github.com:magizbox/toolbox.git
